@@ -6,7 +6,7 @@
   markdown headings, lists, and other formatting conventions are supplied manually
 -->
 
-# FINAL DRAFT---BiblioPhilly Spreadsheet Metadata Guidelines---FINAL DRAFT
+# BiblioPhilly Spreadsheet Metadata Guidelines---FINAL DRAFT
 
 **Revised 24 April 2017**
 
@@ -108,7 +108,8 @@ catalog, possibly available when viewing record online.
 **Description:** Internal control number such as Penn's BibID or URN
 such as DOI, PURL, or ARK; to be supplied by holding library.
 
-## Alternate ID Type (Required for Manuscripts with Alternate IDs)
+## Alternate ID Type
+(Required for Manuscripts with Alternate IDs)
 
 **Description:** Possibilities include DOI, PURL, ARK, BibID; to be
 supplied by holding library.
