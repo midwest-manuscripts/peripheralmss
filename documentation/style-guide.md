@@ -614,7 +614,7 @@ spreadsheet, and then assigning the keywords.
     one blank row between it and the **Subject: genre/form URI** row: 
     [SCREEN SHOT OMITTED]
 
-2.  Keywords are listed in the [BiblioPhilly Keywords google doc](https://docs.google.com/spreadsheets/d/1U6Xk39Pr3UYvbpUjN2SC6rJjJ26Y5F-QMVX\_Dq0SENM/edit\#gid=1871258630)
+2.  Keywords are listed in the file `keywords.csv` within this repository.
 
 3.  Keywords are in seven groups: Book Type, Century, Culture,
     Descriptive term, Geography, Subject, and Other.
