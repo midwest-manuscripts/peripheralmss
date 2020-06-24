@@ -2,10 +2,11 @@
   this markdown file was generated with pandoc v. 2.8 on 20200624
   input source: docx, exported from this GoogleDoc:
   https://docs.google.com/document/d/1zeUkzmy-3kpK-egqko_IHWZJ992qEnMcgIdzF6Syz4M/edit?usp=sharing
+
+  markdown headings, lists, and other formatting conventions are supplied manually
 -->
 
-**FINAL DRAFT---BiblioPhilly Spreadsheet Metadata Guidelines---FINAL
-DRAFT**
+# FINAL DRAFT---BiblioPhilly Spreadsheet Metadata Guidelines---FINAL DRAFT
 
 **Revised 24 April 2017**
 
@@ -20,87 +21,100 @@ capital letter.
 Repeatable**, put all items in the single field and separate the items
 with a semi-colon.
 
-**Administrative Contact (Required)**
+## Administrative Contact
+(Required)
 
 **Description:** Name of the BiblioPhilly liaison at a partner
 institution; consistent for all manuscripts from a single institution.
 
-**Administrative Contact Email (Required)**
+## Administrative Contact Email
+(Required)
 
 **Description:** Email address of the BiblioPhilly liaison at a partner
 institution; consistent for all manuscripts from a single institution.
 
-**Metadata Creator (Required)**
+## Metadata Creator
+(Required)
 
 **Description:** Name of the person entering information into the
 spreadsheet for a particular manuscript.
 
-**Metadata Creator Email (Required)**
+## Metadata Creator Email
+(Required)
 
 **Description:** Email address of the person entering information into
 the spreadsheet for a particular manuscript.
 
-**Repository Country (Optional)**
+## Repository Country
+(Optional)
 
 **MARC Location:** Possibly 852 subfield e
 
 **Description:** Country of the holding library; United States for all
 BiblioPhilly partner institutions.
 
-**Repository City (Required)**
+## Repository City
+(Required)
 
 **MARC Location:** 852 subfield e
 
 **Description:** Municipality of the holding library; consistent for all
 manuscripts from a single institution.
 
-**Holding Institution (Optional)**
+## Holding Institution
+(Optional)
 
 **MARC Location:** 852 subfield a
 
 **Description:** Organization name if library is part of a larger
 organization such as a university.
 
-**Repository Name (Required)**
+## Repository Name
+(Required)
 
 **MARC Location:** 852 subfield b
 
 **Description:** Library name.
 
-**Source Collection (Optional)**
+## Source Collection
+(Optional)
 
 **MARC Location:** Possibly 500, possibly 710
 
-**Description :** Name of a named collection within the library.
+**Description:** Name of a named collection within the library.
 
 Note: For FLP, the correct format of the Source Collection is John
 Frederick Lewis Collection of European Manuscripts
 
-**Call Number/ID (Required)**
+## Call Number/ID
+(Required)
 
 **MARC Location:** 099, 852 subfield j
 
 **Description:** Format varies by library; not included in dealer
 descriptions; possibly in headings in library description.
 
-**Record URL (Optional)**
+## Record URL
+(Optional)
 
 **Description:** URL format varies by library; for records in an online
 catalog, possibly available when viewing record online.
 
-**Alternate ID (Optional)**
+## Alternate ID
+(Optional)
 
 **MARC Location:** 001 in Penn records
 
 **Description:** Internal control number such as Penn's BibID or URN
 such as DOI, PURL, or ARK; to be supplied by holding library.
 
-**Alternate ID Type (Required for Manuscripts with Alternate IDs)**
+## Alternate ID Type (Required for Manuscripts with Alternate IDs)
 
 **Description:** Possibilities include DOI, PURL, ARK, BibID; to be
 supplied by holding library.
 
-**Manuscript Name (Required)**
+## Manuscript Name
+(Required)
 
 **MARC Location:** 245
 
@@ -110,7 +124,8 @@ titles separated by a semicolon; if a collection of smaller works, a
 supplied title such as Recipe book; probably in the headings of dealer
 or library descriptions.
 
-**Author Name (Optional, Repeatable)**
+## Author Name
+(Optional, Repeatable)
 
 **MARC Location:** Possibly 100, possibly 110
 
@@ -120,7 +135,8 @@ record an unauthorized name in authority form; unlikely to appear in
 this form in dealer or narrative library descriptions, probably needs to
 be supplied from LC/OCLC.
 
-**Author URI (Optional, Repeatable)**
+## Author URI
+(Optional, Repeatable)
 
 **Description:** For authors in the LC NAF, give the URI from
 [[http://id.loc.gov/authorities/names.html]{.underline}](http://id.loc.gov/authorities/names.html);
@@ -130,7 +146,8 @@ in dealer or narrative library descriptions, probably needs to be
 supplied. If you have verified that the author name does not have an
 authorized form in LC NAF or VIAF, enter N/A.
 
-**Translator Name (Optional, Repeatable)**
+## Translator Name
+(Optional, Repeatable)
 
 **MARC Location:** Possibly 245, possibly 500, possibly 700
 
@@ -140,7 +157,8 @@ LC or VIAF authority heading or record an unauthorized name in authority
 form; unlikely to appear in this form in dealer or narrative library
 descriptions, probably needs to be supplied from LC/OCLC.
 
-**Translator URI (Optional, Repeatable)**
+## Translator URI
+(Optional, Repeatable)
 
 **Description:** For translators in the LC NAF, give the URI from
 [[http://id.loc.gov/authorities/names.html]{.underline}](http://id.loc.gov/authorities/names.html);
@@ -150,7 +168,8 @@ in dealer or narrative library descriptions, probably needs to be
 supplied. If you have verified that the translator name does not have an
 authorized form in LC NAF or VIAF, enter N/A.
 
-**Artist Name (Optional, Repeatable)**
+## Artist Name
+(Optional, Repeatable)
 
 **MARC Location:** Possibly 500, possibly 700
 
@@ -161,7 +180,8 @@ heading or record an unauthorized name in authority form; unlikely to
 appear in this form in dealer or narrative library descriptions,
 probably needs to be supplied from LC/OCLC.
 
-**Artist URI (Optional, Repeatable)**
+## Artist URI
+(Optional, Repeatable)
 
 **Description:** For artists in ULAN, give the ID from
 [[http://www.getty.edu/research/tools/vocabularies/ulan/]{.underline}](http://www.getty.edu/research/tools/vocabularies/ulan/);
@@ -173,7 +193,8 @@ in dealer or narrative library descriptions, probably needs to be
 supplied. If you have verified that the artist name does not have an
 authorized form in ULAN, LC NAF, or VIAF, enter N/A.
 
-**Former Owner Name (Optional, Repeatable)**
+## Former Owner Name
+(Optional, Repeatable)
 
 **MARC Location:** Possibly 500, possibly 561, possibly 700
 
@@ -184,7 +205,8 @@ unauthorized name in authority form; unlikely to appear in this form in
 dealer or narrative library descriptions, probably needs to be supplied
 from LC/OCLC.
 
-**Former Owner URI (Optional, Repeatable)**
+## Former Owner URI
+(Optional, Repeatable)
 
 **Description:** For former owners in the LC NAF, give the URI from
 [[http://id.loc.gov/authorities/names.html]{.underline}](http://id.loc.gov/authorities/names.html);
@@ -194,7 +216,8 @@ in dealer or narrative library descriptions, probably needs to be
 supplied. If you have verified that the former owner name does not have
 an authorized form in LC NAF or VIAF, enter N/A.
 
-**Provenance (Optional)**
+## Provenance
+(Optional)
 
 **MARC Location:** 541, 561
 
@@ -202,8 +225,9 @@ an authorized form in LC NAF or VIAF, enter N/A.
 including family ownership, former libraries or geographical locations,
 marks of provenance such as bookplates, and sale information.
 
-**Date (single) (Optional, but one type of numerical date metadata must
-be supplied; Repeatable)**
+## Date (single) 
+(Optional, but one type of numerical date metadata must
+be supplied; Repeatable)
 
 **MARC Location:** Fixed field 008/07-10, possibly 245 subfield f,
 possibly 260 subfield c
@@ -216,9 +240,10 @@ description, otherwise in notes; if the single date is given as a
 narrative phrase (see Date (narrative) below), supply a year here; enter
 as the year only without additional words.
 
-**Date (range) start (Optional, but required if a Date (narrative) entry
+## Date (range) start
+(Optional, but required if a Date (narrative) entry
 is present, and one type of numerical date metadata must be supplied;
-Repeatable)**
+Repeatable)
 
 **MARC Location:** Fixed field 008/07-10, possibly 245 subfield f,
 possibly 260 subfield c
@@ -232,9 +257,10 @@ description, otherwise in notes; if the range is given as a narrative
 phrase (see Date (narrative) below), supply a starting year here; enter
 as the year only without additional words.
 
-**Date (range) end (Optional, but required if a Date (narrative) entry
+## Date (range) end 
+(Optional, but required if a Date (narrative) entry
 is present, and one type of numerical date metadata must be supplied;
-Repeatable)**
+Repeatable)
 
 **MARC Location:** Fixed field 008/11-14, possibly 245 subfield f,
 possibly 260 subfield c
@@ -248,7 +274,8 @@ in notes; if the range is given as a narrative phrase (see Date
 (narrative) below), supply an ending year here; enter as the year only
 without additional words.
 
-**Date (narrative) (Optional, NOT Repeatable)**
+## Date (narrative)
+(Optional, NOT Repeatable)
 
 **MARC Location:** 500 notes
 
@@ -275,7 +302,8 @@ following examples:
   Mid-14th to early 15th century    1340                            1415
   14th or 15th century              1300                            1499
 
-**Place of Origin (Required, Repeatable)**
+## Place of Origin
+(Required, Repeatable)
 
 **MARC Location:** 260 subfield a, possibly additional details in 500
 notes
@@ -287,28 +315,32 @@ example, Northern France); may be followed by a question mark for
 conjectural locations. Multiple locations may be entered for codices
 containing multiple manuscripts with different origins bound together.
 
-**Origin Details (Optional)**
+## Origin Details
+(Optional)
 
 **MARC Location:** 500 notes
 
 **Description:** Additional details about where the manuscript was
 created.
 
-**Description (Optional)**
+## Description
+(Optional)
 
 **MARC Location:** 520
 
 **Description:** Abstract or summary of no more than a couple of
 sentences summarizing the content of the manuscript as a whole.
 
-**Language (Required, Repeatable)**
+## Language
+(Required, Repeatable)
 
 **MARC Location:** Fixed field 008/35-37, 041, 546
 
 **Description:** Language or languages in which the manuscript is
 written.
 
-**Foliation/Pagination (Optional)**
+## Foliation/Pagination
+(Optional)
 
 **MARC Location:** 500 notes
 
@@ -317,13 +349,15 @@ written.
 and verso side of each leaf are numbered), and where the numbers appear
 on the leaves, such as *upper right recto* or *lower outer corners*.
 
-**Flyleaves & Leaves (Optional)**
+## Flyleaves & Leaves
+(Optional)
 
 **Description:** Formula showing the numbers of flyleaves and leaves, in
 the format \[front flyleaves\]+\[leaves\]+\[back flyleaves\], for
 example ii+113+iii
 
-**Layout (Optional)**
+## Layout
+(Optional)
 
 **MARC Location:** 500 notes
 
@@ -333,7 +367,8 @@ throughout the manuscript or in sections of the manuscript. Information
 about how a page is ruled and by what means (drypoint, lead, ink) also
 goes here.
 
-**Colophon (Optional)**
+## Colophon
+(Optional)
 
 **MARC Location:** 500 notes
 
@@ -342,7 +377,8 @@ date, place, scribe, and/or reason for production of the manuscript.
 Potential source of Date and Place of origin information for the
 spreadsheet, when present.
 
-**Collation (Optional)**
+## Collation
+(Optional)
 
 **MARC Location:** 500 notes
 
@@ -350,7 +386,8 @@ spreadsheet, when present.
 of numbers of gatherings and numbers of leaves per gathering, often
 presented as a formula.
 
-**Script (Optional, Repeatable)**
+## Script
+(Optional, Repeatable)
 
 **MARC Location:** 500 notes
 
@@ -360,7 +397,8 @@ hands (a hand is an individual version of a script written by a single
 scribe) and scribes may also be entered here. Multiple hands may write
 in the same script.
 
-**Decoration (Optional)**
+## Decoration
+(Optional)
 
 **MARC Location:** Fixed field 008/18-21, 500 notes
 
@@ -370,7 +408,8 @@ colored headings and paragraph marks) and informal visual elements added
 later to the manuscript (including drawings, sketches, and manicules).
 Not a page-level list of visual elements.
 
-**Binding (Optional)**
+## Binding
+(Optional)
 
 **MARC Location:** 500 notes
 
@@ -378,7 +417,8 @@ Not a page-level list of visual elements.
 fabric), its ornamentation (such as gilt or blind, tooled or stamped),
 fastenings (such as clasps or ties), and damage or repairs to the cover.
 
-**Watermarks (Optional, Repeatable)**
+## Watermarks
+(Optional, Repeatable)
 
 **MARC Location:** 500 notes
 
@@ -386,14 +426,16 @@ fastenings (such as clasps or ties), and damage or repairs to the cover.
 watermarks in the manuscript, possibly with citations to reference
 sources such as Briquet and Piccard.
 
-**Catchwords (Optional)**
+## Catchwords
+(Optional)
 
 **MARC Location:** 500 notes, often with collation notes
 
 **Description:** Information about the number and location of
 catchwords.
 
-**Signatures (Optional)**
+## Signatures
+(Optional)
 
 **MARC Location:** 500 notes, often with collation notes
 
@@ -401,7 +443,8 @@ catchwords.
 correct order of gatherings in the binding process, often found on the
 first recto or last verso of a gathering.
 
-**Notes (Optional, Repeatable)**
+## Notes
+(Optional, Repeatable)
 
 **MARC Location:** 500
 
@@ -409,7 +452,8 @@ first recto or last verso of a gathering.
 spreadsheet, such as condition notes. Each note should be placed in a
 different cell.
 
-**Support material (Required)**
+## Support material
+(Required)
 
 **MARC Location:** 300 subfield b
 
@@ -417,25 +461,28 @@ different cell.
 *parchment*, *paper*, or *mixed* if both parchment and paper. Any other
 material, identify by name.
 
-**Page dimensions (Optional, Repeatable)**
+## Page dimensions
+(Optional, Repeatable)
 
 **MARC Location:** 300 subfield c
 
-**Description :** Maximum height and width of manuscript pages in
+**Description:** Maximum height and width of manuscript pages in
 millimeters, in the following form: 280 x 210 mm (no period after mm).
 If originally separate manuscripts of markedly different dimensions have
 been bound together in a volume, repeat for the different page sizes. If
 dimensions are provided in a manuscript description with no comment,
 assume they are page dimensions.
 
-**Bound dimensions (Optional)**
+## Bound dimensions
+(Optional)
 
 **MARC Location:** Possibly 300 subfield c
 
 **Description:** Maximum height and width of bound volume in
 millimeters, in the following form: 290 x 220 mm (no period after mm).
 
-**Related resource (Optional, Repeatable)**
+## Related resource
+(Optional, Repeatable)
 
 **MARC Location:** Possibly 773 subfield t, 856 subfield z
 
@@ -480,13 +527,15 @@ given first, then the full range of the article or chapter is given
 within brackets. Hyphens (not en dashes) should be used to indicate page
 ranges.\]
 
-**Related resource URL (Optional, Repeatable)**
+## Related resource URL
+(Optional, Repeatable)
 
 **MARC Location:** 856 subfield u
 
 **Description:** URL for the related resource given in the previous row.
 
-**Subject: names (Optional, Repeatable)**
+## Subject: names
+(Optional, Repeatable)
 
 **MARC Location:** 600
 
@@ -495,7 +544,8 @@ subject, use the LCNAF or VIAF authority heading or record an
 unauthorized name in authority form; unlikely to appear in this form in
 dealer or narrative library descriptions, may be supplied from LC/OCLC.
 
-**Subject: names URI (Optional, Repeatable)**
+## Subject: names URI
+(Optional, Repeatable)
 
 **Description:** For subjects in the LCNAF, give the URI from
 [[http://id.loc.gov/authorities/names.html]{.underline}](http://id.loc.gov/authorities/names.html);
@@ -503,7 +553,8 @@ for creators in VIAF give the permalink from
 [[http://viaf.org/]{.underline}](http://viaf.org/); unlikely to appear
 in dealer or narrative library descriptions, may be supplied.
 
-**Subject: topical (Optional, Repeatable)**
+## Subject: topical
+(Optional, Repeatable)
 
 **MARC Location:** 650
 
@@ -511,14 +562,16 @@ in dealer or narrative library descriptions, may be supplied.
 this form in dealer or narrative library descriptions, may be supplied
 from LC/OCLC.
 
-**Subject: topical URI (Optional, Repeatable)**
+## Subject: topical URI
+(Optional, Repeatable)
 
 **Description:** For subjects in LCSH, give the URI from
 [[http://id.loc.gov/authorities/subjects.html]{.underline}](http://id.loc.gov/authorities/subjects.html);
 unlikely to appear in this form in dealer or narrative library
 descriptions, may be supplied.
 
-**Subject: geographic (Optional, Repeatable)**
+## Subject: geographic
+(Optional, Repeatable)
 
 **MARC Location:** 651
 
@@ -526,14 +579,16 @@ descriptions, may be supplied.
 in this form in dealer or narrative library descriptions, may be
 supplied from LC/OCLC.
 
-**Subject: geographic URI (Optional, Repeatable)**
+## Subject: geographic URI
+(Optional, Repeatable)
 
 **Description:** For subjects in LCSH, give the URI from
 [[http://id.loc.gov/authorities/subjects.html]{.underline}](http://id.loc.gov/authorities/subjects.html);
 unlikely to appear in this form in dealer or narrative library
 descriptions, may be supplied.
 
-**Subject: genre/form (Optional, Repeatable)**
+## Subject: genre/form
+(Optional, Repeatable)
 
 **MARC Location:** 655
 
@@ -543,13 +598,15 @@ Architecture Thesaurus
 unlikely to appear in this form in dealer or narrative library
 descriptions, may be supplied.
 
-**Subject: genre/form URI (Optional, Repeatable)**
+## Subject: genre/form URI
+(Optional, Repeatable)
 
 **Description:** For genre/form terms in LCSH, give the URI from
 [[http://id.loc.gov/authorities/subjects.html]{.underline}](http://id.loc.gov/authorities/subjects.html)
 or
 [[http://id.loc.gov/authorities/genreForms.html]{.underline}](http://id.loc.gov/authorities/genreForms.html);
 for genre/form terms in AAT, give the URI in the form
-http://vocab.getty.edu/aat/ {AAT ID\#} (more information available at
-http://vocab.getty.edu/); unlikely to appear in this form in dealer or
+[http://vocab.getty.edu/aat/](http://vocab.getty.edu/aat/) \{AAT ID\#} 
+(more information available at
+[http://vocab.getty.edu/](http://vocab.getty.edu/)); unlikely to appear in this form in dealer or
 narrative library descriptions, may be supplied.
