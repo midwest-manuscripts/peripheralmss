@@ -66,11 +66,11 @@ of red, white, and blue
 Use lower case for all but first word in a title: A tainted mantle
 (*not* A Tainted Mantle)
 
-**NB**: An exception to this rule is that book types, e.g. Psalter,
+**NB**: An exception to this rule is that book types, e.g., Psalter,
 Lectionary, Book of Hours, Book of Hours Use of Rome, Missal etc. should
 always be capitalized in titles. This also applies to terms like
 Chronicle if it is used in the sense of it being that type of book, and
-not just a word in the title, e.g. Grandes Chroniques
+not just a word in the title, e.g., Grandes Chroniques
 
 If a slash or colon is part of a title, leave a space on either side: A
 tainted mantle : Hercules and the classical tradition at the Carolingian
@@ -151,7 +151,7 @@ To refer to the first (front) side of a book page: **recto**
 
 To refer to the second (back or obverse) side of a book page: **verso**
 
-**NB**: always include ‘r’ or ‘v’ with folio number, e.g. fols. 1r-3v,
+**NB**: always include ‘r’ or ‘v’ with folio number, e.g., fols. 1r-3v,
 not 1-3v. When indicating a range over the recto/verso of a single
 folio: fol. 1r-v
 
@@ -262,7 +262,7 @@ the appropriate rows, as in the following examples:
 This should be a modern geographical location whenever possible
 (Flanders being a rare exception). The smallest component of the
 location should be listed first, followed by larger locations, usually
-simply City, Country, e.g. “Oxford, England,” but this could be more
+simply City, Country, e.g., “Oxford, England,” but this could be more
 specific, such as “Monastery of Reichenau, Lake Constance, Germany,” or
 could include a region either after a city or as a more specific element
 before a country. If country is not known, then a region with an
@@ -452,7 +452,7 @@ apply as for catchwords.
 ### Note(s):
 
 Additional information about the manuscript that does not fit into other
-fields can be added as a note. Acknowledgements of e.g. cataloging work
+fields can be added as a note. Acknowledgements of e.g., cataloging work
 should not be included in Notes. Unrelated notes should be separated out
 into individual cells.
 
