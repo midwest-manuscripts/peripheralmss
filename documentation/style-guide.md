@@ -32,7 +32,7 @@ Guidelines](http://drive.google.com/open?id=1V--1-XZI7pv9DJ9Kc8NK-O4sOOISWo0hz__
 for details on what information should be included in specific fields if
 that information is not provided in this document.*
 
-## GENERAL GUIDELINES: <span class="underline">Format</span>
+## GENERAL GUIDELINES: Format
 
 The **Description** field is the only entry field to be composed in full
 sentences (subject, verb, object) and with verbs in the present tense.
@@ -40,7 +40,7 @@ All other fields should be in phrases or fragments, except where the
 meaning becomes confusing and difficult to express without a subject,
 verb and object.
 
-### <span class="underline">Capitalization, Spacing, Punctuation</span>
+### Capitalization, Spacing, Punctuation
 
 Capitalize the beginning of all entries in all fields. Avoid using
 unnecessary abbreviations in entries; do not abbreviate the word
@@ -61,7 +61,7 @@ of three or more, use a semi-colon, rather than a comma, between
 elements of a greater series: 13 stripes; 52 stars; and a color scheme
 of red, white, and blue
 
-### <span class="underline">Titles</span>
+### Titles
 
 Use lower case for all but first word in a title: A tainted mantle
 (*not* A Tainted Mantle)
@@ -76,7 +76,7 @@ If a slash or colon is part of a title, leave a space on either side: A
 tainted mantle : Hercules and the classical tradition at the Carolingian
 court
 
-### <span class="underline">Numbers and Dates</span>
+### Numbers and Dates
 
 Numbers should be spelled out from one to one hundred in running text
 (like the description and longer descriptive passages). After one
@@ -108,7 +108,7 @@ For an approximate date, do not abbreviate circa: circa 1400. Circa date
 should be only in the Date (narrative) field. Circa date (without
 “circa”) should also be in the Date (single) field.
 
-### <span class="underline">Citations and Abbreviations</span>
+### Citations and Abbreviations
 
 Biblical citations: Exodus 10:12-15 (names of chapters should not be
 abbreviated, so spell out “Genesis,” not “Gen.”)
@@ -559,7 +559,7 @@ throughout.”
 Examples of section descriptions (for descriptions and page-level
 metadata):
 
-**<span class="underline">TOC elements:</span>**
+**TOC elements:**
 
   - Calendar
   - Calendar, in French
@@ -582,7 +582,7 @@ metadata):
   - Suffrages
       - individual suffrages **not** listed as TOC element
 
-**<span class="underline">DECO elements:</span>**
+**DECO elements:**
 
   - Inhabited initial Q, a monk
       - inhabited = figures that are decorative only, with no precise

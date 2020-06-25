@@ -158,9 +158,9 @@ be supplied from LC/OCLC.
 (Optional, Repeatable)
 
 **Description:** For authors in the LC NAF, give the URI from
-[<span class="underline">http://id.loc.gov/authorities/names.html</span>](http://id.loc.gov/authorities/names.html);
+<http://id.loc.gov/authorities/names.html>;
 for creators in VIAF give the permalink from
-[<span class="underline">http://viaf.org/</span>](http://viaf.org/);
+<http://viaf.org/>;
 unlikely to appear in dealer or narrative library descriptions, probably
 needs to be supplied. If you have verified that the author name does not
 have an authorized form in LC NAF or VIAF, enter N/A.
@@ -182,9 +182,9 @@ descriptions, probably needs to be supplied from LC/OCLC.
 (Optional, Repeatable)
 
 **Description:** For translators in the LC NAF, give the URI from
-[<span class="underline">http://id.loc.gov/authorities/names.html</span>](http://id.loc.gov/authorities/names.html);
+<http://id.loc.gov/authorities/names.html>;
 for translators in VIAF give the permalink from
-[<span class="underline">http://viaf.org/</span>](http://viaf.org/);
+<http://viaf.org/>;
 unlikely to appear in dealer or narrative library descriptions, probably
 needs to be supplied. If you have verified that the translator name does
 not have an authorized form in LC NAF or VIAF, enter N/A.
@@ -207,11 +207,11 @@ probably needs to be supplied from LC/OCLC.
 (Optional, Repeatable)
 
 **Description:** For artists in ULAN, give the ID from
-[<span class="underline">http://www.getty.edu/research/tools/vocabularies/ulan/</span>](http://www.getty.edu/research/tools/vocabularies/ulan/);
+<http://www.getty.edu/research/tools/vocabularies/ulan/>;
 for artists in LC NAF, give the URI from
-[<span class="underline">http://id.loc.gov/authorities/names.html</span>](http://id.loc.gov/authorities/names.html);
+<http://id.loc.gov/authorities/names.html>;
 for artists in VIAF give the permalink from
-[<span class="underline">http://viaf.org/</span>](http://viaf.org/);
+<http://viaf.org/>;
 unlikely to appear in dealer or narrative library descriptions, probably
 needs to be supplied. If you have verified that the artist name does not
 have an authorized form in ULAN, LC NAF, or VIAF, enter N/A.
@@ -234,9 +234,9 @@ from LC/OCLC.
 (Optional, Repeatable)
 
 **Description:** For former owners in the LC NAF, give the URI from
-[<span class="underline">http://id.loc.gov/authorities/names.html</span>](http://id.loc.gov/authorities/names.html);
+<http://id.loc.gov/authorities/names.html>;
 for former owners in VIAF give the permalink from
-[<span class="underline">http://viaf.org/</span>](http://viaf.org/);
+<http://viaf.org/>;
 unlikely to appear in dealer or narrative library descriptions, probably
 needs to be supplied. If you have verified that the former owner name
 does not have an authorized form in LC NAF or VIAF, enter N/A.
@@ -599,9 +599,9 @@ dealer or narrative library descriptions, may be supplied from LC/OCLC.
 (Optional, Repeatable)
 
 **Description:** For subjects in the LCNAF, give the URI from
-[<span class="underline">http://id.loc.gov/authorities/names.html</span>](http://id.loc.gov/authorities/names.html);
+<http://id.loc.gov/authorities/names.html>;
 for creators in VIAF give the permalink from
-[<span class="underline">http://viaf.org/</span>](http://viaf.org/);
+<http://viaf.org/>;
 unlikely to appear in dealer or narrative library descriptions, may be
 supplied.
 
@@ -620,7 +620,7 @@ from LC/OCLC.
 (Optional, Repeatable)
 
 **Description:** For subjects in LCSH, give the URI from
-[<span class="underline">http://id.loc.gov/authorities/subjects.html</span>](http://id.loc.gov/authorities/subjects.html);
+<http://id.loc.gov/authorities/subjects.html>;
 unlikely to appear in this form in dealer or narrative library
 descriptions, may be supplied.
 
@@ -639,7 +639,7 @@ supplied from LC/OCLC.
 (Optional, Repeatable)
 
 **Description:** For subjects in LCSH, give the URI from
-[<span class="underline">http://id.loc.gov/authorities/subjects.html</span>](http://id.loc.gov/authorities/subjects.html);
+<http://id.loc.gov/authorities/subjects.html>;
 unlikely to appear in this form in dealer or narrative library
 descriptions, may be supplied.
 
@@ -651,7 +651,7 @@ descriptions, may be supplied.
 
 **Description:** Genre/form term as found in LCSH or Getty Art &
 Architecture Thesaurus
-([<span class="underline">http://www.getty.edu/research/tools/vocabularies/aat/</span>](http://www.getty.edu/research/tools/vocabularies/aat/));
+<http://www.getty.edu/research/tools/vocabularies/aat/>;
 unlikely to appear in this form in dealer or narrative library
 descriptions, may be supplied.
 
@@ -660,9 +660,9 @@ descriptions, may be supplied.
 (Optional, Repeatable)
 
 **Description:** For genre/form terms in LCSH, give the URI from
-[<span class="underline">http://id.loc.gov/authorities/subjects.html</span>](http://id.loc.gov/authorities/subjects.html)
+<http://id.loc.gov/authorities/subjects.html>
 or
-[<span class="underline">http://id.loc.gov/authorities/genreForms.html</span>](http://id.loc.gov/authorities/genreForms.html);
+<http://id.loc.gov/authorities/genreForms.html>;
 for genre/form terms in AAT, give the URI in the form
 <http://vocab.getty.edu/aat/> {AAT ID\#} (more information available at
 <http://vocab.getty.edu/>); unlikely to appear in this form in dealer or
