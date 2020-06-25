@@ -102,17 +102,19 @@ separated by a semicolon*
 ### *Foliated/paginated and attached*
 
   - 1r
-  - 1v
-\
+  - 1v\
+
   - IIIr
   - IIIv
   - IVr
-  - IVv
- \
+  - IVv\
+
   - Ar
   - Av
   - Br
   - Bv
+
+<!-- I'm uncertain what the progression from Arabic to Roman to Alpha is supposed to signify. irc -->
 
 ### *Foliation is provided*
 
