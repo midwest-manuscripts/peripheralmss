@@ -102,13 +102,11 @@ separated by a semicolon*
 ### *Foliated/paginated and attached*
 
   - 1r
-  - 1v\
-
+  - 1v
   - IIIr
   - IIIv
   - IVr
-  - IVv\
-
+  - IVv
   - Ar
   - Av
   - Br
