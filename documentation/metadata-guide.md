@@ -8,8 +8,10 @@
   this fixes rendering of tables and other document formatting on GitHub
 -->
 
-*These guidelines are based on the work of the Bibliotheca Philadelphiensis Project.
-The original Bibliotheca Philadelphiensis documentation may be viewed [here](https://docs.google.com/document/d/1zeUkzmy-3kpK-egqko_IHWZJ992qEnMcgIdzF6Syz4M/edit?usp=sharing)*
+*These guidelines are based on the work of the Bibliotheca
+Philadelphiensis Project. The original Bibliotheca Philadelphiensis
+documentation may be viewed
+[here](https://docs.google.com/document/d/1zeUkzmy-3kpK-egqko_IHWZJ992qEnMcgIdzF6Syz4M/edit?usp=sharing)*
 
 # Spreadsheet Metadata Guidelines
 
@@ -29,8 +31,8 @@ with a semi-colon.
 
 Required
 
-**Description:** Name of the project liaison at a partner
-institution; consistent for all manuscripts from a single institution.
+**Description:** Name of the project liaison at a partner institution;
+consistent for all manuscripts from a single institution.
 
 ## Administrative Contact Email
 
@@ -59,7 +61,8 @@ Optional
 
 **MARC Location:** Possibly 852 subfield e
 
-**Description:** Country of the holding library; United States for all partner institutions.
+**Description:** Country of the holding library; United States for all
+partner institutions.
 
 ## Repository City
 
@@ -156,12 +159,11 @@ be supplied from LC/OCLC.
 Optional, Repeatable
 
 **Description:** For authors in the LC NAF, give the URI from
-<http://id.loc.gov/authorities/names.html>;
-for creators in VIAF give the permalink from
-<http://viaf.org/>;
-unlikely to appear in dealer or narrative library descriptions, probably
-needs to be supplied. If you have verified that the author name does not
-have an authorized form in LC NAF or VIAF, enter N/A.
+<http://id.loc.gov/authorities/names.html>; for creators in VIAF give
+the permalink from <http://viaf.org/>; unlikely to appear in dealer or
+narrative library descriptions, probably needs to be supplied. If you
+have verified that the author name does not have an authorized form in
+LC NAF or VIAF, enter N/A.
 
 ## Translator Name
 
@@ -180,12 +182,11 @@ descriptions, probably needs to be supplied from LC/OCLC.
 Optional, Repeatable
 
 **Description:** For translators in the LC NAF, give the URI from
-<http://id.loc.gov/authorities/names.html>;
-for translators in VIAF give the permalink from
-<http://viaf.org/>;
-unlikely to appear in dealer or narrative library descriptions, probably
-needs to be supplied. If you have verified that the translator name does
-not have an authorized form in LC NAF or VIAF, enter N/A.
+<http://id.loc.gov/authorities/names.html>; for translators in VIAF give
+the permalink from <http://viaf.org/>; unlikely to appear in dealer or
+narrative library descriptions, probably needs to be supplied. If you
+have verified that the translator name does not have an authorized form
+in LC NAF or VIAF, enter N/A.
 
 ## Artist Name
 
@@ -205,14 +206,12 @@ probably needs to be supplied from LC/OCLC.
 Optional, Repeatable
 
 **Description:** For artists in ULAN, give the ID from
-<http://www.getty.edu/research/tools/vocabularies/ulan/>;
-for artists in LC NAF, give the URI from
-<http://id.loc.gov/authorities/names.html>;
-for artists in VIAF give the permalink from
-<http://viaf.org/>;
-unlikely to appear in dealer or narrative library descriptions, probably
-needs to be supplied. If you have verified that the artist name does not
-have an authorized form in ULAN, LC NAF, or VIAF, enter N/A.
+<http://www.getty.edu/research/tools/vocabularies/ulan/>; for artists in
+LC NAF, give the URI from <http://id.loc.gov/authorities/names.html>;
+for artists in VIAF give the permalink from <http://viaf.org/>; unlikely
+to appear in dealer or narrative library descriptions, probably needs to
+be supplied. If you have verified that the artist name does not have an
+authorized form in ULAN, LC NAF, or VIAF, enter N/A.
 
 ## Former Owner Name
 
@@ -232,12 +231,11 @@ from LC/OCLC.
 Optional, Repeatable
 
 **Description:** For former owners in the LC NAF, give the URI from
-<http://id.loc.gov/authorities/names.html>;
-for former owners in VIAF give the permalink from
-<http://viaf.org/>;
-unlikely to appear in dealer or narrative library descriptions, probably
-needs to be supplied. If you have verified that the former owner name
-does not have an authorized form in LC NAF or VIAF, enter N/A.
+<http://id.loc.gov/authorities/names.html>; for former owners in VIAF
+give the permalink from <http://viaf.org/>; unlikely to appear in dealer
+or narrative library descriptions, probably needs to be supplied. If you
+have verified that the former owner name does not have an authorized
+form in LC NAF or VIAF, enter N/A.
 
 ## Provenance
 
@@ -293,11 +291,11 @@ possibly 260 subfield c
 **Description:** Ending year for a manuscript completed over an extended
 period of time or the latest year of a section of a manuscript
 consisting of originally separate manuscripts copied at different times,
-with each section provided its own **Date (single)** or **Date (range)**;
-probably in the headings of a dealer or library description, otherwise
-in notes; if the range is given as a narrative phrase (see **Date
-(narrative)** below), supply an ending year here; enter as the year only
-without additional words.
+with each section provided its own **Date (single)** or **Date
+(range)**; probably in the headings of a dealer or library description,
+otherwise in notes; if the range is given as a narrative phrase (see
+**Date (narrative)** below), supply an ending year here; enter as the
+year only without additional words.
 
 ## Date (narrative)
 
@@ -567,7 +565,7 @@ in the following examples:
 > Philadelphia Museum of Art, *Leaves of Gold: Manuscript Illumination
 > from Philadelphia Collections*, edited by James R. Tanis
 > (Philadelphia: Philadelphia Museum of Art, 2001), pp. 102-103, no. 31.
->
+> 
 > Philip H. & A.S.W. Rosenbach Foundation Museum. *A Selection from Our
 > Shelves: Books, Manuscripts, and Drawings from the Philip H. & A.S.W.
 > Rosenbach Foundation Museum* (Philadelphia: Philip H. & A.S.W.
@@ -577,8 +575,8 @@ in the following examples:
 > Saint Louis: A Study of Styles* (Berkeley: University of California
 > Press, 1977), p. 82.
 > 
-> Branner, Robert, "The Johannes Grusch Atelier and the Continental
-> Origins of the William of Devon Painter," *Art Bulletin* 54, no. 1
+> Branner, Robert, “The Johannes Grusch Atelier and the Continental
+> Origins of the William of Devon Painter,” *Art Bulletin* 54, no. 1
 > (1972): p. 30 (article pp. 24-30).
 > 
 > Peterson, Elizabeth Anne, “The Textual Basis for Visual Errors in
@@ -586,12 +584,12 @@ in the following examples:
 > Production, Decoration and Use*, ed. Richard Gameson (Cambridge:
 > Cambridge University Press, 1994), pp. 182-83 (article pp. 177-204).
 > 
-> Zigrosser, Carl, "The Philip S. Collins Collection of Mediaeval
-> Illuminated Manuscripts," *Philadelphia Museum of Art Bulletin* 58,
+> Zigrosser, Carl, “The Philip S. Collins Collection of Mediaeval
+> Illuminated Manuscripts,” *Philadelphia Museum of Art Bulletin* 58,
 > no. 275 (Autumn 1962): pp. 20-21 (article pp. 3-34).
 > 
-> Gardiner, Henry G., "The Samuel S. White, 3rd, and Vera White
-> Collection," *Philadelphia Museum of Art Bulletin* 63, no. 296/297
+> Gardiner, Henry G., “The Samuel S. White, 3rd, and Vera White
+> Collection,” *Philadelphia Museum of Art Bulletin* 63, no. 296/297
 > (January 1, 1968): p. 118, no. 118 (article pp. 71-150).
 
 \[note that the page or page range where a manuscript is mentioned is
@@ -623,11 +621,9 @@ dealer or narrative library descriptions, may be supplied from LC/OCLC.
 Optional, Repeatable
 
 **Description:** For subjects in the LCNAF, give the URI from
-<http://id.loc.gov/authorities/names.html>;
-for creators in VIAF give the permalink from
-<http://viaf.org/>;
-unlikely to appear in dealer or narrative library descriptions, may be
-supplied.
+<http://id.loc.gov/authorities/names.html>; for creators in VIAF give
+the permalink from <http://viaf.org/>; unlikely to appear in dealer or
+narrative library descriptions, may be supplied.
 
 ## Subject: topical
 
@@ -644,9 +640,8 @@ from LC/OCLC.
 Optional, Repeatable
 
 **Description:** For subjects in LCSH, give the URI from
-<http://id.loc.gov/authorities/subjects.html>;
-unlikely to appear in this form in dealer or narrative library
-descriptions, may be supplied.
+<http://id.loc.gov/authorities/subjects.html>; unlikely to appear in
+this form in dealer or narrative library descriptions, may be supplied.
 
 ## Subject: geographic
 
@@ -663,9 +658,8 @@ supplied from LC/OCLC.
 Optional, Repeatable
 
 **Description:** For subjects in LCSH, give the URI from
-<http://id.loc.gov/authorities/subjects.html>;
-unlikely to appear in this form in dealer or narrative library
-descriptions, may be supplied.
+<http://id.loc.gov/authorities/subjects.html>; unlikely to appear in
+this form in dealer or narrative library descriptions, may be supplied.
 
 ## Subject: genre/form
 
@@ -675,22 +669,21 @@ Optional, Repeatable
 
 **Description:** Genre/form term as found in LCSH or Getty Art &
 Architecture Thesaurus
-<http://www.getty.edu/research/tools/vocabularies/aat/>;
-unlikely to appear in this form in dealer or narrative library
-descriptions, may be supplied.
+<http://www.getty.edu/research/tools/vocabularies/aat/>; unlikely to
+appear in this form in dealer or narrative library descriptions, may be
+supplied.
 
 ## Subject: genre/form URI
 
 Optional, Repeatable
 
 **Description:** For genre/form terms in LCSH, give the URI from
-<http://id.loc.gov/authorities/subjects.html>
-or
-<http://id.loc.gov/authorities/genreForms.html>;
-for genre/form terms in AAT, give the URI in the form
-<http://vocab.getty.edu/aat/> {AAT ID\#} (more information available at
-<http://vocab.getty.edu/>); unlikely to appear in this form in dealer or
-narrative library descriptions, may be supplied.
+<http://id.loc.gov/authorities/subjects.html> or
+<http://id.loc.gov/authorities/genreForms.html>; for genre/form terms in
+AAT, give the URI in the form <http://vocab.getty.edu/aat/> {AAT ID\#}
+(more information available at <http://vocab.getty.edu/>); unlikely to
+appear in this form in dealer or narrative library descriptions, may be
+supplied.
 
 ## Keyword
 

@@ -8,40 +8,43 @@
   this fixes rendering of tables and other document formatting on GitHub
 -->
 
-*These guidelines are based on the work of the Bibliotheca Philadelphiensis Project.
-The original Bibliotheca Philadelphiensis documentation may be viewed [here](https://docs.google.com/document/d/1lID4BmrA87YebTJRmCebgB8mXANeOytEML_MV5n12fo/edit?usp=sharing)*
+*These guidelines are based on the work of the Bibliotheca
+Philadelphiensis Project. The original Bibliotheca Philadelphiensis
+documentation may be viewed
+[here](https://docs.google.com/document/d/1lID4BmrA87YebTJRmCebgB8mXANeOytEML_MV5n12fo/edit?usp=sharing)*
 
 # CATALOGUING GUIDELINES AND STANDARDS
 
-The purpose of the following guidelines is to insure consistency of style, terminology, format, and data type in
-cataloguing data and descriptions. Consistency here means regularity,
-predictability, uniformity, and “searchability.” Users of 
-this digitized catalogue should expect to find the same
-amount and type of data in each entry field, and in the same general
-order.
+The purpose of the following guidelines is to insure consistency of
+style, terminology, format, and data type in cataloguing data and
+descriptions. Consistency here means regularity, predictability,
+uniformity, and “searchability.” Users of this digitized catalogue
+should expect to find the same amount and type of data in each entry
+field, and in the same general order.
 
-Consistency in all fields is particularly important for manuscripts
-of the same title: Bible, Gospels, Missal, Lectionary, Book of Hours,
-etc.
+Consistency in all fields is particularly important for manuscripts of
+the same title: Bible, Gospels, Missal, Lectionary, Book of Hours, etc.
 
 For details on what information should be included in specific fields
-please refer to the [Spreadsheet Metadata Guidelines](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/metadata-guide.md)
+please refer to the [Spreadsheet Metadata
+Guidelines](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/metadata-guide.md)
 
 # GENERAL GUIDELINES
 
 ## Sentences and Fragments
+
 The **Description** field is the only entry field to be composed in full
-sentences (use present tense verbs).
-All other fields should be in phrases or fragments, except where the
-meaning becomes confusing and difficult to express without a full sentence.
+sentences (use present tense verbs). All other fields should be in
+phrases or fragments, except where the meaning becomes confusing and
+difficult to express without a full sentence.
 
 ## Capitalization, Spacing, Punctuation
 
 Capitalize the initial letter of all entries in all fields. Avoid using
-unnecessary abbreviations; do not abbreviate the word
-“Saint.” Single space (not double) between sentences.
+unnecessary abbreviations; do not abbreviate the word “Saint.” Single
+space (not double) between sentences.
 
-Punctuation follows American usage and goes inside quotation marks: “...
+Punctuation follows American usage and goes inside quotation marks: “…
 Gothic.” Period at end of full sentences only, not phrases or fragments
 (as here)
 
@@ -61,11 +64,11 @@ of red, white, and blue
 Use lower case for all but first word in a title: *A tainted mantle*
 (not *A Tainted Mantle*)
 
-An exception to this rule is that book types, e.g., Psalter,
-Lectionary, Book of Hours, Book of Hours Use of Rome, Missal etc. should
-always be capitalized in titles. This also applies to terms like
-Chronicle if it is used in the sense of it being that type of book, and
-not just a word in the title, e.g., Grandes Chroniques
+An exception to this rule is that book types, e.g., Psalter, Lectionary,
+Book of Hours, Book of Hours Use of Rome, Missal etc. should always be
+capitalized in titles. This also applies to terms like Chronicle if it
+is used in the sense of it being that type of book, and not just a word
+in the title, e.g., Grandes Chroniques
 
 If a slash or colon is part of a title, leave a space on either side: *A
 tainted mantle : Hercules and the classical tradition at the Carolingian
@@ -87,8 +90,8 @@ Spell out ordinal numbers: first, not 1<sup>st</sup> ; this also applies
 to centuries within text fields: the fourteenth century; a
 fourteenth-century manuscript
 
-An exception: in the date narrative field **only**, use the following format
-for a century date: 9<sup>th</sup> century
+An exception: in the date narrative field **only**, use the following
+format for a century date: 9<sup>th</sup> century
 
 Hyphenate a century only if it is an adjective: a tenth-century
 palimpsest (Otherwise: a palimpsest from the tenth century)
@@ -110,12 +113,12 @@ abbreviated, so spell out “Genesis,” not “Gen.”)
 
 Preferred abbreviation for folio: fol. (plural: fols.)
 
-There is a space between a folio abbreviation and a folio
-number: fol. 5r
+There is a space between a folio abbreviation and a folio number:
+fol. 5r
 
-Always include ‘r’ or ‘v’ with folio number, e.g., fols. 1r-3v,
-not 1-3v. When indicating a range over the recto/verso of a single
-folio: fol. 1r-v
+Always include ‘r’ or ‘v’ with folio number, e.g., fols. 1r-3v, not
+1-3v. When indicating a range over the recto/verso of a single folio:
+fol. 1r-v
 
 Preferred abbreviation for manuscript/manuscripts: Ms./Mss.
 
@@ -141,8 +144,8 @@ The text or writing on a book page: **written area**
   - acceptable alternatives: justification
   - *not* recommended: text block
 
-Book page/pages: **folio/s** (when foliated) or **page/s**
-(when paginated)
+Book page/pages: **folio/s** (when foliated) or **page/s** (when
+paginated)
 
   - acceptable alternative (for folio only): leaf/ves
 
@@ -157,16 +160,16 @@ A book’s decoration in general: **decoration, decorated**
   - acceptable alternatives: illumination, illuminated
   - *not* recommended: ornamentation, gilded
 
-A book’s text painting/s in general: **illustration,
-illustrated, miniature**
+A book’s text painting/s in general: **illustration, illustrated,
+miniature**
 
   - acceptable alternatives: painting, painted
 
-A book’s opening, full-page decoration without text:
-**illuminated** (or **illustrated) frontispiece**
+A book’s opening, full-page decoration without text: **illuminated** (or
+**illustrated) frontispiece**
 
-A book’s opening, full-page decoration including initial
-text: **illuminated incipit**
+A book’s opening, full-page decoration including initial text:
+**illuminated incipit**
 
 The space/s outside the written area: **margin/s**
 
@@ -179,8 +182,9 @@ great, elegant, clear) should be used sparingly throughout.
 
 # ITEM-LEVEL FIELDS
 
-Fields are listed in order of appearance in sheet 1 of the template spreadsheet.
-For further details see the [Spreadsheet Metadata Guidelines](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/metadata-guide.md)
+Fields are listed in order of appearance in sheet 1 of the template
+spreadsheet. For further details see the [Spreadsheet Metadata
+Guidelines](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/metadata-guide.md)
 
 ## Repository Country:
 
@@ -335,7 +339,8 @@ names are provided for reference, do not include them in the field:
   - cat \[Catalan\]
   - spa \[Spanish\]
 
-A fuller list of language codes is posted [here](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/language-codes.csv).
+A fuller list of language codes is posted
+[here](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/language-codes.csv).
 
 ## Foliation/Pagination:
 
@@ -384,7 +389,8 @@ collation formula/description in this field, please contact Dot.
   - **Make a model in the Collation Modeler**: model created
   - **Collation formula generation from model**: \[paste formula here\]
 -->
-If the collation cannot be determined, enter 'Structure Uncertain.'
+
+If the collation cannot be determined, enter ‘Structure Uncertain.’
 
 If you can determine part of the collation, but not the entire thing,
 you can also describe the collation as best you can and this will be
@@ -401,17 +407,17 @@ preferring the terms listed below if applicable.
   - Half-Uncial
   - Caroline Minuscule
   - Protogothic
-  - Gothic--textualis quadrata (consistent application of feet and
+  - Gothic–textualis quadrata (consistent application of feet and biting
+    of curves)
+  - Gothic–textualis semi-quadrata (inconsistent application of feet and
     biting of curves)
-  - Gothic--textualis semi-quadrata (inconsistent application of feet
-    and biting of curves)
-  - Gothic--textualis (everything below semi-quadrata; for Gothic with
+  - Gothic–textualis (everything below semi-quadrata; for Gothic with
     single-compartment *a*, sometimes called semitextualis, add a note:
-    “Gothic--textualis; single-compartment *a*”)
-  - Gothic--rotunda (round Italian textualis, not Brownian rotunda,
-    which is English with rounded-off minims)
-  - Gothic--anglicana
-  - Gothic--cursiva
+    “Gothic–textualis; single-compartment *a*”)
+  - Gothic–rotunda (round Italian textualis, not Brownian rotunda, which
+    is English with rounded-off minims)
+  - Gothic–anglicana
+  - Gothic–cursiva
   - Littera bononiensis
   - Secretary
   - Bâtarde
@@ -425,7 +431,7 @@ preferring the terms listed below if applicable.
 If the scribe is identifiable, include the scribe’s name, preceded by
 “Scribe:” For example, “Scribe: Thomas Hoccleve”.
 
-## Musical notation: 
+## Musical notation:
 
 If notation is present, describe it here.
 <!-- This field is our addition, not yet in the Google Sheet template -->
@@ -453,19 +459,26 @@ into individual cells.
 
 ## Related resource:
 
-See the Spreadsheet style guide. 
+See the Spreadsheet style guide.
 
 ## Keywords
 
-Keywords are listed [here](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/keywords.csv).
-There are seven groups: Book Type, Century, Culture, Descriptive term, Geography, Subject, and Other.
+Keywords are listed
+[here](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/keywords.csv).
+There are seven groups: Book Type, Century, Culture, Descriptive term,
+Geography, Subject, and Other.
 
-Add one keyword per column. You should be able to add at least one from Book Type, Century, Culture, and Geography. Add Descriptive Terms, Subjects, and Others as relevant.
-Copy and paste terms to avoid misspellings.
+Add one keyword per column. You should be able to add at least one from
+Book Type, Century, Culture, and Geography. Add Descriptive Terms,
+Subjects, and Others as relevant. Copy and paste terms to avoid
+misspellings.
 
-Keywords are to help users find the books. So consider what terms a user might select to try to find this book or a book like it, in addition to considering which terms apply to this book.
+Keywords are to help users find the books. So consider what terms a user
+might select to try to find this book or a book like it, in addition to
+considering which terms apply to this book.
 
-If you want to add a new term email the group (Liz, Michelle, Sarah, and Ian) to explain the need and we’ll deliberate.
+If you want to add a new term email the group (Liz, Michelle, Sarah, and
+Ian) to explain the need and we’ll deliberate.
 
 # PAGE-LEVEL FIELDS
 

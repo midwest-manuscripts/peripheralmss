@@ -8,8 +8,10 @@
   this fixes rendering of tables and other document formatting on GitHub
 -->
 
-*These guidelines are based on the work of the Bibliotheca Philadelphiensis Project.
-The original Bibliotheca Philadelphiensis documentation may be viewed [here](https://docs.google.com/document/d/1HzfYAgNuJaRKXcZ1rYE-0hS5_TxidWDNLN6X2cVFpAM/edit?usp=sharing)*
+*These guidelines are based on the work of the Bibliotheca
+Philadelphiensis Project. The original Bibliotheca Philadelphiensis
+documentation may be viewed
+[here](https://docs.google.com/document/d/1HzfYAgNuJaRKXcZ1rYE-0hS5_TxidWDNLN6X2cVFpAM/edit?usp=sharing)*
 
 # Structural Metadata Guidelines
 
@@ -68,8 +70,8 @@ Values next to BLANK tags will be ignored.
 
 ## DISPLAY PAGE
 
-Enter a **display page** value for each image.
-Typical values are supplied in the subsections below.
+Enter a **display page** value for each image. Typical values are
+supplied in the subsections below.
 
 ### External Structure
 
@@ -87,17 +89,17 @@ Front matter:
   - \[Flyleaf 1 recto\]
   - \[Flyleaf 1 verso\]
 
-Back matter: 
+Back matter:
 
   - \[Flyleaf 1 recto\]
   - \[Flyleaf 1 verso\]
   - Inside back cover
   - Back cover
 
-When flyleaves are numbered, identify the leaf as a flyleaf and add the folio number after,
-separated by a semicolon: 
+When flyleaves are numbered, identify the leaf as a flyleaf and add the
+folio number after, separated by a semicolon:
 
--  \[Flyleaf 1 recto; fol. 239\]
+  - \[Flyleaf 1 recto; fol. 239\]
 
 ## Text block (constituent leaves not including the flyleaves)
 
@@ -116,7 +118,7 @@ Leaves foliated or paginated and attached:
 
 <!-- I'm uncertain what the progression from Arabic to Roman to Alpha is supposed to signify. irc -->
 
-Leaves attached but not foliated/paginated: 
+Leaves attached but not foliated/paginated:
 
   - \[1r\]
   - \[1v\]
@@ -201,5 +203,5 @@ Multiple fragments or cuttings without identifiable recto/verso:
   - Loose leaf 2 Side 1
   - Loose leaf 2 Side 2
 
-If you have any questions about how to describe something not covered
-in these guidelines please contact Liz Hebbard (ehebbard@iu.edu).
+If you have any questions about how to describe something not covered in
+these guidelines please contact Liz Hebbard (ehebbard@iu.edu).
