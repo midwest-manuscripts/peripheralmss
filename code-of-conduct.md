@@ -138,6 +138,9 @@ ensure when taking group photos that everyone in the picture agrees as
 to where the photograph will be shared. If you wish to record at the
 event for personal use, please speak with the project team before the
 meeting.
+<!-- to do: add note on live tweeting and consent to record. details here:
+  https://docs.google.com/document/d/1gBxMb5vVSJUs3Ylir9YK2cVidSWeBjWVpegUzvW2XQ0/edit?disco=AAAAGotnYrw
+-->
 
 ### Applying the Code of Conduct
 
@@ -152,6 +155,10 @@ If you are being harassed, witness another participant being harassed,
 or have any other concerns, please contact a person listed below.
 
 ### Contact information 
+
+<!-- to do: adopt Stanford's guide for fielding complaints. 
+  Michelle writes "I will adapt for us, but can't before we need to share the template slides"
+-->
 
 The project team and designated facilitators will be on hand to respond
 to Code of Conduct violations and assist in following the Community
