@@ -27,17 +27,17 @@ local context based on their identity or systemic issues including
 racism, classism, sexism, homophobia, and more. To this end, we have
 established a core set of principles for the project:
 
-  - > We believe everyone has something to contribute; not everyone
-    > needs to be a self-identified expert.
+  - We believe everyone has something to contribute; not everyone
+    needs to be a self-identified expert.
 
-  - > We focus on shared and holistic concerns and recommendations,
-    > rather than focusing on specific technologies or tools.
+  - We focus on shared and holistic concerns and recommendations,
+    rather than focusing on specific technologies or tools.
 
-  - > We enable the adaptability of recommendations across contexts,
-    > communities, levels of resourcing.
+  - We enable the adaptability of recommendations across contexts,
+    communities, levels of resourcing.
 
-  - > We develop recommendations consciously as an inclusive expression
-    > of professional ethics and values.
+  - We develop recommendations consciously as an inclusive expression
+    of professional ethics and values.
 
 To be truly transformational, our work must be conducted in a space that
 acknowledges the power dynamics of bringing together workers across
@@ -49,56 +49,56 @@ disciplinary departments, and technology sectors.
 We expect all participants to practice community by agreeing to the
 following:
 
-  - > To ensure only one person speaks at a time, and consider pausing
-    > to allow those who need more time to process or interject in
-    > conversation to do so.
+  - To ensure only one person speaks at a time, and consider pausing
+    to allow those who need more time to process or interject in
+    conversation to do so.
 
-  - > To make space and take space - encourage and yield the floor to
-    > those whose viewpoints may be under-represented in a group, and
-    > take space made for you as you’re able.
+  - To make space and take space - encourage and yield the floor to
+    those whose viewpoints may be under-represented in a group, and
+    take space made for you as you’re able.
 
-  - > To listen to and respect a person’s description of their
-    > experiences, including but not limited to those related to
-    > marginalization and discrimination.
+  - To listen to and respect a person’s description of their
+    experiences, including but not limited to those related to
+    marginalization and discrimination.
 
-  - > To recognize the interdependent nature of our work to support
-    > discovery and delivery of manuscript materials.
+  - To recognize the interdependent nature of our work to support
+    discovery and delivery of manuscript materials.
 
-  - > To acknowledge that choices around practice, implementation, and
-    > technology vary widely and can be dependent on the availability of
-    > resources, and to respect our work as incremental.
+  - To acknowledge that choices around practice, implementation, and
+    technology vary widely and can be dependent on the availability of
+    resources, and to respect our work as incremental.
 
-  - > To provide a space where everyone can feel comfortable
-    > participating, even if they don’t use specific terminology or use
-    > the perfect way to express their ideas or insights.
+  - To provide a space where everyone can feel comfortable
+    participating, even if they don’t use specific terminology or use
+    the perfect way to express their ideas or insights.
 
-  - > To embrace curiosity and creativity, allowing for the opportunity
-    > to try new ideas, consider other perspectives, and establish new
-    > patterns.
+  - To embrace curiosity and creativity, allowing for the opportunity
+    to try new ideas, consider other perspectives, and establish new
+    patterns.
 
-  - > To use welcoming language (including a person’s pronouns) and
-    > favor gender-neutral collective nouns (“folks” or “y’all,” not
-    > “guys”).
+  - To use welcoming language (including a person’s pronouns) and
+    favor gender-neutral collective nouns (“folks” or “y’all,” not
+    “guys”).
 
-  - > To give credit where it's due, and to uplift each other’s work and
-    > ideas.
+  - To give credit where it's due, and to uplift each other’s work and
+    ideas.
 
-  - > To accept critique and feedback graciously, and to offer it
-    > constructively.
+  - To accept critique and feedback graciously, and to offer it
+    constructively.
 
-  - > To seek concrete ways to make our physical spaces and online
-    > resources more universally accessible.
+  - To seek concrete ways to make our physical spaces and online
+    resources more universally accessible.
 
-  - > To acknowledge the difference between intent and impact, and to
-    > look for ways to take responsibility for any negative impact that
-    > we have.
+  - To acknowledge the difference between intent and impact, and to
+    look for ways to take responsibility for any negative impact that
+    we have.
 
-  - > To be aware of time, respecting the commitment of all participants
-    > and project staff to accomplish the goals of the meeting.
+  - To be aware of time, respecting the commitment of all participants
+    and project staff to accomplish the goals of the meeting.
 
-  - > To take the moments that everyone needs to care for ourselves and
-    > their community, by paying attention to the needs of your body and
-    > mind, and to the welfare of those around us.
+  - To take the moments that everyone needs to care for ourselves and
+    their community, by paying attention to the needs of your body and
+    mind, and to the welfare of those around us.
 
 ## Code of Conduct
 
@@ -158,48 +158,47 @@ to Code of Conduct violations and assist in following the Community
 Agreements. If you witness, suspect, or are the target of a violation of
 the Code of Conduct, contact one of the listed people below.
 
-  - > Michelle Dalmau -
-    > [<span class="underline">mdalmau@indiana.edu</span>](mailto:mdalmau@indiana.edu)
-    > - +1 (812) 219-7222 (phone or SMS)
+  - Michelle Dalmau -- [mdalmau@indiana.edu](mailto:mdalmau@indiana.edu)
+    +1 (812) 219-7222 (phone or SMS)
 
-  - > Liz Hebbard -
-    > [<span class="underline">ehebbard@iu.edu</span>](mailto:ehebbard@iu.edu)
-    > - +1 (404) 583-8819 (phone or SMS)
+  - Liz Hebbard --
+    [ehebbard@iu.edu](mailto:ehebbard@iu.edu)
+    +1 (404) 583-8819 (phone or SMS)
 
-  - > Sarah Noonan -
-    > [<span class="underline">snoonan@saintmarys.edu</span>](mailto:snoonan@saintmarys.edu)
-    > - +1 (847) 924-6605 (phone or SMS)
+  - Sarah Noonan --
+    [snoonan@saintmarys.edu](mailto:snoonan@saintmarys.edu)
+    +1 (847) 924-6605 (phone or SMS)
 
 ## References
 
 This Community Agreements and Code of Conduct has been adapted from the
-document originally created by [<span class="underline">Stanford
+document originally created by [Stanford
 University’s Lighting the Way
-Forum</span>](https://docs.google.com/document/d/1EpIj8JlzD114GlNkvoiNf89Q79MZ4rmIkHpTORj1mX8/edit#).
+Forum](https://docs.google.com/document/d/1EpIj8JlzD114GlNkvoiNf89Q79MZ4rmIkHpTORj1mX8/edit#).
 Their Community Agreements and Code of Conduct was initially developed
 through consultation of a number of existing sources, including:
 
-  - > The [*<span class="underline">Collective Responsibility</span>*
-    > <span class="underline">Code of Conduct and Community
-    > Agreement</span>](https://laborforum.diglib.org/code-of-conduct-and-community-agreement/)
+  - The [*Collective Responsibility*
+    Code of Conduct and Community
+    Agreement](https://laborforum.diglib.org/code-of-conduct-and-community-agreement/)
 
-  - > The [<span class="underline">LDCX 2019 Code of
-    > Conduct</span>](https://library.stanford.edu/projects/ldcx/2019-conference/code-conduct)
+  - The [LDCX 2019 Code of
+    Conduct](https://library.stanford.edu/projects/ldcx/2019-conference/code-conduct)
 
-  - > The [<span class="underline">Digital Library Federation Code of
-    > Conduct</span>](https://www.diglib.org/about/code-of-conduct/)
+  - The [Digital Library Federation Code of
+    Conduct](https://www.diglib.org/about/code-of-conduct/)
 
-  - > The [<span class="underline">Recurse Center Social
-    > Rules</span>](https://www.recurse.com/social-rules)
+  - The [Recurse Center Social
+    Rules](https://www.recurse.com/social-rules)
 
-  - > AORTA’s [*<span class="underline">Anti-Oppressive Facilitation for
-    > Democratic Process: Making Meetings Awesome for
-    > Everyone</span>*](https://aorta.coop/portfolio_page/anti-oppressive-facilitation/)
+  - AORTA’s [*Anti-Oppressive Facilitation for
+    Democratic Process: Making Meetings Awesome for
+    Everyone*](https://aorta.coop/portfolio_page/anti-oppressive-facilitation/)
 
-  - > Seeds for Change’s [*<span class="underline">Group Agreements for
-    > Workshops and
-    > Meetings</span>*](https://www.seedsforchange.org.uk/groupagree)
+  - Seeds for Change’s [*Group Agreements for
+    Workshops and
+    Meetings*](https://www.seedsforchange.org.uk/groupagree)
 
-  - > Valerie Aurora and Mary Gardiner’s [*<span class="underline">How
-    > to Respond to Code of Conduct
-    > Reports</span>*](https://frameshiftconsulting.com/code-of-conduct-book/)
+  - Valerie Aurora and Mary Gardiner’s [*How
+    to Respond to Code of Conduct
+    Reports*](https://frameshiftconsulting.com/code-of-conduct-book/)
