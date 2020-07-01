@@ -21,12 +21,9 @@ Keywords should be copied from these lists.
 - Gospel Lectionary
 - Gospels
 - Gradual
-- Halakhah
-- Haggadah
 - Homilary
 - Horologion
 - Hymnal
-- Koran
 - Lectionary
 - Mass book
 - Miscellany
@@ -39,19 +36,14 @@ Keywords should be copied from these lists.
 - Protective scroll
 - Psalter
 - Psalter-Hours
-- Qur’an
 - Recipe book
 - Saint's Life
 - Scribal manual
 - Song book
-- Torah
 - Treatise
 
 # Century
 
-- 6th century
-- 7th century
-- 8th century
 - 9th century
 - 10th century
 - 11th century
@@ -60,54 +52,30 @@ Keywords should be copied from these lists.
 - 14th century
 - 15th century
 - 16th century
-- 17th century
+- 17th century <!--retained to record significant later additions and conservation-->
 - 18th century
 - 19th century
 - 20th century
 
 # Culture
 
-- Abbasid
-- Arabic
-- Armenian
-- Ashkenazi
 - Austrian
-- Byzantine
 - Carolingian
 - Catalan
-- Chinese
 - Christian
-- Coptic
 - Dutch
-- Egyptian
 - English
-- Ethiopian
-- Fatimid
 - Flemish
 - French
 - German
-- Indian
 - Islamic
 - Italian
 - Jewish
-- Karaite
-- Mamluk
 - Mexican
-- Mughal
-- Ottoman
 - Ottonian
-- Persian
 - Portuguese
-- Qajar
-- Rajput
-- Russian
-- Safavid
-- Sephardi
 - Spanish
 - Swiss
-- Timurid
-- Turkish
-- Yemenite
 
 # Descriptive term
 
@@ -123,7 +91,6 @@ Keywords should be copied from these lists.
 - Damage
 - Diagrams
 - Drawing
-- Early Abbasid script
 - Forgery
 - Fragment
 - Gloss
@@ -138,14 +105,12 @@ Keywords should be copied from these lists.
 - Illumination
 - Illustration
 - Inhabited initial
-- Kufic
 - Manicules
 - Medallion
 - Micrography
 - Miniature
 - Missing leaves
 - Musical notation
-- New Abbasid style
 - Notable binding
 - Original binding
 - Ornament
@@ -154,7 +119,6 @@ Keywords should be copied from these lists.
 - Paper
 - Penwork initial
 - Puzzle initial
-- Ragini
 - Romanesque
 - Scrapbook
 - Scroll
@@ -162,48 +126,28 @@ Keywords should be copied from these lists.
 - Seals
 - Tables
 - Textura
-- Treasure binding
 - Watermark
 - White-vine lettering
 - Woodcuts
 
 # Geography
 
-- Afghanistan
-- Armenia
 - Austria
 - Belgium
-- Central Arab lands (Near East)
-- Central Asia
-- China
-- Egypt
 - England
-- Ethiopia
 - Flanders
 - France
 - Germany
 - Greece
-- India
-- Iran
-- Iraq
-- Israel
 - Italy
-- Maghreb
 - Mexico
-- Morocco
 - Netherlands
-- Pakistan
-- Philippines
 - Poland
 - Portugal
 - Romania
-- Russia
 - Spain
-- Sub-Saharan (West) Africa
 - Switzerland
-- Turkey
 - Wales
-- Yemen
 
 # Subject
 
@@ -225,7 +169,6 @@ Keywords should be copied from these lists.
 - Geomancy
 - Grammar
 - History
-- Kabbalah
 - Legal
 - Literature -- Poetry
 - Literature -- Prose
@@ -236,10 +179,8 @@ Keywords should be copied from these lists.
 - Mathematics
 - Mineralogy
 - Philosophy
-- Piyutim
 - Responsa
 - Science
 - Science -- Medicine
 - Scripture
-- Sufism
 - Theology
