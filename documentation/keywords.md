@@ -1,0 +1,245 @@
+Keywords should be copied from these lists.
+
+# Book Type
+
+- Accounts
+- Antiphonary
+- Armorial
+- Bible
+- Biography
+- Book of Hours
+- Breviary
+- Chronicle
+- Collection of Sermons
+- Commentary
+- Dictionary
+- Document
+- Dogale
+- Friendship book
+- Genealogy
+- Glossary
+- Gospel Lectionary
+- Gospels
+- Gradual
+- Halakhah
+- Haggadah
+- Homilary
+- Horologion
+- Hymnal
+- Koran
+- Lectionary
+- Mass book
+- Miscellany
+- Missal
+- Pontifical
+- Portolan chart
+- Prayer book
+- Private devotional text
+- Processional
+- Protective scroll
+- Psalter
+- Psalter-Hours
+- Qur’an
+- Recipe book
+- Saint's Life
+- Scribal manual
+- Song book
+- Torah
+- Treatise
+
+# Century
+
+- 6th century
+- 7th century
+- 8th century
+- 9th century
+- 10th century
+- 11th century
+- 12th century
+- 13th century
+- 14th century
+- 15th century
+- 16th century
+- 17th century
+- 18th century
+- 19th century
+- 20th century
+
+# Culture
+
+- Abbasid
+- Arabic
+- Armenian
+- Ashkenazi
+- Austrian
+- Byzantine
+- Carolingian
+- Catalan
+- Chinese
+- Christian
+- Coptic
+- Dutch
+- Egyptian
+- English
+- Ethiopian
+- Fatimid
+- Flemish
+- French
+- German
+- Indian
+- Islamic
+- Italian
+- Jewish
+- Karaite
+- Mamluk
+- Mexican
+- Mughal
+- Ottoman
+- Ottonian
+- Persian
+- Portuguese
+- Qajar
+- Rajput
+- Russian
+- Safavid
+- Sephardi
+- Spanish
+- Swiss
+- Timurid
+- Turkish
+- Yemenite
+
+# Descriptive term
+
+- Accordion book
+- Album
+- Annotated
+- Binding
+- Calligraphy
+- Caroline minuscule
+- Chart
+- Charter
+- Colophon
+- Damage
+- Diagrams
+- Drawing
+- Early Abbasid script
+- Forgery
+- Fragment
+- Gloss
+- Gothic
+- Gothic book hand
+- Grisaille
+- Grotesques
+- Headpiece
+- Heraldry
+- Historiated initial
+- Humanistic
+- Illumination
+- Illustration
+- Inhabited initial
+- Kufic
+- Manicules
+- Medallion
+- Micrography
+- Miniature
+- Missing leaves
+- Musical notation
+- New Abbasid style
+- Notable binding
+- Original binding
+- Ornament
+- Painting
+- Palimpsest
+- Paper
+- Penwork initial
+- Puzzle initial
+- Ragini
+- Romanesque
+- Scrapbook
+- Scroll
+- Scroll-work initial
+- Seals
+- Tables
+- Textura
+- Treasure binding
+- Watermark
+- White-vine lettering
+- Woodcuts
+
+# Geography
+
+- Afghanistan
+- Armenia
+- Austria
+- Belgium
+- Central Arab lands (Near East)
+- Central Asia
+- China
+- Egypt
+- England
+- Ethiopia
+- Flanders
+- France
+- Germany
+- Greece
+- India
+- Iran
+- Iraq
+- Israel
+- Italy
+- Maghreb
+- Mexico
+- Morocco
+- Netherlands
+- Pakistan
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Russia
+- Spain
+- Sub-Saharan (West) Africa
+- Switzerland
+- Turkey
+- Wales
+- Yemen
+
+# Other
+
+- Alchemy
+- Allegory
+- Astrology
+- Astronomy
+- Biblical
+- Binding waste
+- Cartography
+- Church Fathers
+- Cosmology
+- Devotion
+- Financial records
+- Fortune-telling
+- Friendship
+- Games
+- Geography
+- Geomancy
+- Grammar
+- History
+- Kabbalah
+- Legal
+- Literature -- Poetry
+- Literature -- Prose
+- Liturgy
+- Logic
+- Magic
+- Maritime
+- Mathematics
+- Mineralogy
+- Philosophy
+- Piyutim
+- Responsa
+- Science
+- Science -- Medicine
+- Scripture
+- Sufism
+- Theology
