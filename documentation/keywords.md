@@ -205,7 +205,7 @@ Keywords should be copied from these lists.
 - Wales
 - Yemen
 
-# Other
+# Subject
 
 - Alchemy
 - Allegory
