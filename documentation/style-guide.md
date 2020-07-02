@@ -464,7 +464,7 @@ See the Spreadsheet style guide.
 ## Keywords
 
 Keywords are listed
-[here](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/keywords.csv).
+[here](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/keywords.md).
 There are seven groups: Book Type, Century, Culture, Descriptive term,
 Geography, Subject, and Other.
 
