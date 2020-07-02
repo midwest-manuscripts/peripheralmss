@@ -1,0 +1,192 @@
+Keywords should be copied from these lists.
+
+# Book Type
+
+- Accounts
+- Antiphonary
+- Armorial
+- Bible
+- Biography
+- Book of Hours
+- Breviary
+- Canon Law
+- Chronicle
+- Collection of Sermons
+- Commentary
+- Dictionary
+- Document
+- Dogale
+- Epistles
+- Friendship book
+- Genealogy
+- Glossary
+- Gospel Lectionary
+- Gospels
+- Gradual
+- Homilary
+- Horologion
+- Hymnal
+- Lectionary
+- Mass book
+- Miscellany
+- Missal
+- Penitential Manual
+- Pontifical
+- Portolan chart
+- Prayer book
+- Private devotional text
+- Processional
+- Protective scroll
+- Psalter
+- Psalter-Hours
+- Recipe book
+- Saint's Life
+- Scribal manual
+- Song book
+- Treatise
+
+# Century
+
+- 9th century
+- 10th century
+- 11th century
+- 12th century
+- 13th century
+- 14th century
+- 15th century
+- 16th century
+- 17th century <!--retained to record significant later additions and conservation-->
+- 18th century
+- 19th century
+- 20th century
+
+# Culture
+
+- Austrian
+- Carolingian
+- Catalan
+- Christian
+- Dutch
+- English
+- Flemish
+- French
+- German
+- Islamic
+- Italian
+- Jewish
+- Mexican
+- Ottonian
+- Portuguese
+- Spanish
+- Swiss
+
+# Descriptive term
+
+- Accordion book
+- Album
+- Annotated
+- Binding
+- Border
+- Caroline minuscule
+- Chart
+- Charter
+- Colophon
+- Damage
+- Diagrams
+- Drawing
+- Forgery
+- Fragment
+- Gloss
+- Gothic
+- Gothic book hand
+- Grisaille
+- Grotesques
+- Headpiece
+- Heraldry
+- Historiated initial
+- Humanistic
+- Illumination
+- Illustration
+- Inhabited initial
+- Manicules
+- Marginalia
+- Medallion
+- Micrography
+- Miniature
+- Missing leaves
+- Musical notation
+- Notable binding
+- Original binding
+- Ornament
+- Painting
+- Palimpsest
+- Paper
+- Pen-flourished initial
+- Penwork initial
+- Puzzle initial
+- Rinceaux
+- Romanesque
+- Scrapbook
+- Scroll
+- Scroll-work initial
+- Seals
+- Tables
+- Textura
+- Watermark
+- White-vine lettering
+- Woodcuts
+
+# Geography
+
+- Austria
+- Belgium
+- England
+- Flanders
+- France
+- Germany
+- Greece
+- Italy
+- Mexico
+- Netherlands
+- Poland
+- Portugal
+- Romania
+- Spain
+- Switzerland
+- Wales
+
+# Subject
+
+- Alchemy
+- Allegory
+- Astrology
+- Astronomy
+- Biblical
+- Binding waste
+- Cartography
+- Church Fathers
+- Cosmology
+- Devotion
+- Financial records
+- Fortune-telling
+- Friendship
+- Games
+- Geography
+- Geomancy
+- Grammar
+- History
+- Legal
+- Literature -- Poetry
+- Literature -- Prose
+- Liturgy
+- Logic
+- Magic
+- Maritime
+- Mathematics
+- Mineralogy
+- Philosophy
+- Responsa
+- Science
+- Science -- Medicine
+- Scripture
+- Theology
