@@ -9,12 +9,14 @@ Keywords should be copied from these lists.
 - Biography
 - Book of Hours
 - Breviary
+- Canon Law
 - Chronicle
 - Collection of Sermons
 - Commentary
 - Dictionary
 - Document
 - Dogale
+- Epistles
 - Friendship book
 - Genealogy
 - Glossary
@@ -28,6 +30,7 @@ Keywords should be copied from these lists.
 - Mass book
 - Miscellany
 - Missal
+- Penitential Manual
 - Pontifical
 - Portolan chart
 - Prayer book
@@ -83,6 +86,7 @@ Keywords should be copied from these lists.
 - Album
 - Annotated
 - Binding
+- Border
 - Calligraphy
 - Caroline minuscule
 - Chart
@@ -106,6 +110,7 @@ Keywords should be copied from these lists.
 - Illustration
 - Inhabited initial
 - Manicules
+- Marginalia
 - Medallion
 - Micrography
 - Miniature
@@ -117,8 +122,9 @@ Keywords should be copied from these lists.
 - Painting
 - Palimpsest
 - Paper
-- Penwork initial
+- Penwork initial <!-- or "Pen-Flourished Initial", as Sarah suggests? -->
 - Puzzle initial
+- Rinceaux
 - Romanesque
 - Scrapbook
 - Scroll
