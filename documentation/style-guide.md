@@ -27,7 +27,7 @@ the same title: Bible, Gospels, Missal, Lectionary, Book of Hours, etc.
 
 For details on what information should be included in specific fields
 please refer to the [Spreadsheet Metadata
-Guidelines](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/metadata-guide.md)
+Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/metadata-guide.md)
 
 # GENERAL GUIDELINES
 
@@ -184,7 +184,7 @@ great, elegant, clear) should be used sparingly throughout.
 
 Fields are listed in order of appearance in sheet 1 of the template
 spreadsheet. For further details see the [Spreadsheet Metadata
-Guidelines](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/metadata-guide.md)
+Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/metadata-guide.md)
 
 ## Repository Country:
 
@@ -340,7 +340,7 @@ names are provided for reference, do not include them in the field:
   - spa \[Spanish\]
 
 A fuller list of language codes is posted
-[here](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/language-codes.csv).
+[here](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/language-codes.csv).
 
 ## Foliation/Pagination:
 
@@ -464,7 +464,7 @@ See the Spreadsheet style guide.
 ## Keywords
 
 Keywords are listed
-[here](https://github.com/sarahloleet/peripheralmss/blob/master/documentation/keywords.csv).
+[here](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/keywords.csv).
 There are seven groups: Book Type, Century, Culture, Descriptive term,
 Geography, Subject, and Other.
 
