@@ -87,7 +87,6 @@ Keywords should be copied from these lists.
 - Annotated
 - Binding
 - Border
-- Calligraphy
 - Caroline minuscule
 - Chart
 - Charter
