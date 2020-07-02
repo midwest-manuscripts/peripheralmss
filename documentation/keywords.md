@@ -121,7 +121,8 @@ Keywords should be copied from these lists.
 - Painting
 - Palimpsest
 - Paper
-- Penwork initial <!-- or "Pen-Flourished Initial", as Sarah suggests? -->
+- Pen-flourished initial
+- Penwork initial
 - Puzzle initial
 - Rinceaux
 - Romanesque
