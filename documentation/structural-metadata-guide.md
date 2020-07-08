@@ -15,10 +15,11 @@ documentation may be viewed
 
 # Guidelines for Page-Level Metadata
 
-This document provides guidelines for entry of **page**-level metadata fields
-(sheet 2 of the template spreadsheet).
-For guidance on entry of administrative information and **collection**- and **item**-level
-metadata fields (sheet 2 of the template spreadsheet) see `metadata-guide.md`.
+This document provides guidelines for entry of **page**-level metadata
+fields (sheet 2 of the template spreadsheet). For guidance on entry of
+administrative information and **collection**- and **item**-level
+metadata fields (sheet 2 of the template spreadsheet) see
+`metadata-guide.md`.
 
 Fill in fields for each page or element to be digitized.
 
@@ -32,21 +33,19 @@ foliated (each leaf/folio is numbered)
 
 ## A. SERIAL\_NUM
 
-Unique sequence number for the images. Images will be displayed
-in this order. The number itself does not display.
+Unique sequence number for the images. Images will be displayed in this
+order. The number itself does not display.
 
 ## B. DISPLAY PAGE
 
-The label for this image. 
-Anything to be photographed needs to have a value here. 
-Values must must not repeat within a single manuscript. 
+The label for this image. Anything to be photographed needs to have a
+value here. Values must must not repeat within a single manuscript.
 
-The value will usually be a page number (e.g., 1) or
-a folio number (e.g., 2r). For covers and flyleaves, identify the
-location or number as relevant (e.g., Inside Front Cover, Flyleaf 1
-recto). If pages are labeled using something other than Arabic numerals
-(e.g., Roman numerals or letters) use whatever is on the page. 
-Front and back flyleaves should
+The value will usually be a page number (e.g., 1) or a folio number
+(e.g., 2r). For covers and flyleaves, identify the location or number as
+relevant (e.g., Inside Front Cover, Flyleaf 1 recto). If pages are
+labeled using something other than Arabic numerals (e.g., Roman numerals
+or letters) use whatever is on the page. Front and back flyleaves should
 be noted as such.
 
 Further instructions follow in the subsections below.
@@ -94,9 +93,10 @@ Leaves foliated or paginated and attached:
   - Br
   - Bv
 
-If pages are labeled using something other than Arabic numerals
-(e.g., Roman numerals or letters) use whatever is on the page.
-If leaves are foliated in Arabic numerals, use [these template values](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/folio-values.csv).
+If pages are labeled using something other than Arabic numerals (e.g.,
+Roman numerals or letters) use whatever is on the page. If leaves are
+foliated in Arabic numerals, use [these template
+values](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/folio-values.csv).
 
 Leaves attached but not foliated/paginated:
 
@@ -183,7 +183,6 @@ Multiple fragments or cuttings without identifiable recto/verso:
   - Loose leaf 2 Side 1
   - Loose leaf 2 Side 2
 
-
 ## C. FILE\_NAME
 
 If item has been digitized or a prescribed filename is desired, please
@@ -203,8 +202,8 @@ Type for an extra label of this image:
   - BLANK — page or folio side is blank (Value not required; values
     ignored)
 
-Further instructions follow in the subsections below.
-For **Books of Hours** see the special instructions at the end of this file.
+Further instructions follow in the subsections below. For **Books of
+Hours** see the special instructions at the end of this file.
 
 ### TOC:
 
@@ -241,8 +240,6 @@ the manuscript-level **Decoration** field does not belong in the
 page-level **DECO** field, e.g., “Alternating red and blue initials
 throughout.”
 
-
-
 ## E. VALUEX
 
 \[required if corresponding **TAG** is one of TOC1, TOC2, TOC3, INC,
@@ -252,7 +249,6 @@ Value for tag to the left: “Chapter 1”, “1 March 1834”, “Adam and Eve 
 the Garden”, “Table of income”.
 
 Values next to BLANK tags will be ignored.
-
 
 # Special instructions for Books of Hours
 

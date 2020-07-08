@@ -28,7 +28,8 @@ the same title: Bible, Gospels, Missal, Lectionary, Book of Hours, etc.
 For details on what information should be included in specific fields
 please refer to the [Metadata
 Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/metadata-guide.md)
-and [Page-Level Metadata Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/structural-metadata-guide.md).
+and [Page-Level Metadata
+Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/structural-metadata-guide.md).
 
 # GENERAL GUIDELINES
 
