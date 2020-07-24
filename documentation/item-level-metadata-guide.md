@@ -32,7 +32,7 @@ For metadata included in MARC records, there are notes about possible
 relevant MARC fields and subfields.
 
 Begin notes with a capital letter. For general instructions in style and
-usage see the [Project Style
+usage see the [Style
 Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/style-guide.md).
 
 ## line 7\. Administrative Contact
