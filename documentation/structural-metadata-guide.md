@@ -21,22 +21,23 @@ administrative information and **collection**- and **item**-level
 metadata fields (sheet 2 of the template spreadsheet) see
 `metadata-guide.md`.
 
-Fill in fields for each page or element to be digitized.
+The first field to be completed on this sheet is the **Counting method** (**cell B1**).
+In this field indicate whether the manuscript is paginated (each page is numbered) or
+foliated (each leaf/folio is numbered).
+
+Instructions for the remaining fields are organized by column in the sections below.
+Complete one row for each image captured.
+At the end of this document we supply special instructions for Books of Hours.
 
 If you have any questions about how to describe something not covered in
 these guidelines please contact Liz Hebbard (ehebbard@iu.edu).
 
-## Counting Method
-
-Indicates if the manuscript is paginated (each page is numbered) or
-foliated (each leaf/folio is numbered)
-
-## A. SERIAL\_NUM
+## column A: SERIAL\_NUM
 
 Unique sequence number for the images. Images will be displayed in this
 order. The number itself does not display.
 
-## B. DISPLAY PAGE
+## column B: DISPLAY PAGE
 
 The label for this image. Anything to be photographed needs to have a
 value here. Values must must not repeat within a single manuscript.
@@ -183,12 +184,12 @@ Multiple fragments or cuttings without identifiable recto/verso:
   - Loose leaf 2 Side 1
   - Loose leaf 2 Side 2
 
-## C. FILE\_NAME
+## column C: FILE\_NAME
 
 If item has been digitized or a prescribed filename is desired, please
 provide it here. Otherwise, FILE\_NAME may be left blank.
 
-## D. TAGX
+## column D: TAGX
 
 Type for an extra label of this image:
 
@@ -205,11 +206,11 @@ Type for an extra label of this image:
 Further instructions follow in the subsections below. For **Books of
 Hours** see the special instructions at the end of this file.
 
-### TOC:
+### TOC
 
 In Latin transcribed and/or supplied title in square brackets.
 
-### INC and EXP:
+### INC and EXP
 
 Include only for works where they are especially helpful or meaningful.
 Do not provide these for Books of Hours, Bibles, or other standard
@@ -231,7 +232,7 @@ lack INC or EXP:
 
 > TOC1 INC TOC2 INC EXP TOC3 EXP \[etc.\]
 
-### DECO:
+### DECO
 
 Brief description of the decoration or illustration. If there is a type
 of decoration include the type, followed by a comma, followed by a
@@ -240,7 +241,7 @@ the manuscript-level **Decoration** field does not belong in the
 page-level **DECO** field, e.g., “Alternating red and blue initials
 throughout.”
 
-## E. VALUEX
+## column E: VALUEX
 
 \[required if corresponding **TAG** is one of TOC1, TOC2, TOC3, INC,
 EXP, or DECO\]

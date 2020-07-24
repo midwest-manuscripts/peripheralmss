@@ -13,7 +13,7 @@ Philadelphiensis Project. The original Bibliotheca Philadelphiensis
 documentation may be viewed
 [here](https://docs.google.com/document/d/1lID4BmrA87YebTJRmCebgB8mXANeOytEML_MV5n12fo/edit?usp=sharing)*
 
-# CATALOGUING GUIDELINES AND STANDARDS
+# Style Guide
 
 The purpose of the following guidelines is to insure consistency of
 style, terminology, format, and data type in cataloguing data and
@@ -30,8 +30,6 @@ please refer to the [Metadata
 Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/metadata-guide.md)
 and [Page-Level Metadata
 Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/structural-metadata-guide.md).
-
-# GENERAL GUIDELINES
 
 ## Sentences and Fragments
 
@@ -124,7 +122,7 @@ fol. 1r-v
 
 Preferred abbreviation for manuscript/manuscripts: Ms./Mss.
 
-## TERMS AND TERMINOLOGY
+## Terms and Terminology
 
 These are particularly for **Description,** and **Decoration** fields:
 Recommended terms in **bold**

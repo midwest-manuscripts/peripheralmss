@@ -35,35 +35,35 @@ Begin notes with a capital letter. For general instructions in style and
 usage see the [Project Style
 Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/style-guide.md).
 
-## 7\. Administrative Contact
+## line 7\. Administrative Contact
 
 Required
 
 **Description:** Name of the project liaison at a partner institution;
 consistent for all manuscripts from a single institution.
 
-## 8\. Administrative Contact Email
+## line 8\. Administrative Contact Email
 
 Required
 
 **Description:** Email address of the project liaison at a partner
 institution; consistent for all manuscripts from a single institution.
 
-## 11\. Metadata Creator
+## line 11\. Metadata Creator
 
 Required
 
 **Description:** Name of the person entering information into the
 spreadsheet for a particular manuscript.
 
-## 12\. Metadata Creator Email
+## line 12\. Metadata Creator Email
 
 Required
 
 **Description:** Email address of the person entering information into
 the spreadsheet for a particular manuscript.
 
-## 13\. Repository Country
+## line 13\. Repository Country
 
 Optional
 
@@ -72,7 +72,7 @@ Optional
 **Description:** Country of the holding library; United States for all
 partner institutions.
 
-## 14\. Repository City
+## line 14\. Repository City
 
 Required
 
@@ -84,7 +84,7 @@ manuscripts from a single institution.
 **Instructions:**Name of the city *only*, do not include the name of the
 state
 
-## 15\. Holding Institution
+## line 15\. Holding Institution
 
 Optional
 
@@ -98,7 +98,7 @@ organization such as a university.
 Institution** will usually be the name of a university. Full name, do
 not use abbreviations.
 
-## 16\. Repository Name
+## line 16\. Repository Name
 
 Required
 
@@ -108,7 +108,7 @@ Required
 
 **Instructions:** Full name, do not use abbreviations.
 
-## 17\. Source Collection
+## line 17\. Source Collection
 
 Optional
 
@@ -116,7 +116,7 @@ Optional
 
 **Description:** Name of a named collection within the library.
 
-## 18\. Call Number/ID
+## line 18\. Call Number/ID
 
 Required
 
@@ -127,14 +127,14 @@ descriptions; possibly in headings in library description.
 
 **Instructions:** Use what is provided by the institution.
 
-## 19\. Record URL
+## line 19\. Record URL
 
 Optional
 
 **Description:** URL format varies by library; for records in an online
 catalog, possibly available when viewing record online.
 
-## 20\. Alternate ID
+## line 20\. Alternate ID
 
 Optional
 
@@ -143,14 +143,14 @@ Optional
 **Description:** Internal control number such as Penn’s BibID or URN
 such as DOI, PURL, or ARK; to be supplied by holding library.
 
-## 21\. Alternate ID Type
+## line 21\. Alternate ID Type
 
 Required for manuscripts with alternate IDs
 
 **Description:** Possibilities include DOI, PURL, ARK, BibID; to be
 supplied by holding library.
 
-## 22\. Manuscript Name
+## line 22\. Manuscript Name
 
 Required
 
@@ -165,7 +165,7 @@ or library descriptions.
 **Instructions:** Use names provided by institution. When supplying a
 name, do so in English.
 
-## 23\. Author Name
+## line 23\. Author Name
 
 Optional, Repeatable
 
@@ -186,7 +186,7 @@ If there is not an Authority Name, **Name as written or supplied in
 Latin alphabet:** Give the name of the author in Latin letters in
 authority form (Last Name, First Name)
 
-## 24\. Author URI
+## line 24\. Author URI
 
 Optional, Repeatable
 
@@ -197,7 +197,7 @@ narrative library descriptions, probably needs to be supplied. If you
 have verified that the author name does not have an authorized form in
 LC NAF or VIAF, enter N/A.
 
-## 25\. Translator Name
+## line 25\. Translator Name
 
 Optional, Repeatable
 
@@ -211,7 +211,7 @@ descriptions, probably needs to be supplied from LC/OCLC.
 
 **Instructions:** Same rules as **Author** fields above
 
-## 26\. Translator URI
+## line 26\. Translator URI
 
 Optional, Repeatable
 
@@ -222,7 +222,7 @@ narrative library descriptions, probably needs to be supplied. If you
 have verified that the translator name does not have an authorized form
 in LC NAF or VIAF, enter N/A.
 
-## 27\. Artist Name
+## line 27\. Artist Name
 
 Optional, Repeatable
 
@@ -235,7 +235,7 @@ heading or record an unauthorized name in authority form; unlikely to
 appear in this form in dealer or narrative library descriptions,
 probably needs to be supplied from LC/OCLC.
 
-## 28\. Artist URI
+## line 28\. Artist URI
 
 Optional, Repeatable
 
@@ -247,7 +247,7 @@ to appear in dealer or narrative library descriptions, probably needs to
 be supplied. If you have verified that the artist name does not have an
 authorized form in ULAN, LC NAF, or VIAF, enter N/A.
 
-## 29\. Former Owner Name
+## line 29\. Former Owner Name
 
 Optional, Repeatable
 
@@ -260,7 +260,7 @@ unauthorized name in authority form; unlikely to appear in this form in
 dealer or narrative library descriptions, probably needs to be supplied
 from LC/OCLC.
 
-## 30\. Former Owner URI
+## line 30\. Former Owner URI
 
 Optional, Repeatable
 
@@ -271,7 +271,7 @@ or narrative library descriptions, probably needs to be supplied. If you
 have verified that the former owner name does not have an authorized
 form in LC NAF or VIAF, enter N/A.
 
-## 31\. Provenance
+## line 31\. Provenance
 
 Optional
 
@@ -287,7 +287,7 @@ or institutions that may have owned or handled a book up to and
 including the present time, and should be written out chronologically.
 Record **Former Owner Names** separately, in authorized form.
 
-## 33\. Date (single)
+## line 33\. Date (single)
 
 Optional, but one type of numerical date metadata must be supplied;
 Repeatable
@@ -303,7 +303,7 @@ description, otherwise in notes; if the single date is given as a
 narrative phrase (see Date (narrative) below), supply a year here; enter
 as the year only without additional words.
 
-## 34\. Date (range) start
+## line 34\. Date (range) start
 
 Optional, but required if a Date (narrative) entry is present, and one
 type of numerical date metadata must be supplied; Repeatable
@@ -320,7 +320,7 @@ description, otherwise in notes; if the range is given as a narrative
 phrase (see Date (narrative) below), supply a starting year here; enter
 as the year only without additional words.
 
-## 35\. Date (range) end
+## line 35\. Date (range) end
 
 Optional, but required if a Date (narrative) entry is present, and one
 type of numerical date metadata must be supplied; Repeatable
@@ -337,7 +337,7 @@ otherwise in notes; if the range is given as a narrative phrase (see
 **Date (narrative)** below), supply an ending year here; enter as the
 year only without additional words.
 
-## 36\. Date (narrative)
+## line 36\. Date (narrative)
 
 Optional, NOT Repeatable
 
@@ -366,7 +366,7 @@ following examples:
 | Mid-14th to early 15th century  | 1340                          | 1415                        |
 | 14th or 15th century            | 1300                          | 1499                        |
 
-## 37\. Place of Origin
+## line 37\. Place of Origin
 
 Required, Repeatable
 
@@ -421,7 +421,7 @@ If a manuscript’s location of origin cannot be determined within Europe
 (as is the case for some Greek manuscripts, for example), enter
 Undetermined.
 
-## 38\. Origin Details
+## line 38\. Origin Details
 
 Optional
 
@@ -430,7 +430,7 @@ Optional
 **Description:** Additional details about where the manuscript was
 created.
 
-## 40\. Description
+## line 40\. Description
 
 Optional
 
@@ -452,7 +452,7 @@ scribes, and artists where applicable.
 Subjective adjectives and qualitative judgments (famous, well-known,
 great, elegant, clear) should be used sparingly.
 
-## 41\. Language
+## line 41\. Language
 
 Required, Repeatable
 
@@ -491,7 +491,7 @@ in the field:
 A fuller list of language codes is posted
 [here](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/language-codes.csv).
 
-## 42\. Foliation/Pagination
+## line 42\. Foliation/Pagination
 
 Optional
 
@@ -503,7 +503,7 @@ and verso side of each leaf are numbered), and where the numbers appear
 on the leaves, such as *upper right recto* or *lower outer corners*, or
 *Modern foliation in pencil, upper right recto*
 
-## 43\. Flyleaves & Leaves
+## line 43\. Flyleaves & Leaves
 
 Optional
 
@@ -514,7 +514,7 @@ example ii+113+iii
 **Instructions:** No spaces. Make note of the flyleaf material using the
 **Note** field.
 
-## 44\. Layout
+## line 44\. Layout
 
 Optional
 
@@ -530,7 +530,7 @@ goes here.
 lines that run from edge to edge is **frame-ruled**. A written area that
 is delineated by a floating box is **box-ruled**.
 
-## 45\. Colophon
+## line 45\. Colophon
 
 Optional
 
@@ -544,7 +544,7 @@ spreadsheet, when present.
 **Instructions:** Transcription of the colophon, if present. Any other
 information about a colophon should be a **Note**.
 
-## 46\. Collation
+## line 46\. Collation
 
 Optional
 
@@ -574,7 +574,7 @@ If you can determine part of the collation, but not the entire thing,
 you can also describe the collation as best you can and this will be
 passed to the TEI
 
-## 47\. Script
+## line 47\. Script
 
 Optional, Repeatable
 
@@ -619,7 +619,7 @@ manuscript, preferring the terms listed below if applicable.
 If the scribe is identifiable, include the scribe’s name, preceded by
 “Scribe:” For example, “Scribe: Thomas Hoccleve”.
 
-## 48\. Decoration
+## line 48\. Decoration
 
 Optional
 
@@ -631,7 +631,7 @@ colored headings and paragraph marks) and informal visual elements added
 later to the manuscript (including drawings, sketches, and manicules).
 Not a page-level list of visual elements.
 
-## UNASSIGNED: Musical notation
+## line UNASSIGNED: Musical notation
 
 Optional
 
@@ -642,7 +642,7 @@ Optional
 
 **Instructions:** If notation is present, describe it here.
 
-## 49\. Binding
+## line 49\. Binding
 
 Optional
 
@@ -652,7 +652,7 @@ Optional
 fabric), its ornamentation (such as gilt or blind, tooled or stamped),
 fastenings (such as clasps or ties), and damage or repairs to the cover.
 
-## 50\. Watermarks
+## line 50\. Watermarks
 
 Optional, Repeatable
 
@@ -662,7 +662,7 @@ Optional, Repeatable
 watermarks in the manuscript, possibly with citations to reference
 sources such as Briquet and Piccard.
 
-## 51\. Catchwords
+## line 51\. Catchwords
 
 Optional
 
@@ -677,7 +677,7 @@ margin, etc.), e.g.: On versos, bottom right corner. If they are not
 consistent (for instance, where the pages are cropped and some are
 missing), indicate that as well.
 
-## 52\. Signatures
+## line 52\. Signatures
 
 Optional
 
@@ -691,7 +691,7 @@ first recto or last verso of a gathering.
 progressively, rather than using catchwords, you can explain that here.
 Same rules apply as for catchwords.
 
-## 53\. Notes
+## line 53\. Notes
 
 Optional, Repeatable
 
@@ -705,7 +705,7 @@ not fit into other fields can be added as a note. Acknowledgements of
 e.g., cataloging work should not be included in Notes. Each note should
 be placed in a different cell.
 
-## 55\. Support material
+## line 55\. Support material
 
 Required
 
@@ -715,7 +715,7 @@ Required
 *parchment*, *paper*, or *mixed* if both parchment and paper. Any other
 material, identify by name.
 
-## 56\. Page dimensions
+## line 56\. Page dimensions
 
 Optional, Repeatable
 
@@ -728,7 +728,7 @@ been bound together in a volume, repeat for the different page sizes. If
 dimensions are provided in a manuscript description with no comment,
 assume they are page dimensions.
 
-## 57\. Bound dimensions
+## line 57\. Bound dimensions
 
 Optional
 
@@ -737,7 +737,7 @@ Optional
 **Description:** Maximum height and width of bound volume in
 millimeters, in the following form: 290 x 220 mm (no period after mm).
 
-## 59\. Related resource
+## line 59\. Related resource
 
 Optional, Repeatable
 
@@ -802,7 +802,7 @@ given first, then the full range of the article or chapter is given
 within brackets. Hyphens (not en dashes) should be used to indicate page
 ranges.\]
 
-## 60\. Related resource URL
+## line 60\. Related resource URL
 
 Optional, Repeatable
 
@@ -810,7 +810,7 @@ Optional, Repeatable
 
 **Description:** URL for the related resource given in the previous row.
 
-## 62\. Subject: names
+## line 62\. Subject: names
 
 Optional, Repeatable
 
@@ -821,7 +821,7 @@ subject, use the LCNAF or VIAF authority heading or record an
 unauthorized name in authority form; unlikely to appear in this form in
 dealer or narrative library descriptions, may be supplied from LC/OCLC.
 
-## 63\. Subject: names URI
+## line 63\. Subject: names URI
 
 Optional, Repeatable
 
@@ -830,7 +830,7 @@ Optional, Repeatable
 the permalink from <http://viaf.org/>; unlikely to appear in dealer or
 narrative library descriptions, may be supplied.
 
-## 65\. Subject: topical
+## line 65\. Subject: topical
 
 Optional, Repeatable
 
@@ -840,7 +840,7 @@ Optional, Repeatable
 this form in dealer or narrative library descriptions, may be supplied
 from LC/OCLC.
 
-## 66\. Subject: topical URI
+## line 66\. Subject: topical URI
 
 Optional, Repeatable
 
@@ -848,7 +848,7 @@ Optional, Repeatable
 <http://id.loc.gov/authorities/subjects.html>; unlikely to appear in
 this form in dealer or narrative library descriptions, may be supplied.
 
-## 68\. Subject: geographic
+## line 68\. Subject: geographic
 
 Optional, Repeatable
 
@@ -858,7 +858,7 @@ Optional, Repeatable
 in this form in dealer or narrative library descriptions, may be
 supplied from LC/OCLC.
 
-## 69\. Subject: geographic URI
+## line 69\. Subject: geographic URI
 
 Optional, Repeatable
 
@@ -866,7 +866,7 @@ Optional, Repeatable
 <http://id.loc.gov/authorities/subjects.html>; unlikely to appear in
 this form in dealer or narrative library descriptions, may be supplied.
 
-## 71\. Subject: genre/form
+## line 71\. Subject: genre/form
 
 Optional, Repeatable
 
@@ -878,7 +878,7 @@ Architecture Thesaurus
 appear in this form in dealer or narrative library descriptions, may be
 supplied.
 
-## 72\. Subject: genre/form URI
+## line 72\. Subject: genre/form URI
 
 Optional, Repeatable
 
@@ -890,7 +890,7 @@ AAT, give the URI in the form <http://vocab.getty.edu/aat/> {AAT ID\#}
 appear in this form in dealer or narrative library descriptions, may be
 supplied.
 
-## 74\. Keywords
+## line 74\. Keywords
 
 Required, Repeatable
 
