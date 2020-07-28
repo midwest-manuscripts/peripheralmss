@@ -11,8 +11,8 @@ There are three principal files (in development):
 - [Item-Level Metadata Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/item-level-metadata-guide.md). Line-item instructions for entry of administrative information and collection- and item-level metadata.
 - [Page-Level Metadata Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/page-level-metadata-guide.md). Line-item instructions for entry of metadata keyed to individual image files
 
-This repository also contains our [CLIR grant application](https://github.com/midwest-manuscripts/peripheralmss/blob/master/archive/CLIRHC_PeripheralMss_Round2Application-without-uploads.pdf) 
-and
-[Community Agreement and Code of Conduct](https://github.com/midwest-manuscripts/peripheralmss/blob/master/code-of-conduct.md).
+The directory [`archive`](https://github.com/midwest-manuscripts/peripheralmss/tree/master/archive) contains our CLIR grant application (the main application document and relevant appendices).
+
+This repository also contains our [Community Agreement and Code of Conduct](https://github.com/midwest-manuscripts/peripheralmss/blob/master/code-of-conduct.md).
 
 New to GitHub? Check out [GitHub Guides](https://guides.github.com/).
