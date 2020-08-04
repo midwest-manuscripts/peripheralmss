@@ -555,24 +555,20 @@ of numbers of gatherings and numbers of leaves per gathering, often
 presented as a formula.
 
 **Instructions:** We will express collation by formula.
+Gatherings are enumerated with Arabic numerals.
+After the numeral representing each gathering, type two carets `^^` then the number of conjoint leaves originally constituting that quire. 
+Any unpaired leaves or postproduction losses are recorded in parentheses afterwards, following the conventions laid down in N.R. Ker, *Catalogue of manuscripts containing Anglo-Saxon*, p. xxii.
+David Gura's collation of St. Mary's College MS 2 is represented by the following formula in our notation:
 
-<!-- 
-Bibliophilly Documentation adds:
-<https://biblio-philly-collations.herokuapp.com/>
-
-Proofreaders: If there is anything other than “Structure Uncertain” or a
-collation formula/description in this field, please contact Dot.
-
-  - **Draw a diagram and give it to Dot**: diagram submitted
-  - **Make a model in the Collation Modeler**: model created
-  - **Collation formula generation from model**: \[paste formula here\]
--->
+```
+1^^6 (+1 leaf after 5) 2^^10 (wants 9, 10) 3^^6 (+1 leaf after 4) 4^^12 (+1 after 7; wants 9, 10, 11, 12)
+```
 
 If the collation cannot be determined, enter ‘Structure Uncertain.’
 
 If you can determine part of the collation, but not the entire thing,
 you can also describe the collation as best you can and this will be
-passed to the TEI
+passed to the TEI.
 
 ## line 47\. Script
 
@@ -631,7 +627,7 @@ colored headings and paragraph marks) and informal visual elements added
 later to the manuscript (including drawings, sketches, and manicules).
 Not a page-level list of visual elements.
 
-## line UNASSIGNED: Musical notation
+## line ???: Musical notation
 
 Optional
 
@@ -724,9 +720,30 @@ Optional, Repeatable
 **Description:** Maximum height and width of manuscript pages in
 millimeters, in the following form: 280 x 210 mm (no period after mm).
 If originally separate manuscripts of markedly different dimensions have
-been bound together in a volume, repeat for the different page sizes. If
-dimensions are provided in a manuscript description with no comment,
-assume they are page dimensions.
+been bound together in a volume, repeat for the different page sizes. 
+
+## line ???. Written area
+
+Optional, Repeatable
+
+**MARC Location:** ???
+
+**Description:** Height and width of the written space in millimeters.
+If pages are ruled and writing is confined to the ruled space, measure that.
+Otherwise measure height from the top of minims on the first line to the bottom of minims on the last line.
+Repeat as necessary if a codex consists of booklets of markedly different layouts.
+Width may be omitted for unruled verse or where the right edge of writing is ragged.
+
+## line ???. Line height
+
+Optional
+
+**MARC Location:** ???
+
+**Description:** The height in millimeters of a line of writing. 
+Measure the height of ten lines, baseline to baseline, and divide by ten.
+Supply this data point for fragments. 
+For codices report **written area** instead.
 
 ## line 57\. Bound dimensions
 
@@ -734,8 +751,8 @@ Optional
 
 **MARC Location:** Possibly 300 subfield c
 
-**Description:** Maximum height and width of bound volume in
-millimeters, in the following form: 290 x 220 mm (no period after mm).
+**Description:** Maximum height, width, and depth of bound volume in
+millimeters, in the following form: 290 x 220 x 30 mm (no period after mm).
 
 ## line 59\. Related resource
 
