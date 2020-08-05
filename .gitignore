@@ -1,0 +1,10 @@
+# ignore temporary files created by Excel, Libreoffice
+~$*
+.~*#
+
+# ignore image files
+*.jpeg
+*.jpg
+*.png
+*.tif
+*.tiff
