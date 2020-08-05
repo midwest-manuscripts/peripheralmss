@@ -16,17 +16,18 @@ documentation may be viewed
 # Guidelines for Collection- and Item-level Metadata
 
 This document provides guidelines for entry of administrative
-information and **collection**- and **item**-level metadata. Field are
-listed in the order of their appearance on sheet 1 of the template
-spreadsheet and identified by line number on that spreadsheet. For
-**page**-level metadata fields (sheet 2 of the template spreadsheet) see
+information and collection- and **item**-level metadata. 
+Field are listed in the order of their appearance in the [template spreadsheet for collection of item-level metadata](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/item-level-template.csv)
+and identified by line number on that spreadsheet. 
+
+For **page**-level metadata fields (sheet 2 of the BiblioPhilly template spreadsheet) see
 the [Page-Level Metadata
 Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/page-level-metadata-guide.md).
 
 Metadata fields are either optional or required and either repeatable or
 not. **In cases where you have multiple items but a field is not
 repeatable**, put all items in the single field and separate the items
-with a semi-colon.
+with a semicolon.
 
 For metadata included in MARC records, there are notes about possible
 relevant MARC fields and subfields.
