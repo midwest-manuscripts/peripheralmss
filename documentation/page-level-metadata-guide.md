@@ -17,11 +17,12 @@ documentation may be viewed
 
 This document provides guidelines for entry of **page**-level metadata
 fields (sheet 2 of the template spreadsheet). For guidance on entry of
-administrative information and **collection**- and **item**-level
-metadata fields (sheet 1 of the template spreadsheet) see the [Item-Level Metadata
+administrative information and collection- and **item**-level
+metadata fields (sheet 1 of the BiblioPhilly template spreadsheet) see the [Item-Level Metadata
 Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/item-level-metadata-guide.md).
 
-The first field to be completed on this sheet is the **Counting method** (**cell B1**).
+The first field to be completed on this sheet is the **Counting method**,
+cell `B1` in the [template spreadsheet for collection of page-level metadata](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/page-level-template.csv).
 In this field indicate whether the manuscript is paginated (each page is numbered) or
 foliated (each leaf/folio is numbered).
 
