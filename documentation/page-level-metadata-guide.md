@@ -15,23 +15,19 @@ documentation may be viewed
 
 # Guidelines for Page-Level Metadata
 
-This document provides guidelines for entry of **page**-level metadata
-fields (sheet 2 of the template spreadsheet). For guidance on entry of
-administrative information and collection- and **item**-level
-metadata fields (sheet 1 of the BiblioPhilly template spreadsheet) see the [Item-Level Metadata
-Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/item-level-metadata-guide.md).
+This document provides guidelines for entry of **page-level** metadata.
+Fields are listed and explained in the order of their appearance in the [template spreadsheet for collection of page-level metadata](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/page-level-template.csv).
 
-The first field to be completed on this sheet is the **Counting method**,
-cell `B1` in the [template spreadsheet for collection of page-level metadata](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/page-level-template.csv).
-In this field indicate whether the manuscript is paginated (each page is numbered) or
-foliated (each leaf/folio is numbered).
-
-Instructions for the remaining fields are organized by column in the sections below.
 Complete one row for each image captured.
 At the end of this document we supply special instructions for Books of Hours.
 
 If you have any questions about how to describe something not covered in
 these guidelines please contact Liz Hebbard (ehebbard@iu.edu).
+
+For guidance on entry of
+administrative information and collection- and **item-level**
+metadata fields (sheet 1 of the BiblioPhilly template spreadsheet) see the [Item-Level Metadata
+Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/item-level-metadata-guide.md).
 
 ## column A: SERIAL\_NUM
 
@@ -44,13 +40,16 @@ The label for this image. Anything to be photographed needs to have a
 value here. Values must must not repeat within a single manuscript.
 
 The value will usually be a page number (e.g., 1) or a folio number
-(e.g., 2r). For covers and flyleaves, identify the location or number as
+(e.g., 2r). See [line 46, "Foliation/Pagination"](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/item-level-metadata-guide.md#line-46-foliationpagination) in the Item-level
+Metadata Guide.
+
+For covers and flyleaves, identify the location or number as
 relevant (e.g., Inside Front Cover, Flyleaf 1 recto). If pages are
 labeled using something other than Arabic numerals (e.g., Roman numerals
 or letters) use whatever is on the page. Front and back flyleaves should
 be noted as such.
 
-Further instructions follow in the subsections below.
+The subsections below supply additional instructions for data entry in this column.
 
 ### External Structure
 
