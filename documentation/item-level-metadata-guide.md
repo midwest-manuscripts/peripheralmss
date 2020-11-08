@@ -20,17 +20,24 @@ information and collection- and **item**-level metadata.
 Field are listed in the order of their appearance in the [template spreadsheet for collection of item-level metadata](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/item-level-template.csv)
 and identified by line number on that spreadsheet. 
 
+The spreadsheet has the following structure:
+
+- **column B**: field name
+- **column C**: is the field required? `Y` indicates the field is required, `N` that it is optional.
+  `C` indicates that the field is "conditionally required": see line 19.
+- **column D**: is the field repeatable?
+  `Y` indicates that the field is repeatable: enter values in as many columns as needed.
+  `N` indicates that the field is not repeatable: data will be read from column E only.
+  In cases where you have multiple values for a non-repeatable field, separate the values with a semicolon.
+- **column E**: for data entry
+- **columns F-X**: for data entry in **repeatable** fields only (see column D)
+
+**Column A** of the table provides cross-reference to TEI elements, where relevant.
+Cross-references to MARC fields and subfields are provided in this style guide, below.
+
 For **page**-level metadata fields (sheet 2 of the BiblioPhilly template spreadsheet) see
 the [Page-Level Metadata
 Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/page-level-metadata-guide.md).
-
-Metadata fields are either optional or required and either repeatable or
-not. **In cases where you have multiple items but a field is not
-repeatable**, put all items in the single field and separate the items
-with a semicolon.
-
-For metadata included in MARC records, there are notes about possible
-relevant MARC fields and subfields.
 
 Begin notes with a capital letter. For general instructions in style and
 usage see the [Style
