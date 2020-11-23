@@ -1,8 +1,4 @@
 TEI,field-name,Req't?,Rep?,Entry 1,Entry 2,Entry 3,Entry 4,Entry 5,Entry 6,Entry 7,Entry 8,Entry 9,Entry 10,Entry 11,Entry 12,Entry 13,Entry 14,Entry 15,Entry 16,Entry 17,Entry 18,Entry 19,Entry 20
-,ADMINISTRATIVE INFORMATION,,,,,,,,,,,,,,,,,,,,,,
-[not mapped],Administrative Contact,Y,N,,,,,,,,,,,,,,,,,,,,
-[not mapped],Administrative Contact Email,Y,N,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
 ,METADATA FOR PUBLICATION,,,,,,,,,,,,,,,,,,,,,,
 titleStmt/respStmt/persName,Metadata Creator,Y,N,,,,,,,,,,,,,,,,,,,,
 [not mapped],Metadata Creator Email,Y,N,,,,,,,,,,,,,,,,,,,,
