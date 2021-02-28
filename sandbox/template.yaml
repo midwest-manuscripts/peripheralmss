@@ -1,0 +1,160 @@
+# keys and descriptions mostly follow https://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html
+# exceptions are recorded as "not-TEI"
+# line refs to item-level-template.csv are supplied as, e.g. "item.7"
+
+msDesc: 
+  msIdentifier: # the information required to identify the manuscript or similar object being described.
+    country: USA # (item.7)
+    region: # state
+    settlement: # city (item.8)
+    institution: # the name of the holding organization, usually a university or library (item.9)
+    repository: # a division of the institution (item.10)
+    idno: # shelfmark or call number (item.12)
+    altIdentifier: # alternative or former structured identifier (item.14)
+      type:
+      idno:
+    msName: # unstructured alternative name or nickname (item.16)
+  msFrag: # for a single production unit now divided among two or more repositories; unclear how this fit within our taxonomy
+  head: # date and place of writing; summary version of elements history:origin:origDate and history:origin:origPlace
+  keywords: # (not-TEI; item.74)
+
+# PHYSICAL DESCRIPTION
+  physDesc: 
+    objectDesc: # codex, in situ binding fragment, extracted binding fragment, diploma, scroll
+    extent: # count of leaves (item.43)
+    foliation: # numbering system or systems used to count the leaves or pages (item.42)
+    bindingDesc: # description of binding (item.50)
+      note: # free text
+      condition:
+    dimensions:
+      - type: bound # (not-TEI; item.58)
+        unit: mm
+        height:
+        width:
+        depth:
+      - type: page # external (not-TEI; item.55)
+        unit: mm
+        height:
+        width:
+        depth:
+    sealDesc: # description of seals
+
+    msPart: # distinct production units
+      - _n: # repeat as necessary
+        partDesc: # flyleaves, book block, booklet (not-TEI)
+        locus: # folio (or page) range
+
+        supportDesc: 
+          support:
+            material: # paper or parchment (item.54)
+            watermarks: # if paper (item.51) 
+          partExtent: # number of leaves in this part (not-TEI)
+          collation: # quire structure (item.46)
+          catchwords: # (item.52)
+          signatures: # (item.53)
+          dimensions:
+            - type: page # external (item.55)
+              unit: mm
+              height:
+              width:
+          condition: # summarize the overall physical state of a manuscript
+        
+        layoutDesc: # mise-en-page. number of written, ruled, or pricked lines and columns per page, size of margins, distinct textual streams such as glosses, commentaries, etc.
+          note: # free text (item.44)
+          dimensions:
+            - type: written area # as ruled or baseline to x-line (item.56)
+              unit: mm
+              height:
+              width:
+            - type: intercolumnar space # for layouts with two+ columns (not-TEI)
+              unit: mm
+              width:
+            - type: line height # for fragments; measure 10 lines, baseline to baseline, and divide by 10 (not-TEI; item.57)
+              unit: mm # to tenth
+              height:
+
+        # Script, decoration, musical notation
+        scriptDesc: # description of scripts (item.47)
+        handDesc: # description of hands
+        decoDesc: # description of decoration (item.48)
+        musicNotation: # description of musical notation (item.49)
+        addition: # marginalia, scribblings, doodles, etc.
+        agent: # agent(s) responsible for physical production (not-TEI)
+          - # repeat as needed
+            persName: # standard modern name (item.23)
+            respStmt: # statement of responsibility, e.g., scribe, annotator, or artist
+            agentURI: # external authority (not-TEI; item.24)
+              domain: # usual VIAF
+              domainID: # id number within domain
+
+# CONTENTS
+# Most fields are recorded by BiblioPhilly as "Page-level metadata". 
+# Exceptions, where the field is recorded as "Item-level metadata", are recorded below in the usual notation.
+  msContents: # intellectual content
+    summary: # overview of contents (item.38)
+    msItem: 
+      - _n: # repeat as needed
+        locus: # folio (or page) range
+        work: # (not-TEI)
+          title: # standard modern title of the work; or general description, e.g. 'missal'
+          bibl: # standard edition of the work; or enumerative bibliography citing this copy. Scholarly works about the manuscript in general are recorded in the element <listBibl>
+            - # repeat as needed
+              zotero: # zotero citation key (not-TEI)
+              biblScope: # page reference or item number in the bibliographic work
+        agent: # agents responsible for the work; corresponding TEI-element is <author>
+          - # repeat as needed
+            persName: # standard modern name (item.19; item.21)
+            respStmt: # statement of responsibility, e.g., author, translator or erroneous attribution
+            agentURI: # external authority (not-TEI; item.20; item.22)
+              domain: # usual VIAF
+              domainID: # id number within domain
+        textLang: # language of text (item.39)
+        rubric: # title given in ms
+          locus: # folio (page)
+          transc: # transcription (not-TEI)
+        incipit: # opening words of text
+          locus: 
+          transc: 
+        explicit: # closing words of text
+          locus: 
+          transc: 
+        colophon: # TEI also has element <finalRubric> (item.45)
+          locus: 
+          transc: 
+        decoNote: # decorative treatment of this item, if differentiated from others in the ms
+          
+# HISTORY
+  history: 
+    origin: 
+      origDate: # (item.30-33)
+      origPlace: # (item.34)
+    provenance: 
+      note: # free text (item.29)
+      agent: # former owner (not-TEI)
+        - # repeat as needed
+          persName: # standard modern name (item.25)
+          respStmt: # statement of responsibility, e.g., owner
+          agentURI: # external authority (not-TEI; item.26)
+            domain: # usual VIAF
+            domainID: # id number within domain
+
+    acquisition: # any information concerning the process by which a manuscript or manuscript part entered the holding institution
+
+# ADMINISTRATIVE AND BIBLIOGRAPHIC
+  additional: 
+    adminInfo: # curation and management of a manuscript
+      recordHist: # source and revision status of the parent manuscript or object description itself
+        source: # reference to previous descriptions employed in this one
+          - # repeat as needed
+            zotero: # reference to previous descriptions employed in this one
+            biblScope: # page reference or item number in the bibliographic work
+        change: # version information for this description
+      availability: # restrictions on use or distribution
+      custHist: 
+        custEvent: # report of conservation actions
+
+    surrogates: # unpublished photographs or facsimiles
+    listBib: # bibliographic records relating to this manuscript (item.62)
+      - # repeat as needed
+        zotero: # zotero citation key (not-TEI)
+        biblScope: # page reference or item number in the bibliographic work

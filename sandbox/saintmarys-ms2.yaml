@@ -1,0 +1,465 @@
+# keys and descriptions mostly follow https://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html
+# exceptions are recorded as "not-TEI"
+# line refs to item-level-template.csv are supplied as, e.g. "item.7"
+
+msDesc: 
+  msIdentifier: # the information required to identify the manuscript or similar object being described.
+    country: USA # (item.7)
+    region: IN # state
+    settlement: Notre Dame # city (item.8)
+    institution: Saint Mary's College # the name of the holding organization, usually a university or library (item.9)
+    repository: Cushwa Leighton Library # a division of the institution (item.10)
+    idno: MS 2 # shelfmark or call number (item.12)
+    altIdentifier: # alternative or former structured identifier (item.14)
+      type: former shelfmark
+      idno: B 765.T5 1500
+    msName: # unstructured alternative name or nickname (item.16)
+  msFrag: # for a single production unit now divided among two or more repositories; unclear how this fit within our taxonomy
+  head: France and England, xiii<sup>ex</sup>-xiv<sup>in</sup>; section dated 10 December 1299 # date and place of writing; summary version of elements history:origin:origDate and history:origin:origPlace
+  keywords: # (not-TEI; item.74)
+    - dated manuscript
+    - treatise
+    - theology
+    - logic
+    - Bible
+
+# PHYSICAL DESCRIPTION
+  physDesc: 
+    objectDesc: codex # codex, in situ binding fragment, extracted binding fragment, diploma, scroll
+    extent: i + 31 + i # count of leaves (item.43)
+    foliation: foliated in modern pencil with Arabic numerals # numbering system or systems used to count the leaves or pages (item.42)
+    bindingDesc: # description of binding (item.50)
+      note: s.xvii-xx (repaired); stiff velum binding; cover made from reused text-bearing parchment [= text item 5] # free text
+      condition:
+    dimensions:
+      - type: bound # (not-TEI; item.58)
+        unit: mm
+        height:
+        width:
+        depth:
+      - type: page # external (not-TEI; item.55)
+        unit: mm
+        height: 204
+        width: 144
+        depth:
+    sealDesc: # description of seals
+
+    msPart: # distinct production units
+      - _n: 1 # repeat as necessary
+        partDesc: flyleaf # flyleaves, book block, booklet (not-TEI)
+        locus: unnumbered front # folio (or page) range
+
+        supportDesc: 
+          support:
+            material: early modern paper # paper or parchment (item.54)
+            watermarks: # if paper (item.51) 
+          partExtent: 1 # number of leaves in this part (not-TEI)
+          condition: blank # summarize the overall physical state of a manuscript
+        
+      - _n: 2 # repeat as necessary
+        partDesc: booklet # flyleaves, book block, booklet (not-TEI)
+        locus: fols 1-7 # folio (or page) range
+
+        supportDesc: 
+          support:
+            material: parchment # paper or parchment (item.54)
+            watermarks: # if paper (item.51) 
+          partExtent: 7 # number of leaves in this part (not-TEI)
+          collation: 1^^6 (+1 leaf after 5) # quire structure (item.46)
+          catchwords: none # (item.52)
+          signatures: none # (item.53)
+          dimensions:
+            - type: # page dimensions inherited from superordinate element
+              unit: mm
+              height:
+              width:
+          condition: trimmed # summarize the overall physical state of a manuscript
+        
+        layoutDesc: # mise-en-page. number of written, ruled, or pricked lines and columns per page, size of margins, distinct textual streams such as glosses, commentaries, etc.
+          note: bounded for two columns in brown ink; 32 lines; writing below the top line; pricking visible for vertical bounding lines; glosses # free text (item.44)
+          dimensions:
+            - type: written area # as ruled or baseline to x-line (item.56)
+              unit: mm
+              height: 154
+              width: 105
+            - type: intercolumnar space # for layouts with two+ columns (not-TEI)
+              unit: mm
+              width: 5.5
+            - type: line height # for fragments; measure 10 lines, baseline to baseline, and divide by 10 (not-TEI; item.57)
+              unit: mm # to tenth
+              height:
+
+        # Script, decoration, musical notation
+        scriptDesc: Northern Textualis Libraria # description of scripts (item.47)
+        handDesc: one hand, distinct those of other parts # description of hands
+        decoDesc: # description of decoration (item.48)
+        musicNotation: # description of musical notation (item.49)
+        addition: # marginalia, scribblings, doodles, etc.
+        agent: # agent(s) responsible for physical production (not-TEI)
+          - # repeat as needed
+            persName: # standard modern name (item.23)
+            respStmt: # statement of responsibility, e.g., scribe, annotator, or artist
+            agentURI: # external authority (not-TEI; item.24)
+              domain: # usual VIAF
+              domainID: # id number within domain
+
+      - _n: 3 # repeat as necessary
+        partDesc: booklet # flyleaves, book block, booklet (not-TEI)
+        locus: fols 8-15 # folio (or page) range
+
+        supportDesc: 
+          support:
+            material: parchment # paper or parchment (item.54)
+            watermarks: # if paper (item.51) 
+          partExtent: 8 # number of leaves in this part (not-TEI)
+          collation: 1^^10 (wants 9, 10) # quire structure (item.46)
+          catchwords: none # (item.52)
+          signatures: none # (item.53)
+          dimensions:
+            - type: page # external (item.55)
+              unit: mm
+              height:
+              width:
+          condition: trimmed # summarize the overall physical state of a manuscript
+        
+        layoutDesc: # mise-en-page. number of written, ruled, or pricked lines and columns per page, size of margins, distinct textual streams such as glosses, commentaries, etc.
+          note: bounded for one column in brown ink; 43 lines; writing below the top line; pricking visible for vertical bounding lines # free text (item.44)
+          dimensions:
+            - type: written area # as ruled or baseline to x-line (item.56)
+              unit: mm
+              height: 162
+              width: 113
+            - type: intercolumnar space # for layouts with two+ columns (not-TEI)
+              unit: mm
+              width:
+            - type: line height # for fragments; measure 10 lines, baseline to baseline, and divide by 10 (not-TEI; item.57)
+              unit: mm # to tenth
+              height:
+
+        # Script, decoration, musical notation
+        scriptDesc: Northern Textualis Libraria # description of scripts (item.47)
+        handDesc: 2 hands (fols 8r-14v; fols 14v-15v), distinct from those in other parts. # description of hands
+        decoDesc: Rubrics, paraph marks, and letter heightening in red ink (fols 8r-14v); plain initials (2-3 line square inset; hanging i) in red ink (fols 8r-14r) # description of decoration (item.48)
+        musicNotation: # description of musical notation (item.49)
+        addition: # marginalia, scribblings, doodles, etc.
+        agent: # agent(s) responsible for physical production (not-TEI)
+          - # repeat as needed
+            persName: # standard modern name (item.23)
+            respStmt: # statement of responsibility, e.g., scribe, annotator, or artist
+            agentURI: # external authority (not-TEI; item.24)
+              domain: # usual VIAF
+              domainID: # id number within domain
+
+      - _n: 4 # repeat as necessary
+        partDesc: booklet # flyleaves, book block, booklet (not-TEI)
+        locus: fols 16-31 # folio (or page) range
+
+        supportDesc: 
+          support:
+            material: parchment # paper or parchment (item.54)
+            watermarks: # if paper (item.51) 
+          partExtent: 16 # number of leaves in this part (not-TEI)
+          collation: 1^^6 (+1 leaf after 4) 2^^12 (+1 after 7; wants 9, 10, 11, 12) # quire structure (item.46)
+          catchwords: none # (item.52)
+          signatures: none # (item.53)
+          dimensions:
+            - type: page # external (item.55)
+              unit: mm
+              height:
+              width:
+          condition: trimmed # summarize the overall physical state of a manuscript
+        
+        layoutDesc: # mise-en-page. number of written, ruled, or pricked lines and columns per page, size of margins, distinct textual streams such as glosses, commentaries, etc.
+          note: bounded for one column in brown ink; 30 lines; writing below the top line; pricking visible for vertical bounding lines # free text (item.44)
+          dimensions:
+            - type: written area # as ruled or baseline to x-line (item.56)
+              unit: mm
+              height: 145
+              width: 111
+            - type: intercolumnar space # for layouts with two+ columns (not-TEI)
+              unit: mm
+              width:
+            - type: line height # for fragments; measure 10 lines, baseline to baseline, and divide by 10 (not-TEI; item.57)
+              unit: mm # to tenth
+              height:
+
+        # Script, decoration, musical notation
+        scriptDesc: Northern Textualis Libraria # description of scripts (item.47)
+        handDesc: one hand, distinct from those in other parts # description of hands
+        decoDesc: 3 line square inset initial is traced in black ink on fol. 16r, but not painted # description of decoration (item.48)
+        musicNotation: # description of musical notation (item.49)
+        addition: Three syllogisms drawn in black and brownish ink in the margins of fols 23r, 24r, 28r # marginalia, scribblings, doodles, etc.
+        agent: # agent(s) responsible for physical production (not-TEI)
+          - # repeat as needed
+            persName: # standard modern name (item.23)
+            respStmt: # statement of responsibility, e.g., scribe, annotator, or artist
+            agentURI: # external authority (not-TEI; item.24)
+              domain: # usual VIAF
+              domainID: # id number within domain
+
+      - _n: 5 # repeat as necessary
+        partDesc: flyleaf # flyleaves, book block, booklet (not-TEI)
+        locus: unnumbered rear # folio (or page) range
+
+        supportDesc: 
+          support:
+            material: early modern paper # paper or parchment (item.54)
+            watermarks: # if paper (item.51) 
+          partExtent: 1 # number of leaves in this part (not-TEI)
+          dimensions:
+            - type: page # external (item.55)
+              unit: mm
+              height:
+              width:
+          condition: blank # summarize the overall physical state of a manuscript
+
+      - _n: 6 # repeat as necessary
+        partDesc: binding fragment # flyleaves, book block, booklet (not-TEI)
+        locus: front and rear covers # folio (or page) range
+
+        supportDesc: 
+          support:
+            material: parchment # paper or parchment (item.54)
+            watermarks: # if paper (item.51) 
+          partExtent: 2 (?) # number of leaves in this part (not-TEI)
+          collation: # quire structure (item.46)
+          catchwords: # (item.52)
+          signatures: # (item.53)
+          dimensions:
+            - type: page # external (item.55)
+              unit: mm
+              height:
+              width:
+          condition: # summarize the overall physical state of a manuscript
+        
+        layoutDesc: # mise-en-page. number of written, ruled, or pricked lines and columns per page, size of margins, distinct textual streams such as glosses, commentaries, etc.
+          note: # free text (item.44)
+          dimensions:
+            - type: written area # as ruled or baseline to x-line (item.56)
+              unit: mm
+              height:
+              width:
+            - type: intercolumnar space # for layouts with two+ columns (not-TEI)
+              unit: mm
+              width:
+            - type: line height # for fragments; measure 10 lines, baseline to baseline, and divide by 10 (not-TEI; item.57)
+              unit: mm # to tenth
+              height:
+
+        # Script, decoration, musical notation
+        scriptDesc: Northern Textualis Formata (French) # description of scripts (item.47)
+        handDesc: # description of hands
+        decoDesc: Letter heightening in red ink, and a paraph mark in blue ink; flourished initials (2 line square inset) in red and blue ink with contrasting penwork # description of decoration (item.48)
+        musicNotation: # description of musical notation (item.49)
+        addition: # marginalia, scribblings, doodles, etc.
+        agent: # agent(s) responsible for physical production (not-TEI)
+          - # repeat as needed
+            persName: # standard modern name (item.23)
+            respStmt: # statement of responsibility, e.g., scribe, annotator, or artist
+            agentURI: # external authority (not-TEI; item.24)
+              domain: # usual VIAF
+              domainID: # id number within domain
+
+# CONTENTS
+# Most fields are recorded by BiblioPhilly as "Page-level metadata". 
+# Exceptions, where the field is recorded as "Item-level metadata", are recorded below in the usual notation.
+  msContents: # intellectual content
+    summary: Thomas Aquinas, <i>De ente et essentia</i>; Aristoteles Latinus, <i>De longitudine</i>, and <i>Analytica priora</i>; sermon collection; fragment of Deuteronomy 15-17 # overview of contents (item.38)
+    msItem: 
+      - _n: 1 # repeat as needed
+        locus: fols 1r-6v # folio (or page) range
+        work: # (not-TEI)
+          title: De ente et essentia # standard modern title of the work; or general description, e.g. 'missal'
+          bibl: # standard edition of the work; or enumerative bibliography citing this copy. Scholarly works about the manuscript in general are recorded in the element <listBibl>
+            - # repeat as needed
+              zotero: @ThomasAquinasSanctiThomaeAquinatis1882 # zotero citation key (not-TEI)
+              biblScope: vol. 43 (1976), pp. 315-381 # page reference or item number in the bibliographic work
+        agent: # agents responsible for the work; corresponding TEI-element is <author>
+          - # repeat as needed
+            persName: Thomas Aquinas, Saint, 1225?-1274 # standard modern name (item.19; item.21)
+            respStmt: author # statement of responsibility, e.g., author, translator or erroneous attribution
+            agentURI: # external authority (not-TEI; item.20; item.22)
+              domain: VIAF # usual VIAF
+              domainID: 100910150 # id number within domain
+        textLang: Latin # language of text (item.39)
+        rubric: # title given in ms
+          locus: # folio (page)
+          transc: # transcription
+        incipit: # opening words of text
+          locus: fol. 1r
+          transc: <q>uia paruus error in principio magnus in fine... 
+        explicit: # closing words of text
+          locus: fol. 6v
+          transc: ...propter suam simplicitatem in quo finis et consumatio huius operis. explicit de ente et essencia thome de monte aquino
+        colophon: # TEI also has element <finalRubric> (item.45)
+          locus: fol. 6v
+          transc: anno domini millesimo ducento nonagesimo nono quarto ydus decembris indictione non[-e]a.
+        decoNote: # decorative treatment of this item, if differentiated from others in the ms
+
+      - _n: 2 # repeat as needed
+        locus: fols 6v-7v # folio (or page) range
+        work: # (not-TEI)
+          title: De longitudine et brevitate vitae # standard modern title of the work; or general description, e.g. 'missal'
+          bibl: # standard edition of the work; or enumerative bibliography citing this copy. Scholarly works about the manuscript in general are recorded in the element <listBibl>
+            - # repeat as needed
+              zotero: @BramsAristotelesLatinusDatabase2006 # zotero citation key (not-TEI)
+              biblScope: 16.2, ed. De Leemans # page reference or item number in the bibliographic work
+        agent: # agents responsible for the work; corresponding TEI-element is <author>
+          - # repeat as needed
+            persName: Aristotle # standard modern name (item.19; item.21)
+            respStmt: author # statement of responsibility, e.g., author, translator or erroneous attribution
+            agentURI: # external authority (not-TEI; item.20; item.22)
+              domain: VIAF # usual VIAF
+              domainID: 7524651 # id number within domain
+          - # repeat as needed
+            persName: William of Moerbeke # standard modern name (item.19; item.21)
+            respStmt: translator # statement of responsibility, e.g., author, translator or erroneous attribution
+            agentURI: # external authority (not-TEI; item.20; item.22)
+              domain: VIAF # usual VIAF
+              domainID: 2471391 # id number within domain
+        textLang: Latin # language of text (item.39)
+        rubric: # title given in ms
+          locus: # folio (page)
+          transc: # transcription
+        incipit: # opening words of text
+          locus: fol. 6v
+          transc: <d>e eo autem quidem [sic] quod est esse animalium alia quidem longe uite alia uero breuis uite... 
+        explicit: # closing words of text
+          locus: fol. 7v
+          transc: ...parum autem est aliqua alia dicitur in eo quod est superesse longioris uite. finit liber de longitudine et breuitate uite.
+        colophon: # TEI also has element <finalRubric> (item.45)
+          locus: 
+          transc: 
+        decoNote: # decorative treatment of this item, if differentiated from others in the ms
+
+      - _n: 3 # repeat as needed
+        locus: fols 8r-15v # folio (or page) range
+        work: # (not-TEI)
+          title: sermon collection # standard modern title of the work; or general description, e.g. 'missal'
+          note: ten items, unidentified; Gura records incipit and explicit for each
+          bibl: # standard edition of the work; or enumerative bibliography citing this copy. Scholarly works about the manuscript in general are recorded in the element <listBibl>
+            - # repeat as needed
+              zotero: # zotero citation key (not-TEI)
+              biblScope: # page reference or item number in the bibliographic work
+        agent: # agents responsible for the work; corresponding TEI-element is <author>
+          - # repeat as needed
+            persName: # standard modern name (item.19; item.21)
+            respStmt: # statement of responsibility, e.g., author, translator or erroneous attribution
+            agentURI: # external authority (not-TEI; item.20; item.22)
+              domain: # usual VIAF
+              domainID: # id number within domain
+        textLang: Latin # language of text (item.39)
+        rubric: # title given in ms
+          locus: 
+          transc: 
+        incipit: # opening words of text
+          locus: 
+          transc: 
+        explicit: # closing words of text
+          locus: 
+          transc: 
+        colophon: # TEI also has element <finalRubric> (item.45)
+          locus: 
+          transc: 
+        decoNote: # decorative treatment of this item, if differentiated from others in the ms
+
+      - _n: 4 # repeat as needed
+        locus: fols 16r-31v # folio (or page) range
+        work: # (not-TEI)
+          title: Analytica priora (incomplete) # standard modern title of the work; or general description, e.g. 'missal'
+          bibl: # standard edition of the work; or enumerative bibliography citing this copy. Scholarly works about the manuscript in general are recorded in the element <listBibl>
+            - # repeat as needed
+              zotero: @AristotleAnalyticaPriora1962 # zotero citation key (not-TEI)
+              biblScope: 5-115 # page reference or item number in the bibliographic work
+        agent: # agents responsible for the work; corresponding TEI-element is <author>
+          - # repeat as needed
+            persName: Aristotle # standard modern name (item.19; item.21)
+            respStmt: author # statement of responsibility, e.g., author, translator or erroneous attribution
+            agentURI: # external authority (not-TEI; item.20; item.22)
+              domain: VIAF # usual VIAF
+              domainID: 7524651 # id number within domain
+          - # repeat as needed
+            persName: Boethius, Anicius Manlius Severinus # standard modern name (item.19; item.21)
+            respStmt: translator # statement of responsibility, e.g., author, translator or erroneous attribution
+            agentURI: # external authority (not-TEI; item.20; item.22)
+              domain: VIAF # usual VIAF
+              domainID: 100218964 # id number within domain
+        textLang: Latin # language of text (item.39)
+        rubric: # title given in ms
+          locus: 
+          transc: 
+        incipit: # opening words of text
+          locus: fol. 16r
+          transc: primum oportet dici [sic] circa quod et de quo est intentio quoniam circa demonstracionem quia de disciplina...
+        explicit: # closing words of text
+          locus: fol. 31v
+          transc: ...per impossibile autem sillogismis ostendetur [sic] quidem quoniam [sic] contradictio supponitur conclusionis assumitur [=2.11]
+        colophon: # TEI also has element <finalRubric> (item.45)
+          locus: 
+          transc: 
+        decoNote: # decorative treatment of this item, if differentiated from others in the ms
+
+      - _n: 5 # repeat as needed
+        locus: front and rear covers # folio (or page) range
+        work: # (not-TEI)
+          title: Deuteronomy # standard modern title of the work; or general description, e.g. 'missal'
+          bibl: # standard edition of the work; or enumerative bibliography citing this copy. Scholarly works about the manuscript in general are recorded in the element <listBibl>
+            - # repeat as needed
+              zotero: # zotero citation key (not-TEI)
+              biblScope: # page reference or item number in the bibliographic work
+        agent: # agents responsible for the work; corresponding TEI-element is <author>
+          - # repeat as needed
+            persName: # standard modern name (item.19; item.21)
+            respStmt: # statement of responsibility, e.g., author, translator or erroneous attribution
+            agentURI: # external authority (not-TEI; item.20; item.22)
+              domain: # usual VIAF
+              domainID: # id number within domain
+        textLang: # language of text (item.39)
+        rubric: # title given in ms
+          locus: 
+          transc: 
+        incipit: # opening words of text
+          location: rear cover
+          text: dominus deus tuus in cunctis operibus que agis... [= 15.11]
+        explicit: # closing words of text
+          location: front cover
+          text: ...et hoc tibi fuerit nuntiatum audiensque inquisieris diligenter et uerum esse repp- [= 17.4]
+        colophon: # TEI also has element <finalRubric> (item.45)
+          locus: 
+          transc: 
+        decoNote: # decorative treatment of this item, if differentiated from others in the ms
+
+# HISTORY
+  history: 
+    origin: 
+      origDate: # (item.30-33)
+      origPlace: # (item.34)
+    provenance: 
+      note: sticker of "Cosmopolitan Science & Art Service Co. Inc. 638 Lexington Avenue, New York, NY" on rear pastedown # free text (item.29)
+      agent: # former owner (not-TEI)
+        - # repeat as needed
+          persName: # standard modern name (item.25)
+          respStmt: # statement of responsibility, e.g., owner
+          agentURI: # external authority (not-TEI; item.26)
+            domain: # usual VIAF
+            domainID: # id number within domain
+
+    acquisition: Acquired by Saint Mary's College in 1962 # any information concerning the process by which a manuscript or manuscript part entered the holding institution
+
+# ADMINISTRATIVE AND BIBLIOGRAPHIC
+  additional: 
+    adminInfo: # curation and management of a manuscript
+      recordHist: # source and revision status of the parent manuscript or object description itself
+        source: 
+          - # repeat as needed
+            zotero: @GuraDescriptiveCatalogueMedieval2016 # reference to previous descriptions employed in this one
+            biblScope: pp. 562-565 # page reference or item number in the bibliographic work
+        change: # version information for this description
+      availability: # restrictions on use or distribution
+      custHist: 
+        custEvent: # report of conservation actions
+
+    surrogates: # unpublished photographs or facsimiles
+    listBib: # bibliographic records relating to this manuscript (item.62)
+      zotero: @HirschValuableManuscriptsMiddle1900 # zotero citation key (not-TEI)
+      biblScope: no. 24 # page reference or item number in the bibliographic work
