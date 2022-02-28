@@ -510,7 +510,7 @@ on the leaves, such as *upper right recto* or *lower outer corners*, or
 
 ### line 43\. Flyleaves & Leaves
 
-Optional
+Required for codices; this field is not used for leaves.
 
 **Description:** Formula showing the numbers of flyleaves and leaves, in
 the format \[front flyleaves\]+\[leaves\]+\[back flyleaves\], for
@@ -708,10 +708,18 @@ Optional, Repeatable
 
 **MARC Location:** 300 subfield c
 
-**Description:** Maximum height and width of manuscript pages in
+**Description:** Maximum height and width of manuscript leaves in
 millimeters, in the following form: 280 x 210 mm (no period after mm).
 If originally separate manuscripts of markedly different dimensions have
 been bound together in a volume, repeat for the different page sizes. 
+
+For bifolia, give the dimensions of a single leaf (height and width), just as in a codex.
+
+For cuttings and binding fragments, give the longest height and width dimensions.
+
+For folded documents with a single block of writing (e.g., personal letters), give the dimensions of the full unfolded sheet.
+If the sheet has been folded folio, with writing disposed into two or more pages, treat the document as a bifolium (see above).
+In either case, explain the measurement in a comment or in the field "Short Description."
 
 ### line 56. Written area
 

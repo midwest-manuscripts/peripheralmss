@@ -212,9 +212,20 @@ In Latin transcribed and/or supplied title in square brackets.
 
 ### INC and EXP
 
-Include only for works where they are especially helpful or meaningful.
-Do not provide these for Books of Hours, Bibles, or other standard
-texts.
+Incipit and explicit should be recorded for the following types of material:
+
+- All leaves
+- Works imperfect at beginning or end
+- Unidentified works, works without a standard modern edition, and eccentric copies of known works 
+
+Do not provide incipit or explicit for Books of Hours, Bibles, or other standard works transmitted intact in codex form.
+
+In general, transcription follows the policies set out in
+M. B. Parkes, *English Cursive Book Hands, 1250–1500* (Oxford: Oxford University Press, 1969), pp. xxviii--xxx ("A note on the transcriptions").
+We depart from Parkes's practice in the following details:
+
+- Words inserted by the scribe are recorded within double slashes, e.g. `\\habet//`.
+- Long *i* is transcribed as *j* where the scribe has used this form in final position, e.g., in roman numeral *xiij*.
 
 On the spreadsheet, INC and EXP for a text belong in the same row as the
 TOC for the text. The folio number of the location of the incipit and

@@ -59,20 +59,17 @@ of three or more, use a semi-colon, rather than a comma, between
 elements of a greater series: 13 stripes; 52 stars; and a color scheme
 of red, white, and blue
 
+For capitalization, spacing, and punctuation in transcriptions of medieval documents, see under [Incipit and Explicit](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/page-level-metadata-guide.md#inc-and-exp).
+
 ## Titles
 
-Use lower case for all but first word in a title: *A tainted mantle*
-(not *A Tainted Mantle*)
+References to modern publications are formated in Chicago style.
 
-An exception to this rule is that book types, e.g., Psalter, Lectionary,
+Book types, e.g., Psalter, Lectionary,
 Book of Hours, Book of Hours Use of Rome, Missal etc. should always be
 capitalized in titles. This also applies to terms like Chronicle if it
 is used in the sense of it being that type of book, and not just a word
 in the title, e.g., Grandes Chroniques
-
-If a slash or colon is part of a title, leave a space on either side: *A
-tainted mantle : Hercules and the classical tradition at the Carolingian
-court*
 
 ## Numbers and Dates
 
@@ -147,7 +144,7 @@ The text or writing on a book page: **written area**
 Book page/pages: **folio/s** (when foliated) or **page/s** (when
 paginated)
 
-  - acceptable alternative (for folio only): leaf/ves
+  - acceptable alternative (for folio only): leaf/leaves
 
 The first (front) side of a book page: **recto**
 
@@ -171,7 +168,8 @@ A book’s opening, full-page decoration without text: **illuminated** (or
 A book’s opening, full-page decoration including initial text:
 **illuminated incipit**
 
-The space/s outside the written area: **margin/s**
+The space/s outside the written area: **margin/s**.
+Margins may be specified as **inner**, **outer**, **upper**, and **lower**.
 
   - *not* recommended: border
 
