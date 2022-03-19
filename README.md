@@ -8,8 +8,7 @@ For now, this is mostly limited to our project documentation, which is based on 
 There are three principal files (in development): 
 
 - [Style Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/style-guide.md). General guidelines for style, usage, and terminology
-- [Item-Level Metadata Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/item-level-metadata-guide.md). Line-item instructions for entry of administrative information and collection- and item-level metadata.
-- [Page-Level Metadata Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/page-level-metadata-guide.md). Line-item instructions for entry of metadata keyed to individual image files
+- [Metadata Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/metadata-guide.md). Line-item instructions for entry of collection- and item-level metadata.
 
 The directory [`archive`](https://github.com/midwest-manuscripts/peripheralmss/tree/master/archive) contains our CLIR grant application (the main application document and relevant appendices).
 
