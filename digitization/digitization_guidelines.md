@@ -1,19 +1,19 @@
 # IUB & Partner Digitization Processing by Item Type for the Peripheral Manuscripts Project
 
-## Overview {#overview}
+## Overview 
 
 Running documentation of materials and processes used for digitization based on the evaluated condition of each of the items received. Properties of the items will define hardware used to ensure no item damage and a quality image with minimal handling.
 
 All digital items are captured at a minimum specification of 600dpi to ensure 4000px (or 400dpi at item natural size from the camera to avoid interpolation resolution by the nature of the item size), uncompressed TIFF, embedded color profile of AdobeRGB1998. If items with smaller detail are discovered, resolution will be increased to capture all detail present and meet the 4000pixel length on long side standard.  All captures will be adhering to the minimum [FADGI](http://www.digitizationguidelines.gov/guidelines/FADGI%20Federal%20%20Agencies%20Digital%20Guidelines%20Initiative-2016%20Final_rev1.pdf) 3 star guidelines to maintain standards. 
 
-## Capture Guidelines by Item Type {#capture-guidelines-by-item-type}
+## Capture Guidelines by Item Type 
 
 * Scale and color bar included if at all feasible. 
 * Scan to individual page edges including small (¼ inch) borders. Exceptions will be noted such as items too large to accommodate both the item and any sundries. 
 * Scan all pages, including blank pages
 * If a bifolium, submit multiple images: 1) whole spread and 2) leaf-specific page images following cropping consideration outlined in the “Visual Quality Confirmation Checks” section of this document.  
 
-### Book Bindings Only {#book-bindings-only}
+### Book Bindings Only 
 
 * Included capture of covering, internal attachment pages, edges, spine
     * If no handling concerns such as broken spines, detached areas, or item shedding, done on flatbed scanner. Used without lid, propped up so edge is flat to glass and is not weighed down by anything. Propped upright. See example below of capture process and resulting images. 
@@ -21,7 +21,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * Sundries used: Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds, extended backing sheets, gentle clips for holding pages, foam wedges
 * Orientation for book bindings: when scanning, orient bound volumes as one would flip through the book, i.e. do not rotate for legibility.
 
-### Bound Volumes  {#bound-volumes}
+### Bound Volumes  
 
 * Tightly Bound 
     * Must be done on overhead scanner in  V-mode. Cannot be done easily with camera.
@@ -44,7 +44,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * Sundries used: Ladder. Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds extended backing sheets, sponge wedges, acid free boards for item support, glass plate, gentle clips
 * Orientation for bound volumes: when scanning, orient bound volumes as one would flip through the book, i.e. do not rotate for legibility.
 
-### Leaves {#leaves}
+### Leaves 
 
 * &lt; 12” x 17”
     * On flatbed scanner, backed by black matte paper
@@ -61,15 +61,14 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * May require multiple people for moving items, adjustments, capture, etc.
 * Orientation for leaves: when scanning, orient items as one would handle them, i.e. do not flip for legibility, but flip right to left.
 
-#### Housing for Items {#housing-for-items}
-
+#### Housing for Items 
 
 * If possible, take items out of their housing to scan.
     * Housing includes folders, mylar envelopes, etc.
     * If pages are attached to folders with tape or sealed in mylar envelopes, you can leave them housed, however it is preferable to take them out if possible. 
     * Take items out of frames to scan. Sometimes this is not possible, but it’s preferable to do so. If you cannot/are not permitted to take items out of their frames, capture the whole item including the frame (see details below).
 
-#### Framed Items {#framed-items}
+#### Framed Items 
 
 _Framed items are captured as-is to the best of our ability. _
 
@@ -79,10 +78,9 @@ _Framed items are captured as-is to the best of our ability. _
 * Glare from existing glass mitigated by use of circular polarizing filter
 * Orientation for framed items: when scanning, orient items as one would handle them, i.e. do not flip for legibility, but flip right to left.
 
+## Visual Quality Confirmation Checks 
 
-## Visual Quality Confirmation Checks {#visual-quality-confirmation-checks}
-
-### Partner Digitization Team {#partner-digitization-team}
+### Partner Digitization Team 
 
 An initial visual quality confirmation check is conducted for every capture. The Digitization Team ensures the best possible capture given the physical condition of the materials.  
 
@@ -104,8 +102,7 @@ An initial visual quality confirmation check is conducted for every capture. The
         * Also checked to make sure the color bar and scale are represented correctly.
 * Once complete items pass QC, the Digitization Team will upload the TIFF images to a Google Folder or IU server (depending on the partner institution) for automatic QC and Project PIs to access for another round of quality review. 
 
-
-## Automated Quality Confirmation Checks {#automated-quality-confirmation-checks}
+## Automated Quality Confirmation Checks 
 
 Once files complete visual QC by the Digitization Team, the TIFFs are uploaded to an IUB server set up for each institution for secure transfer or via Google Folder, depending on the Partner and quantity of items being delivered, for automatic quality checks.
 
@@ -133,8 +130,7 @@ This automated check ensures that all the files are well-formed TIFFs with the e
 
 A report is generated should files fail auto QC. The IUB team will share this report with the partnering teams to address the issues.  Corrected and updated files would be re-deposited to IUB for another round of auto QC until all conform before PIs commence with their visual QC. 
 
-
-### Project PIs  {#project-pis}
+### Project PIs  
 
 The Project PIs are subject experts and are leading the manuscript description process.  As part of this work, they may examine the digital surrogates differently than the Digitization Team. To make sure manuscripts are captured in ways that also support description work, the Project PIs will complete their own review of the digital surrogates.
 
@@ -143,12 +139,9 @@ The Project PIs are subject experts and are leading the manuscript description p
 * Should PIs flag issues, the Digitization Team has 5 days to review and rescan if necessary.   
 * Rescans will need to be re-uploaded to the IU server or Google Folder for a final round of automatic quality checks before IU stores files in their Scholarly Data Archive. 
 
-## Deliver Files to IUB (for External Digitization) {#deliver-files-to-iub-for-external-digitization}
+## Deliver Files to IUB (for External Digitization) 
 
-
-### Partner Uploads Files to IU  {#partner-uploads-files-to-iu}
-
-
+### Partner Uploads Files to IU  
 
 1. Server/Google Drive and access will be set at time of need. 
     1. Location path for upload per institution.
@@ -172,35 +165,24 @@ The Project PIs are subject experts and are leading the manuscript description p
     10. Successful items will continue on to SDA and the partner server area for research and metadata creation.
 5. Any issues from the PI investigations will go directly to the digitizing institution for correction/evaluation/re-upload and the process will repeat until all items are complete.
 
+## Hardware Specifications 
 
-## Hardware Specifications {#hardware-specifications}
+### Partner Equipment 
 
-
-### Partner Equipment {#partner-equipment}
-
-
-#### Bowling Green {#bowling-green}
-
-
+#### Bowling Green 
 
 * Epson Perfection V800
 * Epson Expression 11000XL
 
-
-#### Northern Illinois University {#northern-illinois-university}
-
-
+#### Northern Illinois University 
 
 * PhaseOne iXG 100MP 72mm
 * Schneider 72mm lens
 * DT Photon MKII
 
-
-### IUB Equipment {#iub-equipment}
+### IUB Equipment 
 
 IU Hardware: All hardware meets or exceeds Best Practice capabilities of capture and poses no issue with standard archival compliance.
-
-
 
 * **Epson Expression 11000XL and 12000XL**: use concern clarification: p53 “. However, FADGI recognizes that flatbed scanners have their place and may be appropriate for some applications.” p24”• Single exposure total area capture scanning systems are considered the most appropriate technologies when imaging special collections materials. However, FADGI permits the use of other technologies that may be appropriate as long as none of the stated restrictions are compromised by the use of that technology.”
 * **Hasselblad H1/P45**: use concern clarification: p52 “the results are compelling and the cultural heritage community has embraced professional digital cameras. Given the complexity of these imaging systems, it is essential to test the entire imaging system for performance.”
