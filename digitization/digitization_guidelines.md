@@ -113,20 +113,21 @@ As items are pushed to the IU Scholarly Data Archive (SDA) for long term storage
 
 The exact parameters are (with Goshen as the example here):
 
-group qc {
-      match(GROUP.NAME, "goc_###_###"); 
-  }	
-    qc {
-        id_format = "tiff";
-        id_compression = "none";
-        any(id_horizontal_resolution,400,600);
-        any(id_vertical_resolution,400,600);
-        any(id_profile_icc,432,408,551,544,560);
-        match(FILENAME,"goc_(###)_(###)-(#####).tif");
-        unique("filename",FILENAME);
-    }
-   process {
+	group qc {
+      		match(GROUP.NAME, "goc_###_###"); 
+  	}	
+    	qc {
+        	id_format = "tiff";
+        	id_compression = "none";
+        	any(id_horizontal_resolution,400,600);
+        	any(id_vertical_resolution,400,600);
+        	any(id_profile_icc,432,408,551,544,560);
+        	match(FILENAME,"goc_(###)_(###)-(#####).tif");
+        	unique("filename",FILENAME);
+    	}
+   	process {
 		copymaster(hpss_spool);
+	}
 
 This automated check ensures that all the files are well-formed TIFFs with the expected naming, resolution, compression, color embedding, and uniqueness so there is no accidental overwriting. Humans make errors, having automated checks in place help reduce errors before they are shuffled to long-term storage. This is especially useful for naming conventions and well formed files that are the most easily missed in visual checks.
 
