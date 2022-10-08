@@ -1,8 +1,5 @@
 # IUB & Partner Digitization Processing by Item Type for the Peripheral Manuscripts Project
 
-
-[TOC]
-
 ## Overview {#overview}
 
 Running documentation of materials and processes used for digitization based on the evaluated condition of each of the items received. Properties of the items will define hardware used to ensure no item damage and a quality image with minimal handling.
@@ -16,9 +13,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 * Scan all pages, including blank pages
 * If a bifolium, submit multiple images: 1) whole spread and 2) leaf-specific page images following cropping consideration outlined in the “Visual Quality Confirmation Checks” section of this document.  
 
-
 ### Book Bindings Only {#book-bindings-only}
-
 
 * Included capture of covering, internal attachment pages, edges, spine
     * If no handling concerns such as broken spines, detached areas, or item shedding, done on flatbed scanner. Used without lid, propped up so edge is flat to glass and is not weighed down by anything. Propped upright. See example below of capture process and resulting images. 
@@ -49,7 +44,6 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * Sundries used: Ladder. Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds extended backing sheets, sponge wedges, acid free boards for item support, glass plate, gentle clips
 * Orientation for bound volumes: when scanning, orient bound volumes as one would flip through the book, i.e. do not rotate for legibility.
 
-
 ### Leaves {#leaves}
 
 * &lt; 12” x 17”
@@ -67,7 +61,6 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * May require multiple people for moving items, adjustments, capture, etc.
 * Orientation for leaves: when scanning, orient items as one would handle them, i.e. do not flip for legibility, but flip right to left.
 
-
 #### Housing for Items {#housing-for-items}
 
 
@@ -76,12 +69,9 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * If pages are attached to folders with tape or sealed in mylar envelopes, you can leave them housed, however it is preferable to take them out if possible. 
     * Take items out of frames to scan. Sometimes this is not possible, but it’s preferable to do so. If you cannot/are not permitted to take items out of their frames, capture the whole item including the frame (see details below).
 
-
 #### Framed Items {#framed-items}
 
 _Framed items are captured as-is to the best of our ability. _
-
-
 
 * On copystand with Camera. 
 * Black backing board
@@ -92,12 +82,9 @@ _Framed items are captured as-is to the best of our ability. _
 
 ## Visual Quality Confirmation Checks {#visual-quality-confirmation-checks}
 
-
 ### Partner Digitization Team {#partner-digitization-team}
 
 An initial visual quality confirmation check is conducted for every capture. The Digitization Team ensures the best possible capture given the physical condition of the materials.  
-
-
 
 * Items photographed or scanned on the flatbed (loose leaves, fragments, codex edges, etc.) are verified immediately post-capture.  
     * Digital images are compared to the original items for accuracy in representation including legibility, focus, color. Extra care is taken with gold leaf items to not cause glare.
@@ -127,33 +114,18 @@ As items are pushed to the IU Scholarly Data Archive (SDA) for long term storage
 The exact parameters are (with Goshen as the example here):
 
 group qc {
-
       match(GROUP.NAME, "goc_###_###"); 
-
   }	
-
     qc {
-
         id_format = "tiff";
-
         id_compression = "none";
-
         any(id_horizontal_resolution,400,600);
-
         any(id_vertical_resolution,400,600);
-
         any(id_profile_icc,432,408,551,544,560);
-
         match(FILENAME,"goc_(###)_(###)-(#####).tif");
-
-	
-
         unique("filename",FILENAME);
-
     }
-
    process {
-
 		copymaster(hpss_spool);
 
 This automated check ensures that all the files are well-formed TIFFs with the expected naming, resolution, compression, color embedding, and uniqueness so there is no accidental overwriting. Humans make errors, having automated checks in place help reduce errors before they are shuffled to long-term storage. This is especially useful for naming conventions and well formed files that are the most easily missed in visual checks.
@@ -165,13 +137,10 @@ A report is generated should files fail auto QC. The IUB team will share this re
 
 The Project PIs are subject experts and are leading the manuscript description process.  As part of this work, they may examine the digital surrogates differently than the Digitization Team. To make sure manuscripts are captured in ways that also support description work, the Project PIs will complete their own review of the digital surrogates.
 
-
-
 * Once items pass auto QC, the IU Digitization Team will make the high resolution files available to the Project PIs for their visual QC
 * PIs will review images as they are uploaded with a 1 week timeframe for final review.
-* Should [PIs flag issues](https://drive.google.com/drive/folders/1jKa2xgjo6QjGKvfavnbjW8fFC8TEq4ul?usp=sharing), the Digitization Team has 5 days to review and rescan if necessary.   
+* Should PIs flag issues, the Digitization Team has 5 days to review and rescan if necessary.   
 * Rescans will need to be re-uploaded to the IU server or Google Folder for a final round of automatic quality checks before IU stores files in their Scholarly Data Archive. 
-
 
 ## Deliver Files to IUB (for External Digitization) {#deliver-files-to-iub-for-external-digitization}
 
@@ -182,8 +151,6 @@ The Project PIs are subject experts and are leading the manuscript description p
 
 1. Server/Google Drive and access will be set at time of need. 
     1. Location path for upload per institution.
-        1. BGSU (restricted access): {link provided in internal documentation}
-        2. NIU (restricted access): {link provided in internal documentation}
 2. After items are digitized and visually checked by the scanning institution (section above) correctly named and foldered files are uploaded to the designated server address.
     2. The pattern for file naming is as follows: 
 
@@ -247,81 +214,13 @@ Equipment Selection:
 
 “Selection of Digitization Equipment: Proper selection of digitization equipment is an essential element of a successful digitization program. Factors to consider are: 
 
-
     • Type of materials to be digitized 
-
-
     • Size of the originals
-
-
     • Quantity of each type of original 
-
-
     • Condition of the materials and how they can be handled during scanning 
-
-
     • Staff digitization experience and quantity 
-
-
     • Budget 
-
-
     • Physical space available 
-
-
     • Duration of the project
 
 *FADGI p. 19 Addressing use choice concerns “Special collections materials should not be placed in contact with glass or other materials<span style="text-decoration:underline;"> in an effort to hold originals flat</span> while imaging without the approval of a paper or book conservator. This technique can lead to physical damage to the original. Spatulas or other implements to assist in holding pages flat for imaging may be used, but must not obscure informational content. If used, these should not be edited out of master files. “
-
-
-## Examples of Capture Featuring Propping Techniques {#examples-of-capture-featuring-propping-techniques}
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-Using foam pieces and weights (brick wrapped in archival tape) to prop up a book to scan the edges, on the Epson flatbed scanner
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.jpg "image_tooltip")
-
-
-Using foam pieces and weights to prop up a book to scan the edges on the Bookeye overhead scanner
-
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.jpg "image_tooltip")
- 
-
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.jpg "image_tooltip")
-
-
-Using foam, ladder, and rolled up yoga mat to prop up a large book, to make the edges lay flat and protect the spine from bending too much, with the camera.
-
-Book on Bookeye overhead scanner being held open with clips - clips on right side assisted with weighted rope.
-
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.jpg "image_tooltip")
-
-
-Another example of propping for edge scanning, utilizing foam, a brick wrapped in archival tape, and a heavy textbook.
