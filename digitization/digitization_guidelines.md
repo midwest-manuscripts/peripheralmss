@@ -212,5 +212,5 @@ Equipment Selection:
 *FADGI p. 19 Addressing use choice concerns “Special collections materials should not be placed in contact with glass or other materials<span style="text-decoration:underline;"> in an effort to hold originals flat</span> while imaging without the approval of a paper or book conservator. This technique can lead to physical damage to the original. Spatulas or other implements to assist in holding pages flat for imaging may be used, but must not obscure informational content. If used, these should not be edited out of master files.“
 
 ## Examples of Capture Featuring Propping Techniques
-![Photo of foam pieces and weights (brick wrapped in archival tape) to prop up a book to scan the edges of a codex, on the Epson flatbed scanner](/path/to/img.jpg “Using foam pieces and weights (brick wrapped in archival tape) to prop up a book to scan the edges of a codex, on the Epson flatbed scanner”)
+![Photo of foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on an Epson flatbed scanner](/examples/edges_flatbed.png “Using foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on an Epson flatbed scanner”)
 
