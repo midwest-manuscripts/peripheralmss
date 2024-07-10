@@ -70,7 +70,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 
 #### Framed Items 
 
-_Framed items are captured as-is to the best of our ability. _
+_Framed items are captured as-is to the best of our ability._
 
 * On copystand with Camera. 
 * Black backing board
@@ -78,9 +78,9 @@ _Framed items are captured as-is to the best of our ability. _
 * Glare from existing glass mitigated by use of circular polarizing filter
 * Orientation for framed items: when scanning, orient items as one would handle them, i.e. do not flip for legibility, but flip right to left.
 
-## Visual Quality Confirmation Checks 
+## Quality Confirmation Checks 
 
-### Partner Digitization Team 
+### Visual QC by Digitization Team 
 
 An initial visual quality confirmation check is conducted for every capture. The Digitization Team ensures the best possible capture given the physical condition of the materials.  
 
@@ -130,7 +130,7 @@ This automated check ensures that all the files are well-formed TIFFs with the e
 
 A report is generated should files fail auto QC. The IUB team will share this report with the partnering teams to address the issues.  Corrected and updated files would be re-deposited to IUB for another round of auto QC until all conform before PIs commence with their visual QC. 
 
-### Project PIs  
+### Visual QC by Project PIs  
 
 The Project PIs are subject experts and are leading the manuscript description process.  As part of this work, they may examine the digital surrogates differently than the Digitization Team. To make sure manuscripts are captured in ways that also support description work, the Project PIs will complete their own review of the digital surrogates.
 
@@ -184,10 +184,13 @@ The Project PIs are subject experts and are leading the manuscript description p
 
 IU Hardware: All hardware meets or exceeds Best Practice capabilities of capture and poses no issue with standard archival compliance.
 
-* **Epson Expression 11000XL and 12000XL**: use concern clarification: p53 “. However, FADGI recognizes that flatbed scanners have their place and may be appropriate for some applications.” p24”• Single exposure total area capture scanning systems are considered the most appropriate technologies when imaging special collections materials. However, FADGI permits the use of other technologies that may be appropriate as long as none of the stated restrictions are compromised by the use of that technology.”
+* **Epson Expression 11000XL, 12000XL and 13000XL**: use concern clarification: p53 “. However, FADGI recognizes that flatbed scanners have their place and may be appropriate for some applications.” p24”• Single exposure total area capture scanning systems are considered the most appropriate technologies when imaging special collections materials. However, FADGI permits the use of other technologies that may be appropriate as long as none of the stated restrictions are compromised by the use of that technology.”
 * **Hasselblad H1/P45**: use concern clarification: p52 “the results are compelling and the cultural heritage community has embraced professional digital cameras. Given the complexity of these imaging systems, it is essential to test the entire imaging system for performance.”
 * **Dracast LED500 Bi-color lighting:** selected to remove any temperature impact on the items when photographing in concert with the Hasselblad. P24 under Not Recommended “Lighting systems that raise the surface temperature of the original more than 4 degrees F (2 degrees C) in the total imaging process”
 * **Bookeye 4a**: use concern clarification: p52 “Planetary scanners…. take time to capture an image and are only efficient for original materials that can be held flat during the long exposure cycle’ p24”• Single exposure total area capture scanning systems are considered the most appropriate technologies when imaging special collections materials. However, FADGI permits the use of other technologies that may be appropriate as long as none of the stated restrictions are compromised by the use of that technology.”
+* **Nikon D850 DSLR Camera** [Lilly Production Lab]
+* **Nikon AF-S NIKKOR 24-120mm f/4G ED VR Lens** [Lilly Production Lab]
+* **ikan Lyra Half x 1 Bi-Color 2-Point Soft Panel LED Lights** [Lilly Production Lab]
 
 Guidelines applied and considered for each material type along with the capabilities of the hardware and software available:
 
@@ -206,4 +209,29 @@ Equipment Selection:
     • Physical space available 
     • Duration of the project
 
-*FADGI p. 19 Addressing use choice concerns “Special collections materials should not be placed in contact with glass or other materials<span style="text-decoration:underline;"> in an effort to hold originals flat</span> while imaging without the approval of a paper or book conservator. This technique can lead to physical damage to the original. Spatulas or other implements to assist in holding pages flat for imaging may be used, but must not obscure informational content. If used, these should not be edited out of master files. “
+*FADGI p. 19 Addressing use choice concerns “Special collections materials should not be placed in contact with glass or other materials<span style="text-decoration:underline;"> in an effort to hold originals flat</span> while imaging without the approval of a paper or book conservator. This technique can lead to physical damage to the original. Spatulas or other implements to assist in holding pages flat for imaging may be used, but must not obscure informational content. If used, these should not be edited out of master files.“
+
+## Examples of Capture Featuring Propping Techniques
+![Photo of foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on an Epson flatbed scanner](examples/edges_flatbed.png)
+Using foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on an Epson flatbed scanner.
+
+![Photo of foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on an overhead scanner](examples/edges_bookeye.png)
+Using foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on the Bookeye overhead scanner.
+
+![Photo of foam, ladder, and rolled up yoga mat to prop up a large codex, to make the edges lay flat and protect the spine from bending too much, with the camera](examples/codex_camera_01.png)
+![Photo of foam, ladder, and rolled up yoga mat to prop up a large codex, to make the edges lay flat and protect the spine from bending too much, with the camera](examples/codex_camera_02.png)
+Using foam, ladder, and rolled up yoga mat to prop up a large codex, to make the edges lay flat and protect the spine from bending too much, with the camera.
+
+![Photo of codex on Bookeye overhead scanner being held open with clips](examples/codex_bookeye.png)
+Codex on Bookeye overhead scanner being held open with clips - clips on right side assisted with weighted rope.
+
+![Photo of proppong codex foam, a weight wrapped in archival tape, and a heavy textbook on flatbed scanner](examples/edge_flatbed_02.png)
+Another example of propping for codex edge scanning, utilizing foam, a weight wrapped in archival tape, and a heavy textbook.
+
+
+
+
+
+
+
+
