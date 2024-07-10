@@ -213,6 +213,25 @@ Equipment Selection:
 
 ## Examples of Capture Featuring Propping Techniques
 ![Photo of foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on an Epson flatbed scanner](examples/edges_flatbed.png)
+Using foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on an Epson flatbed scanner.
 
-![Photo of foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on an Epson flatbed scanner](examples/edges_flatbed.png “Using foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on an Epson flatbed scanner”)
+![Photo of foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on an overhead scanner](examples/edges_bookeye.png)
+Using foam pieces and weights wrapped in archival tape to prop up a codex to scan the edges on the Bookeye overhead scanner.
+
+![Photo of foam, ladder, and rolled up yoga mat to prop up a large codex, to make the edges lay flat and protect the spine from bending too much, with the camera](examples/codex_camera_01.png)
+![Photo of foam, ladder, and rolled up yoga mat to prop up a large codex, to make the edges lay flat and protect the spine from bending too much, with the camera](examples/codex_camera_02.png)
+Using foam, ladder, and rolled up yoga mat to prop up a large codex, to make the edges lay flat and protect the spine from bending too much, with the camera.
+
+![Photo of codex on Bookeye overhead scanner being held open with clips](examples/codex_bookeye.png)
+Codex on Bookeye overhead scanner being held open with clips - clips on right side assisted with weighted rope.
+
+![Photo of proppong codex foam, a weight wrapped in archival tape, and a heavy textbook on flatbed scanner](examples/edge_flatbed_02.png)
+Another example of propping for codex edge scanning, utilizing foam, a weight wrapped in archival tape, and a heavy textbook.
+
+
+
+
+
+
+
 
