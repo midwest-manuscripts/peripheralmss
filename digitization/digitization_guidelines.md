@@ -1,4 +1,5 @@
-# IUB & Partner Digitization Processing by Item Type for the Peripheral Manuscripts Project
+# Digitization Processing and Quality Control Procedures
+## IUB & Partner Digitization Processing by Item Type for the Peripheral Manuscripts Project
 
 ## Overview 
 
