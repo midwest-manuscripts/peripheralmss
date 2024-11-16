@@ -8,23 +8,23 @@
   this fixes rendering of tables and other document formatting on GitHub
 -->
 
-These guidelines are based on the work of the Bibliotheca
+*These guidelines are based on the work of the Bibliotheca
 Philadelphiensis Project. The original Bibliotheca Philadelphiensis
 documentation may be viewed
-[here](https://docs.google.com/document/d/1lID4BmrA87YebTJRmCebgB8mXANeOytEML_MV5n12fo/edit?usp=sharing)
+[here](https://docs.google.com/document/d/1lID4BmrA87YebTJRmCebgB8mXANeOytEML_MV5n12fo/edit?usp=sharing)*
 
 # Style Guide
 
-The purpose of the following guidelines is to insure consistency of style, terminology, format, and data type in cataloguing data and descriptions. Consistency here means regularity, predictability, uniformity, and “searchability.”
-Users of this digitized catalogue should expect to find the same amount and type of data in each entry field, and in the same general order.
+The purpose of the following guidelines is to ensure consistency of style, terminology, format, and data type in cataloguing data and descriptions. Consistency here means regularity, predictability, uniformity, and searchability.
+Users of this digitial repository should expect to find the same amount and type of data in each entry field, and in the same general order. Consistency in all fields is particularly important for manuscripts of the same title: Bible, Gospels, Missal, Lectionary, Book of Hours, etc.
 
-Consistency in all fields is particularly important for manuscripts of the same title: Bible, Gospels, Missal, Lectionary, Book of Hours, etc.
+When a certain metadata field does not apply to a given item, the field should be deleted from the item record.
 
-For details on what information should be included in specific fields please refer to the [Metadata Guidelines](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/metadata-guide.md).
+For details on what information should be included in specific fields please refer to the [Metadata Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/metadata-guide.md).
 
 ## Sentences and Fragments
 
-The **Description** field is the only entry field to be composed in full sentences (use present tense verbs). All other fields should be in phrases or fragments, except where the meaning becomes confusing and difficult to express without a full sentence.
+The **Short description** and **Provenance details** notes are the only fields to be composed in full sentences (use present tense verbs). All other fields should be in phrases or fragments, except where the meaning becomes confusing and difficult to express without a full sentence.
 
 ## Capitalization, Spacing, Punctuation
 
@@ -34,11 +34,11 @@ Punctuation follows American usage and goes inside quotation marks: “… Gothi
 
 Avoid unnecessary use of colons in entries.
 
-Semi-colon to separate elements of a fragment
+Semi-colon to separate elements of a fragment.
 
-Serial (Oxford) comma: red, white, and blue
+Serial (Oxford) comma: red, white, and blue.
 
-If one element in a series of three or more itself consists of a series of three or more, use a semi-colon, rather than a comma, between elements of a greater series: 13 stripes; 52 stars; and a color scheme of red, white, and blue
+When identifying a capital in the decoration field, place it between quotation marks.
 
 For capitalization, spacing, and punctuation in transcriptions of medieval documents, see under [Incipit and Explicit](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/page-level-metadata-guide.md#inc-and-exp).
 
@@ -46,7 +46,15 @@ For capitalization, spacing, and punctuation in transcriptions of medieval docum
 
 References to modern publications are formated in Chicago style.
 
-Book types, e.g., Psalter, Lectionary, Book of Hours, Book of Hours Use of Rome, Missal etc. should always be capitalized in titles. This also applies to terms like Chronicle if it is used in the sense of it being that type of book, and not just a word in the title, e.g., Grandes Chroniques
+Book types, e.g., Psalter; Lectionary; Book of Hours; Book of Hours; Use of Rome; Missal etc. should always be capitalized in titles. This also applies to terms like Chronicle if it is used in the sense of it being that type of book, and not just a word in the title, e.g., Grandes Chroniques.
+
+## Transcription conventions
+
+Silently expand abbreviations in rubrics, incipits, and explicits. Text that is imperfect at the beginning or ending is marked with double forward slashes //.
+In general, transcription follows the policies set out in M.B. Parkes, *English Cursive Book Hands, 1250-1500* (Oxford: Oxford University Press, 1969), pp. xxviii-xxx ("A note on the transcriptions"). We depart from Parkes's practice in the following details:
+- Words inserted by the scribe are recorded within double slashes, e.g. \\\habet//.
+- Square brackets enclose portions of Latin words broken at the folio boundary.
+- Long *i* is transcribed as *j* where the scribe has used this form in final position, e.g., in Roman numeral *xiij*.
 
 ## Numbers and Dates
 
@@ -56,15 +64,17 @@ Avoid beginning an entry with a number, but if a number is necessary, spell it o
 
 Spell out ordinal numbers: first, not 1<sup>st</sup> ; this also applies to centuries within text fields: the fourteenth century; a fourteenth-century manuscript
 
-An exception: in the date narrative field **only**, use the following format for a century date: 9<sup>th</sup> century
+An exception: in the **Descriptive date** field only, use the following format for a century date: 9<sup>th</sup> century
 
-Hyphenate a century only if it is an adjective: a tenth-century palimpsest (Otherwise: a palimpsest from the tenth century)
+Hyphenate a century if it is an adjective: a tenth-century palimpsest (Otherwise: a palimpsest from the tenth century)
 
 Use a hyphen, not a dash, to separate dates in a date range: 9<sup>th</sup>-11<sup>th</sup> century CE
 
 For a birth or death date (e.g., of an author, scribe, patron etc.), leave a space between the abbreviation and the year: d. 968
 
-For an approximate date, do not abbreviate circa: circa 1400. Circa date should be only in the Date (narrative) field. Circa date (without “circa”) should also be in the Date (single) field.
+For an approximate date, do not abbreviate circa: circa 1400. Circa date should be only in the **Descriptive date** field. Circa date (without “circa”) should also be in the **Origin** event field.
+
+For leaf citations, foliation given in square brackets reflects supplied foliation based on the current physical state of the item.
 
 ## Citations and Abbreviations
 
@@ -80,7 +90,59 @@ Preferred abbreviation for manuscript/manuscripts: Ms./Mss.
 
 ## Terms and Terminology
 
-These are particularly for **Description,** and **Decoration** fields: Recommended terms in **bold**
+Subject adjectives and qualitative judgements (famous, well-known, great, elegant, clear) should be used sparingly throughout. Terms below are particularly for **Short description** and **Decoration** fields. Recommended terms in **bold**. Our terminology follows Michelle Brown's *Understanding Illuminated Manuscripts: A Guide to Technical Terms*, revised by Teviotdale and Turner in 2018.
+
+**Antiphonal.** Not antiphoner/antiphonary
+
+**anonymous.** An unnamed or unknown scribe or author.
+
+**bounding lines.** Specify as "upper," "lower," "inner," "outer."
+
+**cadelle.** Calligraphic embellishment, often extending into the margin, of ascenders and descenders with broad-edged pen flourishing.
+
+**capital.** The majuscule intial letter of a sentence-like unit in running text. Reserve "initial" for oversize initial letters of larger text divisions.
+
+**colophon.** The final (scribal) note in a manuscript, often indicating information about its production, such as a date, place of copy, or name of scribe.
+
+**decoration.** Painting or penwork. May be specified as illuminated, inhabited, historiated. See decoration elements below.
+
+**folio.** Synonymous with leaf, heaving two sides or pages (recto and verso). Plural folios; abbreviated fol. (pl. fols).
+
+**former.** not olim, eg. for previous item identifiers.
+
+**Gradual.** not graduale.
+
+**grisaille.** Greyscale painting.
+
+**historiated.** Containing an identifiable figural (i.e. Saint Peter) or scenic (i.e. Martyrdom of Saint Agnes) representation.
+
+**inhabited.** Figural representation that has no precise subject, i.e. a monk.
+
+**illumination.** Decoration involving gold leaf.
+
+**lead.** Medium for ruling. Do not use "lead point" or "plummet."
+
+**miniature.** a full-page miniature has no lines of text on the page.
+
+**penwork initial.** Single color.
+
+**pen-flourished initial.** Contrasting colors.
+
+**recto.** The first (front) side of a book leaf.
+
+**rinceau.** Floral decoration, e.g. in borders.
+
+**running head.** not running title (per TEI manuscript description module).
+
+**Temporal.** not temporale/proper of time.
+
+**Saint.** always include "Saint" beofre the proper names of saints.
+
+**Sanctoral.** not sanctorale/common of saints/proper of saints.
+
+**verso.** The second (back or obverse) side of a book leaf.
+
+
 
 A bound book: **manuscript**
 
@@ -97,17 +159,7 @@ The text or writing on a book page: **written area**
   - acceptable alternatives: justification
   - *not* recommended: text block
 
-Book page/pages: **folio/s** (when foliated) or **page/s** (when paginated)
-
-  - acceptable alternative (for folio only): leaf/leaves
-
-The first (front) side of a book page: **recto**
-
-The second (back or obverse) side of a book page: **verso**
-
-A book’s final (scribal) note: **colophon**
-
-A book’s decoration in general: **decoration, decorated**
+A book’s decoration in general: **decoration, decorated, decorative program**
 
   - acceptable alternatives: illumination, illuminated
   - *not* recommended: ornamentation, gilded
@@ -116,7 +168,7 @@ A book’s text painting/s in general: **illustration, illustrated, miniature**
 
   - acceptable alternatives: painting, painted
 
-A book’s opening, full-page decoration without text: **illuminated** (or **illustrated) frontispiece**
+A book’s opening, full-page decoration without text: **illuminated** (or **illustrated**) **frontispiece**
 
 A book’s opening, full-page decoration including initial text: **illuminated incipit**
 
@@ -124,6 +176,24 @@ The space/s outside the written area: **margin/s**.  Margins may be specified as
 
   - *not* recommended: border
 
-An unnamed or unknown scribe: **anonymous**
+## Decoration Elements
+Sometimes miniatures are divided into subsections, for example a full-page miniature that depicts four different stages of a character's story within the same frame. In this case identify the size of the miniature, then each section individually separated by semicolons. The spelling and format of saints' names are taken from the *Oxford Dictionary of Saints*. Each group of sections (e.g., top row, bottom row) should be preceded by a directional cue describing which direction the images are to be read. The following example is from a Hebrew manuscript, so images are to be read upper to lower, right to left:
+- Full-page miniature, upper right to left, Moses with Jethro's flock (Exodus 3:1); Moses and the Burning Bush (Exodus 3:5); lower right to left, Moses answers the Lord, holding up his rod - a shepherd's staff (Exodus 4:2); his rod turns into a serpent (Exodus 4:4); Moses hold the serpent (Exodus 4:4)
 
-Subjective adjectives and qualitative judgments (famous, well-known, great, elegant, clear) should be used sparingly throughout.
+Names of standard iconographies:
+- Annunciation
+- Visitation
+- Nativity
+- Annunciation to the Shepherds
+- Adoration of the Magi
+- Presentation in the Temple
+- Flight into Egypt
+- Massacre of the Innocents
+- Coronation of the Virgin
+- Agony in the Garden
+- Crucifixion
+- Pentecost
+- Saint John the Baptist
+- Saint Catherine
+
+
