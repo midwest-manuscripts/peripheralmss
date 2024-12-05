@@ -16,7 +16,7 @@ There are three principal files (in development):
 - [Metadata Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/metadata-guide.md). Line-item instructions for entry of collection- and item-level metadata.
 
 ## Digitization
-We have digitization guidelines and template Memoranda of Understanding and Care agreements for the project:
+We have digitization guidelines and template Memoranda of Understanding and Care Agreements for the project:
 
 - [Digitization Guidelines](https://github.com/mdalmau/peripheralmss/blob/master/digitization/digitization_guidelines.md)
 - [MOU and Care Agreement for Digitization led by Indiana University Libraries](https://github.com/midwest-manuscripts/peripheralmss/blob/master/digitization/iub_libraries_mou_midwest_medieval_mss_template_iu_digitizes.pdf)
