@@ -7,13 +7,12 @@
   subsequently re-generated as GitHub-flavored Markdown, again with pandoc
   this fixes rendering of tables and other document formatting on GitHub
 -->
+# Style Guide
 
 *These guidelines are based on the work of the Bibliotheca
 Philadelphiensis Project. The original Bibliotheca Philadelphiensis
 documentation may be viewed
 [here](https://docs.google.com/document/d/1lID4BmrA87YebTJRmCebgB8mXANeOytEML_MV5n12fo/edit?usp=sharing)*
-
-# Style Guide
 
 The purpose of the following guidelines is to ensure consistency of style, terminology, format, and data type in cataloguing data and descriptions. Consistency here means regularity, predictability, uniformity, and searchability.
 Users of this digitial repository should expect to find the same amount and type of data in each entry field, and in the same general order. Consistency in all fields is particularly important for manuscripts of the same title: Bible, Gospels, Missal, Lectionary, Book of Hours, etc.
@@ -92,55 +91,55 @@ Preferred abbreviation for manuscript/manuscripts: Ms./Mss.
 
 Subject adjectives and qualitative judgements (famous, well-known, great, elegant, clear) should be used sparingly throughout. Terms below are particularly for **Short description** and **Decoration** fields. Recommended terms in **bold**. Our terminology follows Michelle Brown's *Understanding Illuminated Manuscripts: A Guide to Technical Terms*, revised by Teviotdale and Turner in 2018.
 
-**Antiphonal.** Not antiphoner/antiphonary
+**Antiphonal,** not antiphoner/antiphonary.
 
-**anonymous.** An unnamed or unknown scribe or author.
+**Anonymous,** an unnamed or unknown scribe or author.
 
-**bounding lines.** Specify as "upper," "lower," "inner," "outer."
+**Bounding lines,** specify as "upper," "lower," "inner," "outer."
 
-**cadelle.** Calligraphic embellishment, often extending into the margin, of ascenders and descenders with broad-edged pen flourishing.
+**Cadelle,** calligraphic embellishment, often extending into the margin, of ascenders and descenders with broad-edged pen flourishing.
 
-**capital.** The majuscule intial letter of a sentence-like unit in running text. Reserve "initial" for oversize initial letters of larger text divisions.
+**Capital,** the majuscule intial letter of a sentence-like unit in running text. Reserve "initial" for oversize initial letters of larger text divisions.
 
-**colophon.** The final (scribal) note in a manuscript, often indicating information about its production, such as a date, place of copy, or name of scribe.
+**Colophon,** the final (scribal) note in a manuscript, often indicating information about its production, such as a date, place of copy, or name of scribe.
 
-**decoration.** Painting or penwork. May be specified as illuminated, inhabited, historiated. See decoration elements below.
+**Decoration,** painting or penwork. May be specified as illuminated, inhabited, historiated. See decoration elements below.
 
-**folio.** Synonymous with leaf, heaving two sides or pages (recto and verso). Plural folios; abbreviated fol. (pl. fols).
+**Folio,** synonymous with leaf, heaving two sides or pages (recto and verso). Plural folios; abbreviated fol. (pl. fols).
 
-**former.** not olim, eg. for previous item identifiers.
+**Former,** not olim, eg. for previous item identifiers.
 
-**Gradual.** not graduale.
+**Gradual,** not graduale.
 
-**grisaille.** Greyscale painting.
+**Grisaille,** greyscale painting.
 
-**historiated.** Containing an identifiable figural (i.e. Saint Peter) or scenic (i.e. Martyrdom of Saint Agnes) representation.
+**Historiated,** containing an identifiable figural (i.e. Saint Peter) or scenic (i.e. Martyrdom of Saint Agnes) representation.
 
-**inhabited.** Figural representation that has no precise subject, i.e. a monk.
+**Inhabited,** figural representation that has no precise subject, i.e. a monk.
 
-**illumination.** Decoration involving gold leaf.
+**Illumination,** decoration involving gold leaf.
 
-**lead.** Medium for ruling. Do not use "lead point" or "plummet."
+**Lead,** medium for ruling. Do not use "lead point" or "plummet."
 
-**miniature.** a full-page miniature has no lines of text on the page.
+**Miniature,** a full-page miniature has no lines of text on the page.
 
-**penwork initial.** Single color.
+**Penwork initial,** single color.
 
-**pen-flourished initial.** Contrasting colors.
+**Pen-flourished initial,** contrasting colors.
 
-**recto.** The first (front) side of a book leaf.
+**Recto,** the first (front) side of a book leaf.
 
-**rinceau.** Floral decoration, e.g. in borders.
+**Rinceau,** Floral decoration, e.g. in borders.
 
-**running head.** not running title (per TEI manuscript description module).
+**Running head,** not running title (per TEI manuscript description module).
 
-**Temporal.** not temporale/proper of time.
+**Temporal,** not temporale/proper of time.
 
-**Saint.** always include "Saint" beofre the proper names of saints.
+**Saint,** always include "Saint" beofre the proper names of saints.
 
-**Sanctoral.** not sanctorale/common of saints/proper of saints.
+**Sanctoral,** not sanctorale/common of saints/proper of saints.
 
-**verso.** The second (back or obverse) side of a book leaf.
+**Verso,** the second (back or obverse) side of a book leaf.
 
 
 
