@@ -9,538 +9,469 @@
   this fixes rendering of tables and other document formatting on GitHub
 -->
 
+# Metadata Guide
+## The Peripheral Manuscripts Project
+
 These guidelines derive originally from the Bibliotheca Philadelphiensis Project.
 The original Bibliotheca Philadelphiensis documentation may be viewed [here](https://docs.google.com/document/d/1HzfYAgNuJaRKXcZ1rYE-0hS5_TxidWDNLN6X2cVFpAM/edit?usp=sharing) and [here](https://docs.google.com/document/d/1zeUkzmy-3kpK-egqko_IHWZJ992qEnMcgIdzF6Syz4M/edit?usp=sharing).
 
-For general instructions in style and usage see the [Style Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/style-guide.md).
+For instructions in style and usage see the [Style Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/style-guide.md).
 
-# Item
-## Identifiers
+## I. OCHRE Project Taxonomy
+
+The fields given in the guide below correspond to the organization within the project database in OCHRE (Online Cultural and Historical Research Environment) and are reproduced in that schema for the ease of data mapping for this project between OCHRE and the project’s public-facing image and description repository. When possible, corresponding MARC fields are given for partners mapping to other environments in the appendix.
+
+In general practice, the project team strives for efficient description by exploiting the hierarchical structure of item records within OCHRE, and the inheritance of descriptive metadata from parent items to child items within that structure. Codices are described as parent items with properties giving general comments about layout and decoration throughout the volume and a description field that provides a narrative list of contents. Subitems of a codex are its codicological units, and each subitem should contain the Feature>Identification and Feature>Analytic Description fields in which the subitem differs from the parent item, and at minimum, the following Feature>Contents properties: Language, Scribal title **or** Modern title **or** Supplied title, Incipit, Explicit, Folio range, Image Range start, and Image Range end. Subitems with multiple texts will have repeated instances of the Feature>Contents section, one for each content item. For in situ binding fragments, subitems are created for each fragment only in the case that they come from different original manuscripts. For materially distinct binding fragment from the same original source (for example, front and back pastedowns), these are described as one subitem with iterated Feature>Contents sections, and aggregated information under Feature>Analytic Description, for example:
+
+  Page dimensions (in mm): 313 x 200 (front pastedown); 307 x 198 (back pastedown)
+
+A complete project taxonomy is given in the appendix.
+
+## A. Locations & Objects > Manuscripts in context
+
+The following structure is flexible within OCHRE and its hierarchical structure. All items are organized by **Repository Country > Repository City**. For individual partners, institutional structure and item context is suggested by the number of levels between **Repository City** and a given item, and may include **Holding institution, Repository, and Collection**. These levels may vary depending on the institution or a given item at that institution.
 
 ### Repository Country
 
-Optional
+Country of the holding institution; United States for all partner institutions. Country appears at the highest level under *Locations & objects > Manuscripts in context.*
 
-**MARC Location**: Possibly 852 subfield e
+### Repository State, City
 
-**Description**: Country of the holding library; United States for all partner institutions.
-
-### Repository City
-
-Required
-
-**MARC Location**: 852 subfield e
-
-**Description**: Municipality of the holding library; consistent for all manuscripts from a single institution.
-
-**Instructions**:Name of the city *only*, do not include the name of the state
+Municipality of the holding institution. **Repository State** appears at the second highest level under *Locations & objects > Manuscripts in context*, followed by **Repository City**.
 
 ### Holding Institution
 
-Optional
+Holding institution applies when the repository is part of a larger organization such as a university. Do not use abbreviations. For museums or private collectors that do not have a larger organization, skip to **Repository**.
 
-**MARC Location**: 852 subfield a
+### Repository
 
-**Description**: Organization name if library is part of a larger organization such as a university.
+Repository name in full; do not use abbreviations. For private collectors, a personal name or an identifier for those collectors wishing to remain anonymous.
 
-**Instructions**: Name of the institution above the **Repository**. The **Repository** will be the name of the library, so the **Holding Institution** will usually be the name of a university. Full name, do not use abbreviations.
+### Collection
 
-### Repository Name
+Name of a named collection within the repository. Appears within OCHRE > Locations & Objects between a repository and the individual items within the identified collection.
 
-Required
+## Location or object (default OCHRE fields)
+### Name
 
-**MARC Location**: 852 subfield b
+Identify the institution in the name field and a one/two word descriptor of contents, eg.: SMC MS 2, Miscellany
 
-**Description**: Library name.
+### Description
 
-**Instructions**: Full name, do not use abbreviations.
+One-paragraph abstract or summary summarizing the form and then content of the manuscript as a whole; for miscellanies, a narrative list of contents should be provided. Describes the salient features of a book’s textual, material and artistic contents, emphasizing the most important qualities that the reader will need to know about the manuscript. Qualitative judgments and subjective adjectives should be used sparingly. Important information to include, when known, are the date of the manuscript, its origin, if it is illuminated, and if it is complete or fragmentary. The note can also include the names of authors, scribes, artists, and named parties mentioned in documents, as well as notable features of decoration and musical notation where applicable and possible. 
 
-### Source Collection
+## B. Project Taxonomy > Classification > Collection
 
-Optional
+This property, and only this property, is applied to collections created under *Concepts > Collections*. Those collections may represent collections of items within repositories (eg. the Knox College Moses donation) or to theoretical collections of related items (e.g. Otto Ege leaves and portfolios). Once collections are created within *Concepts*, they can then be linked within individual items in the field **Belongs to collection**.
 
-**MARC Location**: Possibly 500, possibly 710
+## C. Project Taxonomy > Classification > Object
 
-**Description**: Name of a named collection within the library.
+### Excluded from PMSS
 
-### Call Number/ID
+**Description:** Boolean field, default to “TRUE” as this field is only added to items that fit the chronological scope of the project, but are excluded for other reasons, eg. item condition prevents transport for digitization, or text is recorded in non-Latin alphabet.
 
-Required
+### Candidate for MSI
 
-**MARC Location**: 099, 852 subfield j
+**Description:** Boolean field, default to “TRUE” as this field is only added to items that exhibit features suggesting that it would be an apt candidate for multispectral imaging at a later time, eg. damaged and discolored paint or ink, unusual ink or paint colors, offsets, evidence of erasures, etc.
 
-**Description**: Format varies by library; not included in dealer descriptions; possibly in headings in library description.
+### Has child items
 
-**Instructions**: Use what is provided by the institution.
+**Description:** Boolean field, default to “TRUE” as this field is only added to items that have complex hierarchical descriptions within OCHRE, such as host volumes with binding fragments, or fascicular and composite codices. This field is currently used to flag items for review by the project team as they develop a model from crosswalking data from OCHRE into the project repository.
 
-### Record URL
+### Physical type
 
-Optional
+**Description:** Picklist of item types: codex, document, fragment, roll, host volume, or booklet (for a codicological unit within a larger codex). For fragments, an additional classification must be added according to the following picklists of terms adopted from Fragmentarium:
 
-**Description**: URL format varies by library; for records in an online catalog, possibly available when viewing record online.
+#### Fragment type > In situ
+- Pastedown
+- Flyleaf
+- Cover
+- Wrapper
+- Guard
+- Spine lining
+- Insert
+- Offset
 
-### Alternate ID
+#### Fragment type > Detached
+- Leaf (trimmed)
+- Leaf (untrimmed)
+- Bifolium (trimmed)
+- Bifolium (untrimmed)
+- Quire
+- Cutting
+- Strip
 
-Optional
+### Content Type
 
-**MARC Location**: 001 in Penn records
+Picklist of general content categories (Service or liturgical book; Devotional book; Bible; Treatise; Document; Narrative, epic, and lyric texts; Other) each with additional classification. See complete Project Taxonomy for classification choices.
 
-**Description**: Internal control number such as Penn’s BibID or URN such as DOI, PURL, or ARK; to be supplied by holding library.
+## i. Object > Feature > Identification
 
-### Alternate ID Type
+### Tombstone title
 
-Required for manuscripts with alternate IDs
+Title representing the manuscript volume as a whole in the format: Author name, Title(s) of work(s) (or book of Bible) [Fragment]; if an author is known or identified, include the author name; if the volume includes one or multiple works, give the title(s), with multiple titles separated by commas. For manuscripts of multiple works, give titles of two best-known texts. For a bible fragment, give the book as title. For a miscellany or collection of smaller works, enter a supplied title such as “Recipe book.” If a fragment, indicate this at the end of the entry with “[Fragment].” For documents, give document genre (quittance, letter, etc.) and name of issuing party or addressee, when possible.
 
-**Description**: Possibilities include DOI, PURL, ARK, BibID; to be supplied by holding library.
+### Descriptive date
 
-### Manuscript Name
-
-Required
-
-**MARC Location**: 245
-
-**Description**: Title in English representing the manuscript volume as a whole; if the whole volume consists of one or two works, the single title or two titles separated by a semicolon; if a collection of smaller works, a supplied title such as Recipe book; probably in the headings of dealer or library descriptions.
-
-## Agents
-
-### Author Name
-
-Optional, Repeatable
-
-**MARC Location**: Possibly 100, possibly 110
-
-**Description**: When a manuscript contains a work or works with personal or corporate authors, use the LC or VIAF authority heading or record an unauthorized name in authority form; unlikely to appear in this form in dealer or narrative library descriptions, probably needs to be supplied from LC/OCLC.
-
-If there is not an Authority Name, give the name of the author in Latin letters in authority form (Last Name, First Name)
-
-### Author URI
-
-Optional, Repeatable
-
-**Description**: For authors in the LC NAF, give the URI from <http://id.loc.gov/authorities/names.html>; for creators in VIAF give the permalink from <http://viaf.org/>; unlikely to appear in dealer or narrative library descriptions, probably needs to be supplied. If you have verified that the author name does not have an authorized form in LC NAF or VIAF, enter N/A.
-
-### Translator Name
-
-Optional, Repeatable
-
-**MARC Location**: Possibly 245, possibly 500, possibly 700
-
-**Description**: When a manuscript contains the name of a translator, or when the translator of a text has been identified independently, use the LC or VIAF authority heading or record an unauthorized name in authority form; unlikely to appear in this form in dealer or narrative library descriptions, probably needs to be supplied from LC/OCLC.
-
-**Instructions**: Same rules as **Author** fields above
-
-### Translator URI
-
-Optional, Repeatable
-
-**Description**: For translators in the LC NAF, give the URI from <http://id.loc.gov/authorities/names.html>; for translators in VIAF give the permalink from <http://viaf.org/>; unlikely to appear in dealer or narrative library descriptions, probably needs to be supplied. If you have verified that the translator name does not have an authorized form in LC NAF or VIAF, enter N/A.
-
-### Artist Name
-
-Optional, Repeatable
-
-**MARC Location**: Possibly 500, possibly 700
-
-**Description**: When a manuscript contains the name of an illuminator or illustrator, or when the work of an artist in a manuscript has been identified independently, use the \*\*ULAN\*\*, LC, or VIAF authority heading or record an unauthorized name in authority form; unlikely to appear in this form in dealer or narrative library descriptions, probably needs to be supplied from LC/OCLC.
-
-### Artist URI
-
-Optional, Repeatable
-
-**Description**: For artists in ULAN, give the ID from <http://www.getty.edu/research/tools/vocabularies/ulan/>; for artists in LC NAF, give the URI from <http://id.loc.gov/authorities/names.html>; for artists in VIAF give the permalink from <http://viaf.org/>; unlikely to appear in dealer or narrative library descriptions, probably needs to be supplied. If you have verified that the artist name does not have an authorized form in ULAN, LC NAF, or VIAF, enter N/A.
-
-### Former Owner Name
-
-Optional, Repeatable
-
-**MARC Location**: Possibly 500, possibly 561, possibly 700
-
-**Description**: When a manuscript contains the name of a former owner, or when a former owner of a manuscript has been identified independently, use the LC or VIAF authority heading or record an unauthorized name in authority form; unlikely to appear in this form in dealer or narrative library descriptions, probably needs to be supplied from LC/OCLC.
-
-### Former Owner URI
-
-Optional, Repeatable
-
-**Description**: For former owners in the LC NAF, give the URI from <http://id.loc.gov/authorities/names.html>; for former owners in VIAF give the permalink from <http://viaf.org/>; unlikely to appear in dealer or narrative library descriptions, probably needs to be supplied. If you have verified that the former owner name does not have an authorized form in LC NAF or VIAF, enter N/A.
-
-## History
-
-### Provenance
-
-Optional
-
-**MARC Location**: 541, 561
-
-**Description**: Additional information beyond former owner names, including family ownership, former libraries or geographical locations, marks of provenance such as bookplates, and sale information.
-
-**Instructions**: In this field the whole known history of the manuscript should be given. Provenance is concerned with the individuals or institutions that may have owned or handled a book up to and including the present time, and should be written out chronologically.  Record **Former Owner Names** separately, in authorized form.
-
-### Date (single)
-
-Optional, but one type of numerical date metadata must be supplied; Repeatable
-
-**MARC Location**: Fixed field 008/07-10, possibly 245 subfield f, possibly 260 subfield c
-
-**Description**: Year for a dated manuscript, or of a section of a manuscript consisting of originally separate manuscripts copied at different times, which each section provided its own Date (single) or Date (range); probably in the headings of a dealer or library description, otherwise in notes; if the single date is given as a narrative phrase (see Date (narrative) below), supply a year here; enter as the year only without additional words.
-
-### Date (range) start
-
-Optional, but required if a Date (narrative) entry is present, and one type of numerical date metadata must be supplied; Repeatable
-
-**MARC Location**: Fixed field 008/07-10, possibly 245 subfield f, possibly 260 subfield c
-
-**Description**: Beginning year for a manuscript completed over an extended period of time or the earliest year of a section of a manuscript consisting of originally separate manuscripts copied at different times, with each section provided its own Date (single) or Date (range); probably in the headings of a dealer or library description, otherwise in notes; if the range is given as a narrative phrase (see Date (narrative) below), supply a starting year here; enter as the year only without additional words.
-
-### Date (range) end
-
-Optional, but required if a Date (narrative) entry is present, and one type of numerical date metadata must be supplied; Repeatable
-
-**MARC Location**: Fixed field 008/11-14, possibly 245 subfield f, possibly 260 subfield c
-
-**Description**: Ending year for a manuscript completed over an extended period of time or the latest year of a section of a manuscript consisting of originally separate manuscripts copied at different times, with each section provided its own **Date (single)** or **Date (range)**; probably in the headings of a dealer or library description, otherwise in notes; if the range is given as a narrative phrase (see **Date (narrative)** below), supply an ending year here; enter as the year only without additional words.
-
-### Date (narrative)
-
-Optional, NOT Repeatable
-
-**MARC Location**: 500 notes
-
-**Description**: Phrase from a dealer or library description suggesting an exact date, part of a century, a century, or a range of years larger than a century, or single approximate year for a manuscript described as “Circa” with a single year; multiple dates in the previous fields may be described narratively together here (e.g., “12th century and 15th century”). Complete descriptions will include both a Date (narrative) and a Date (range) or a Date (single). Enter the phrase as given in this row and supply start and end dates in the appropriate rows, as in the following examples:
-
-| **Date (narrative)**            | **Supply Date (range) start** | **Supply Date (range) end** |
-| :------------------------------ | :---------------------------- | :-------------------------- |
-| 14th century                    | 1300                          | 1399                        |
-| Early 14th century              | 1300                          | 1315                        |
-| First quarter 14th century      | 1300                          | 1325                        |
-| Fourth quarter 14th century     | 1375                          | 1399                        |
-| Mid-14th century                | 1340                          | 1360                        |
-| 14th century after 1320         | 1320                          | 1399                        |
-| Late 14th century               | 1385                          | 1399                        |
-| Late 14th or early 15th century | 1385                          | 1415                        |
-| Mid-14th to early 15th century  | 1340                          | 1415                        |
-| 14th or 15th century            | 1300                          | 1499                        |
+Part of a century, a century, or a range of years larger than a century, or single approximate year for a manuscript described as “Circa” with a single year; if the item has parts with disparate creation dates, multiple dates may be described narratively together here (e.g., “12th century and 15th century”). Complete descriptions will include both a **Descriptive date** and an **Origin** in Events.
 
 ### Place of Origin
 
-Required, Repeatable
+Place where a manuscript was copied or a suggestion, possibly very broad, of where it might have been copied; often in dealer and library description headings; include cardinal specifications (for example, Northern France); may be followed by a question mark for conjectural locations. Multiple locations may be entered for codices containing multiple manuscripts with different origins bound together.
 
-**MARC Location**: 260 subfield a, possibly additional details in 500 notes
+This should be a modern geographical location whenever possible (Flanders being a rare exception). The smallest component of the location should be listed first, followed by larger locations, usually simply City, Country, e.g., “Oxford, England,” but this could be more specific, such as “Monastery of Reichenau, Lake Constance, Germany,” or could include a region either after a city or as a more specific element before a country. If country is not known, then a region with an accepted or commonly used geographical designation may be given. Cardinal specifications (for example, Northern France) may be included. Conjectural locations may be followed by a question mark, but only one question mark should be used in an origin series, at the most specific level:
+- Paris, France
+- Oxford?, England
+- Florence?, Tuscany, Italy
+- Lyon or Rouen?, France
+- Northwestern France
 
-**Description**: Place where a manuscript was copied or a suggestion, possibly very broad, of where it might have been copied; often in dealer and library description headings; include cardinal specifications (for example, Northern France); may be followed by a question mark for conjectural locations. Multiple locations may be entered for codices containing multiple manuscripts with different origins bound together.
+The final element of an origin will likely be one of the European geographic keywords:
+- Austria
+- Belgium
+- England
+- Flanders
+- France
+- Germany
+- Greece
+- Italy
+- Netherlands
+- Poland
+- Portugal
+- Romania
+- Russia
+- Spain
+- Switzerland
+- Wales
 
-**Instructions**: This should be a modern geographical location whenever possible (Flanders being a rare exception). The smallest component of the location should be listed first, followed by larger locations, usually simply City, Country, e.g., “Oxford, England,” but this could be more specific, such as “Monastery of Reichenau, Lake Constance, Germany,” or could include a region either after a city or as a more specific element before a country. If country is not known, then a region with an accepted or commonly used geographical designation may be given. Cardinal specifications (for example, Northern France) may be included. Conjectural locations may be followed by a question mark, but only one question mark should be used in an origin series, at the most specific level:
+Multiple locations may be entered for codices containing multiple manuscripts with different origins bound together.
 
-  - Paris, France
-  - Oxford?, England
-  - Florence?, Tuscany, Italy
-  - Tuscany?, Italy
-  - Northwestern France
+If a manuscript's location of origin cannot be determined within Europe (as is the case for some Greek manuscripts, for example), enter Undetermined.
 
-The final element of an origin preferably will be an entry from the European geographic keywords:
+### Belongs to Collection
 
-  - Austria
-  - England
-  - Flanders
-  - France
-  - Germany
-  - Greece
-  - Italy
-  - Netherlands
-  - Romania
-  - Russia
-  - Spain
+Use this field to identify multiple items related through shared provenance. These might be collections within institutional repositories (eg. the Moses donation at Knox College) or collections that have been dispersed across many repositories (eg. Otto Ege leaves and portfolios). Collections linked in this field must first be entered in *Concepts > Collections*. For the theoretical reconstruction of an individual item dispersed across multiple repositories, use **Associated item** instead.
 
-Multiple locations may be entered in multiple columns for codices containing multiple manuscripts with different origins bound together.
+### Call Number
 
-If a manuscript’s location of origin cannot be determined within Europe (as is the case for some Greek manuscripts, for example), enter Undetermined.
+Format varies by library. Use only current call number or other item ID number provided by holding institution. Former shelfmarks or additional internal identification numbers should be entered as **Alternate ID**(s).
 
-### Origin Details
+### Digitization ID
 
-Optional
+Number assigned by project digitization team. Format consists of a three-letter institutional abbreviation, followed by a three-number item identifier, then a three-number sub-item identifier, eg.: smc_004_001.
 
-**MARC Location**: 500 notes
+### Record URL
 
-**Description**: Additional details about where the manuscript was created.
+URL format varies; for records in a partner institution online catalog.
 
-## Contents
+### Alternate ID (must be paired with Alternate ID Type; repeatable, and record must repeat Feature > Identification > Alternate ID structure)
 
-### Title
+Internal control number supplied by holding institution, such as: accession number, former shelfmark; or other identifier, such as a Gwara handlist number for leaves of books broken by Otto Ege.
 
-In Latin transcribed and/or supplied title in square brackets.
+### Alternate ID Type (Required for items with alternate IDs)
+
+Accession numbers, former shelfmarks, other holding institution identifiers or former identifiers to be supplied by the holding institution; other types to be supplied by the PIs.
+
+### Title (only for "Host volume" items)
+
+Title of the imprint as given in the imprint itself. Additional information about titles, when possible, go into the **Description**, including short titles and ISTC numbers from the Incunabula Short Title Catalogue (ISTC), or other reference works for early print volumes.
+
+### Author (only for "Host volume" items)
+
+Name of author of host volume.
+
+### Publisher (only for "Host volume" items)
+
+Name of publisher recorded in imprint. Field may be deleted if the publisher is unknown.
+
+### Place of publication (only for "Host volume" items)
+
+Place of publication for an imprint; in this project, imprints appear only as host volumes containing binding fragments. Any correction to erroneous information should be provided in square brackets.
+
+### Date (only for "Host volume" items)
+
+Publication year for a host volume (imprint) containing manuscript material.
+
+## ii. Object > Feature > Analytic description
+
+### Support Material
+
+Material on which the manuscript is written: from the picklist, *parchment, paper*, or *mixed* if both parchment and paper. Any other material, identify by name.
+
+### Foliation/Pagination
+
+How the leaves or pages of the manuscript are numbered (in foliation, each leaf is numbered once; in pagination, both the recto and verso of each leaf are numbered), and where the numbers appear on the leaves, such as *upper right recto* or *lower outer corners*, or *Modern foliation in pencil, upper right recto*.
+
+### Extent (required for all items except cuttings)
+
+Formula showing the numbers of flyleaves and leaves, in the format [modern front flyleaves in roman numerals]+[medieval front flyleaves in arabic numerals] + [textblock leaves in arabic numerals]+[medieval back flyleaves in arabic numerals]+[back flyleaves in roman numerals]: 
+
+ii+113+iii > for a volume wiht only modern endleaves
+
+ii+1+116+1+ii > for a volume with single medieval endleaves and pairs of modern endleaves to either side of the text block
+
+Single detached leaves receive the value “1”; a bifolium, “2”. Do not include spaces. Information about the flyleaf material can be entered into the **Description**. No **Extent** is entered for cuttings. For rolls, enter the number of parchment pieces comprising the roll.
+
+### Collation
+
+Information about the structure of a codex including numbers of gatherings and numbers of leaves per gathering, presented as a formula. Gatherings are enumerated with Arabic numerals following Q for “quire.” After the quire number, parentheses enclose a numeral indicating the number of conjoint leaves originally constituting that quire. Any leaves added or removed from that original structure, including where they were added or whence they were removed, are indicated after a colon.
+
+Example collation: Q1 (8), Q2 (8: +1 after 4), Q3 (8: -3, -7)
+
+In the above example, quire 2 has a single leaf tipped in after the fourth original leaf; quire 3 was originally a quaternion from which the third and seventh leaves were excised or lost.
+
+If the collation cannot be determined, enter “Structure uncertain” or e.g. “binding too tight to collate.”
+
+### Layout
+
+Information about how a page is ruled (including single or double bounding lines) and ruling method (drypoint, lead, ink) and any visible prickings also goes here. A written area that is delineated by four intersecting lines that run from edge to edge is **frame-ruled**. A written area that is delineated by a floating box is **box-ruled**. For a codex or miscellany, the parent item layout property should describe general features of the volume as a whole.
+
+**Examples:**
+- Ruled in brown ink for two columns of ten lines
+- Two columns of ten lines. Double outer bounding lines. Frame-ruled in red. Ruled in lead
+- One column with five lines of text with music
+
+### Number of columns
+
+Record the number of columns. This property may be repeated for codicological units within a codex when these differ among parts of the manuscript.
+
+### Number of lines
+
+Record the number of lines if the entire written area is present. Do not record for trimmed leaves or binding fragments, as the number of extant visible lines will be recorded under **Layout** instead. This property may be repreated for codicological units within a codex when these differ among parts of the manuscript.
+
+### Colophon
+
+Statement at the end of some manuscripts recording the date, place, scribe, and/or reason for production of the manuscript. Potential source of Date and Place of origin information, when present. Transcribe the colophon and provide a leaf citation. Any other information about a colophon should be included in the **Description**.
+
+### Script
+
+Information about the type of lettering used in the manuscript (for example, Caroline minuscule, Gothic). Information about hands (a hand is an individual scribe’s interpretation of a script) and scribes may also be entered in notes fields. Multiple hands may write in the same script. Choose appropriate terms from the following picklists. When unable to determine an appropriate precise classification, use the general categories.
+
+**Pre-Caroline**
+- Uncial
+- Half-uncial
+- -Insular minuscule
+
+**Caroline minuscule**
+
+**Romanesque**
+
+**Beneventan**
+
+**Gothic**
+- Anglicana
+- Bastarda
+- Cursiva
+- Praecissa
+- Quadrata (application of feet and biting of curves; includes scripts sometimes categorized separately as Quadrata and Semi-Quadrata)
+- Rotunda (round Italian textualis, not Brownian rotunda, which is English with rounded-off minims)
+- Textualis (everything below semi-quadrata)
+
+**Humanistic**
+- Humanistic cursive
+- Humanistic minuscule
+- Mercantesca
+
+**Documentary** (Document hands that do not fit in other categories above)
+
+### Decoration
+
+Summary of information about formal visual elements of the item, including illuminations, diagrams, decorated initials, colored headings and chapter and paragraph marks; also includes informal visual elements added later to the manuscript, such as drawings, sketches, and manicules. General, rather than page-level list of visual elements. Might include leaf citations for miniatures in an illuminated codex. When identifying an initial in this field, place it between quotation marks. Additional detailed descriptions of decoration should be recorded in the **Description**.
+
+**Examples:**
+- Three-line pen-flourished initials, alternating red and blue
+- A four-line initial “A” includes penwork that extends down the left margin
+- Half-page illuminated miniatures at the opening of the Hours of the Virgin, the Hours of the Cross, and the Office of the Dead
+- Two full page miniatures. Extensive decorative borders and one-line illuminated initials throughout. rubrics in red
+
+### Musical notation
+
+For manuscripts containing musical notation, describe at minimum the number of staff lines and their color, and notation style. Notation is classified in the broadest terms: square notation describes any notation with square noteheads on a staff, and “neumatic,” any neumes that do not have square noteheads. For these latter, specify heightened or unheightened when possible. Additional optional details may include the presence of barlines, clef lines, accidentals, and custos. Number of staves per page, or the general arrangement of text and music, is recorded in **Layout**. When possible, chants should be identified by Cantus ID numbers, and those numbers should be listed in the **Cantus ID** field (Feature>Contents).
+
+### Binding
+
+Information about the cover (such as type of leather or fabric), its ornamentation (such as gilt or blind, tooled or stamped), fastenings (such as clasps or ties) and other hardware (bosses, cornerpieces, chain remnants), and damage or repairs to the cover. Preferred terminology comes from the Ligatus Language of Bindings (LoB) Thesaurus [https://www.ligatus.org.uk/lob](https://www.ligatus.org.uk/lob). 
+
+### Watermarks
+
+For manuscripts written on paper, descriptions of the watermarks in the manuscript, possibly with citations to reference sources such as Briquet and Piccard.
+
+### Catchwords
+
+Information about the number and location of catchwords. If catchwords are present, record where they are found, and the orientation on the page (vertical or horizontal), e.g.: On versos, bottom right corner. If they are not consistent (for instance, where the pages are cropped and some are missing), indicate that as well.
+
+### Signatures
+
+Information about the numbers or letters used to ensure correct order of gatherings in the binding process, often found on the first recto or last verso of a gathering. If they are using a system in which quires are marked progressively, rather than using catchwords, you can explain that here. Describe location on the page and within the volume as for catchwords.
+
+### *NB: for the measurement fields below, measurements were taken on site visits and, whenever possible, confirmed by a second set of measurements taken by the PI on site during capture.*
+
+### Bound dimensions (in mm)
+
+Maximum height, width, and depth of bound volume in millimeters, in the following format: 290 x 220 x 30
+
+### Page dimensions (in mm)
+
+Maximum height and width of manuscript leaves in millimeters, in the following format: 280 x 210
+
+If originally separate manuscripts of different dimensions have been bound together in a volume, repeat the field for the different page sizes.
+
+For *in situ* binding fragments from the same original item being described together, give page dimensions for each, separated by a comma, eg. 120 x 50 (front flyleaf), 110 x 70 (back flyleaf).
+
+For bifolia, give the dimensions of a single leaf (height and width), as in a codex. 
+
+For cuttings and binding fragments, give the longest height and width dimensions.
+
+For folded documents with a single block of writing (e.g., personal letters), give the dimensions of the fully unfolded sheet when such measurements are possible. If the sheet has been folded folio, with writing disposed into two or more pages, treat the document as a bifolium as above. In either case, clarify the measurement in the **Description**.
+
+### Written area (in mm)
+
+Height and width of the written space in millimeters. If pages are ruled and writing is confined to the ruled space, measure that. Otherwise measure height from the top of minims on the first line to the bottom of minims on the last line. Repeat as necessary if a codex consists of booklets of markedly different layouts. Width may be omitted for unruled verse or where the right edge of writing is ragged. For text disposed in two columns, include a measurement of column width as well, eg. 80 x 60, column width 25mm 
+
+### Line height (required; fragments only)
+
+The height in millimeters of a single line of writing. For an average, measure the height of ten lines, baseline to baseline, and divide by ten. Supply this data point for all fragments, except those with full page music.
+
+### Notes
+### Provenance details
+
+Additional information beyond former owner names, including family ownership, former libraries or geographical locations, marks of provenance such as bookplates, and sale information. In this field the whole known history of the manuscript should be given. Provenance is concerned with the individuals or institutions that may have owned or handled a book up to and including the present time, and should be written out chronologically. Record provenance agents separately in *Persons & organizations*, in authorized form and linked to relevant authority files.
+
+### Bibliography
+
+Relevant citations to other bibliographic resources, such as essays or articles about a manuscript. Citations are supplied in Chicago Style, imported from Zotero.
+
+## iii. Object > Feature > Agents
+
+For all agents identified within or associated with project items, agent records are created in *Persons & organizations*. For each agent record, link the VIAF ID associated with that name using the OCHRE thesaurus tools. If a VIAF ID is lacking, use LC NAF or ULAN authorities when relevant and possible, and create thesaurus links accordingly. If there is not an Authority Name, 
+- Give the name of the agent in Latin letters in authority form (Lastname, Firstname) for modern names and medieval names with surnames. For medieval names with patronyms or toponyms, give names as “Firstname Patronym/Toponym” without commas. 
+- Modernize given names, but keep particles and toponyms as recorded, modernizing toponyms only for persisting place names
+- Add an alias to the agent record with the name as it is recorded in each item where it figures
+
+Agents in the following categories can be linked from *Persons & organizations* within item records: Author, translator, artist, chancellor or secretary, notary, scribe, signatory, addressee. For a miscellany, Feature>Agents>Author should be repeated to include all authors whose works are represented in the volume.
+
+Agents related to item provenance (donor, conservator or restorer, bookbinder, former owner, fragmentator, librarian, seller, describer) can be linked from *Persons & organizations* within Events.
+
+## iv. Object > Feature > Contents
+
+### Language
+
+Language or languages in which the manuscript is written, available as a picklist within OCHRE. If there are notes about the use of languages (e.g., “Latin with Greek glosses”) include all the language names in repeated **Language** fields, and add the additional information in the **description**. 
+
+The following languages are currently in the OCHRE picklist. The corresponding ISO 639-2 Codes follow each value in square brackets. These codes are linked as aliases in our picklist, and viewable on export.
+- Latin [lat]
+- Greek [grc]
+- Anglo-Norman [xno]
+- Arabic [ara]
+- Armenian [arm]
+- Catalan [cat]
+- Dutch [dum]
+- English after approx 1500 [eng]
+- English, Middle, to approx 1500 [enm]
+- French, Middle, approx. 1400-1600 [frm]
+- French, Old, before approx. 1400 [fro]
+- German, after approx. 1500 [ger]
+- German, Middle High, approx. 1050-1500 [gmh]
+- German, Old High, approx. 750-1050 [goh]
+- Hebrew [heb]
+- Italian [ita]
+- Low German [nds]
+- Spanish: Castilian [spa]
+
+### Scribal title
+
+Title as given by scribe or contemporary hand at the beginning of a text item. Do not record rubrics appearing in liturgical books.
+
+### Protocol
+
+Formulaic language in papal documents ending with “salutem et apostolicam benedictionem,” after which is found the incipit. For other kinds of documents, include similar opening formulae, even when these are less standardized in contracts and other notarial records.
 
 ### Incipit and explicit
 
 Incipit and explicit should be recorded for the following types of material:
-
-- All leaves. Incipit is the initial words of the leaf.
-- Works imperfect at beginning or end. Incipit is the initial words of the work as transmitted.
+- Works imperfect at beginning or end. Incipit is the initial words of the work as transmitted, following double forward slashes (//).
+- All fragments. Incipit is the initial words of the fragment. When possible we supply within square brackets [ ] the missing portions of broken Latin words.
 - Unidentified works, works without a standard modern edition, and eccentric copies of known works. Incipit is the initial words of the work, following the title or rubric (if any)
-- Papal letters. Incipit is the first words after the initial protocol.
+- Papal letters. Incipit is the first words after the initial protocol. Explicit is not recorded.
+- Other kinds of documents. Record incipit. If the document is complete, explicit is unnecessary.
 
-Do not provide incipit or explicit for Books of Hours, Bibles, or other standard works transmitted intact in codex form.
+Record a single complete clause of prose or two lines of verse when possible. Do not provide incipit or explicit for Bibles transmitted intact.
 
-In general, transcription follows the policies set out in
-M. B. Parkes, *English Cursive Book Hands, 1250–1500* (Oxford: Oxford University Press, 1969), pp. xxviii--xxx ("A note on the transcriptions").
-We depart from Parkes's practice in the following details:
+Transcription follows the the following policies:
+- Abbreviations are silently expanded.
+- We preserve the distinction between **u** and **v** and between **i** and **j** in the sources. For example, long **i** is transcribed as **j** where the scribe has used this form in final position, e.g., in roman numeral *xiij*.
+- Words inserted by the scribe are recorded within double slashes, e.g. \\habet//.
+- Letters supplied where the writing is illegible or uncertain due to damage are enclosed in < >.
+- Use ( ) around words or letters deleted by the scribe.
+- Punctuation is represented by modern equivalents, determined by context.
 
-- Words inserted by the scribe are recorded within double slashes, e.g. `\\habet//`.
-- Long *i* is transcribed as *j* where the scribe has used this form in final position, e.g., in roman numeral *xiij*.
+### Modern title
 
-### Language
+For works with a standard modern edition, give the standard title of the work. Psalms are identified according to the Greek/Vulgate numbering.
 
-Required, Repeatable
+### Supplied title
 
-**MARC Location**: Fixed field 008/35-37, 041, 546
+For works with no standard modern edition, and lacking a scribal title in the copy, give a brief indication of the nature of the work if possible.
 
-**Description**: Language or languages in which the manuscript is written.
+### Cantus IDs
 
-**Instructions**: Name of the language or languages represented in the manuscript. Include names only, one name per column. If there are notes about the use of languages (e.g., “Latin with Greek glosses”) include all the language names in the **Language** field, and add the additional information as a **Note**. Use the following Language codes (from the ISO 639-2) - full names are provided for reference, do not include them in the field:
+For notated manuscripts, when possible, identified chants are listed in order of appearance by Cantus ID numbers, as established by the Cantus Index: [https://cantusindex.org/](https://cantusindex.org/)
 
-  - lat \[Latin\]
-  - grc \[Greek\]
-  - xno \[Anglo-Norman\]
-  - arm \[Armenian\]
-  - chu \[Church Slavonic\]
-  - dum \[Dutch\]
-  - eng \[English after approx 1500\]
-  - enm \[English, Middle, to approx 1500\]
-  - frm \[French, Middle, approx. 1400-1600\]
-  - fro \[French, Old, before approx. 1400\]
-  - ger \[German, after approx. 1500\]
-  - gmh \[German, Middle High, approx. 1050-1500\]
-  - goh \[German, Old High, approx. 750-1050\]
-  - heb \[Hebrew\]
-  - nds \[Low German\]
-  - ita \[Italian\]
-  - cat \[Catalan\]
-  - spa \[Spanish\]
+### Folio range
 
-### Description
+For each work within a manuscript, record the range of leaves that transmit the text, eg. 1r-4v or [1]r-v. Only provide a unit abbreviation if the item is paginated, eg. pp. 3-7. Do not record for documents.
 
-Optional
+### Image range and end
 
-**MARC Location**: 520
+For each content item, list the beginning and end images of that item. For host volumes of *in situ* fragments, the range should cover all item images; the *in situ* fragment images will be repeated separately in the fragment subitem(s).
 
-**Description**: Abstract or summary of no more than a couple of sentences summarizing the content of the manuscript as a whole.
+### Author
 
-**Instructions**: Each **Description** should, in a **maximum of 250 words,** introduce or summarize the salient features of a book’s textual, material and artistic contents, emphasizing the most important qualities that the reader will need to know about the manuscript – what makes it special or important? Qualitative judgments and subjective adjectives should be used sparingly. Important information to include, when known, are the date of the manuscript, its origin, if it is illuminated, if it is complete or fragmentary, and the names of authors, scribes, and artists where applicable.
+This author field is only for codicological units containing works by multiple authors, and it is used in order to associated specific works with specific authors under repeated Feature>Contents sections. All authors should still be identified under Feature>Agents.
 
-Subjective adjectives and qualitative judgments (famous, well-known, great, elegant, clear) should be used sparingly.
+## v. Object > Feature > Keywords
 
-## Analytic description
+### Keywords (repeatable)
 
-### Foliation/Pagination
+Keywords are organized into six groups: Book Type, Century, Culture, Descriptive term, Geography, and Subject. Each group appears as a picklist in OCHRE, and each group can be repeated as many times as necessary. Some keywords may repeat metadata supplied in other forms in the fields described above. All relevant keywords should still be added to each record, to help users to search the digital item repository. A list of keywords is given in the appendix.
 
-Optional
+## vi. Object > Associated item
 
-**MARC Location**: 500 notes
+### Associated item (repeatable)
 
-**Description**: How the leaves or pages of the manuscript are numbered (in foliation, each leaf is numbered once; in pagination, both the recto and verso side of each leaf are numbered), and where the numbers appear on the leaves, such as *upper right recto* or *lower outer corners*, or *Modern foliation in pencil, upper right recto*
+This field allows for the identification of related items across collections, for example, leaves from the same original manuscript, now dispersed. Repeatable as needed.
 
-### Flyleaves & Leaves
+## C. Project taxonomy > Event
 
-Required for codices; this field is not used for leaves.
+### Origin
 
-**Description**: Formula showing the numbers of flyleaves and leaves, in the format \[front flyleaves\]+\[leaves\]+\[back flyleaves\], for example ii+113+iii
+Flexible date recording that may comprise a single date or date range, the latter represented using start and end years. For **Descriptive dates**, regularize the start and end years according to the table below:
 
-**Instructions**: No spaces. Make note of the flyleaf material using the **Note** field.
+| **Descriptive date**            | **Start year** | **End year** |
+| :------------------------------ | :--------------| :----------- |
+| 14th century                    | 1300           | 1399         |
+| Early 14th century              | 1300           | 1315         |
+| First quarter 14th century      | 1300           | 1325         |
+| Fourth quarter 14th century     | 1375           | 1399         |
+| Mid-14th century                | 1340           | 1360         |
+| 14th century after 1320         | 1320           | 1399         |
+| Late 14th century               | 1385           | 1399         |
+| Late 14th or early 15th century | 1385           | 1415         |
+| Mid-14th to early 15th century  | 1340           | 1415         |
+| 14th or 15th century            | 1300           | 1499         |
+| Circa 1325                      | 1310           | 1340         |
 
-### Layout
+### Additional Events
 
-Optional
+Additional events can be added to any item in order to record conservation interventions and provenance details. Record private and institutional owners and any provenance agents separately in *Persons & organizations*, in authorized form and linked to relevant authority files. Link relevant agents to events whenever possible. For a complete list of **Events**, see the Project Taxonomy in the appendix.
 
-**MARC Location**: 500 notes
+Events also record internal progress of item description, indicating when initial, second, and third rounds of description and review have been begun and completed, and by whom. 
 
-**Description**: The easiest layout details to capture are number of columns and number of lines per page, if those are generally consistent throughout the manuscript or in sections of the manuscript. Information about how a page is ruled and by what means (drypoint, lead, ink) also goes here.
+## III. Appendices
 
-**Instructions**: A written area that is delineated by four intersecting lines that run from edge to edge is **frame-ruled**. A written area that is delineated by a floating box is **box-ruled**.
 
-### Colophon
 
-Optional
 
-**MARC Location**: 500 notes
-
-**Description**: Statement at the end of some manuscripts recording the date, place, scribe, and/or reason for production of the manuscript. Potential source of Date and Place of origin information, when present.
-
-**Instructions**: Transcription of the colophon, if present. Any other information about a colophon should be a **Note**.
-
-### Collation
-
-Optional
-
-**MARC Location**: 500 notes
-
-**Description**: Information about the structure of the volume in terms of numbers of gatherings and numbers of leaves per gathering, often presented as a formula.
-
-**Instructions**: We will express collation by formula.
-Gatherings are enumerated with Arabic numerals.
-After the numeral representing each gathering, type two carets `^^` then the number of conjoint leaves originally constituting that quire. 
-Any unpaired leaves or postproduction losses are recorded in parentheses afterwards, following the conventions laid down in N.R. Ker, *Catalogue of manuscripts containing Anglo-Saxon*, p. xxii.
-David Gura's collation of St. Mary's College MS 2 is represented by the following formula in our notation:
-
-```
-1^^6 (+1 leaf after 5) 2^^10 (wants 9, 10) 3^^6 (+1 leaf after 4) 4^^12 (+1 after 7; wants 9, 10, 11, 12)
-```
-
-If the collation cannot be determined, enter ‘Structure Uncertain.’
-
-If you can determine part of the collation, but not the entire thing, you can also describe the collation as best you can and this will be passed to the TEI.
-
-### Script
-
-Optional, Repeatable
-
-**MARC Location**: 500 notes
-
-**Description**: Information about the type of lettering used in the manuscript (for example, Caroline minuscule, Gothic). Information about hands (a hand is an individual version of a script written by a single scribe) and scribes may also be entered here. Multiple hands may write in the same script.
-
-**Instructions**: Information about the type of lettering used in the manuscript, preferring the terms listed below if applicable.
-
-  - Square Capitals
-  - Rustic Capitals
-  - Uncial
-  - Half-Uncial
-  - Caroline Minuscule
-  - Protogothic
-  - Gothic–textualis quadrata (consistent application of feet and biting of curves)
-  - Gothic–textualis semi-quadrata (inconsistent application of feet and biting of curves)
-  - Gothic–textualis (everything below semi-quadrata; for Gothic with single-compartment *a*, sometimes called semitextualis, add a note: “Gothic–textualis; single-compartment *a*”)
-  - Gothic–rotunda (round Italian textualis, not Brownian rotunda, which is English with rounded-off minims)
-  - Gothic–anglicana
-  - Gothic–cursiva
-  - Littera bononiensis
-  - Secretary
-  - Bâtarde
-  - Mercantesca
-  - Hybrida
-  - Humanistic
-  - Humanistic Cursive
-  - Humanistic semi-cursive
-  - Greek Minuscule
-
-If the scribe is identifiable, include the scribe’s name, preceded by “Scribe:” For example, “Scribe: Thomas Hoccleve”.
-
-### Decoration
-
-Optional
-
-**MARC Location**: Fixed field 008/18-21, 500 notes
-
-**Description**: Summary of information about formal visual elements of the manuscript (including illuminations, diagrams, decorated initials, colored headings and paragraph marks) and informal visual elements added later to the manuscript (including drawings, sketches, and manicules).  Not a page-level list of visual elements.
-
-### Musical notation
-
-Optional
-
-**MARC Location**: ???
-
-**Description**: (to be supplied)
-<!-- This field is our addition, not yet in the Google Sheet template -->
-
-**Instructions**: If notation is present, describe it here.
-
-### Binding
-
-Optional
-
-**MARC Location**: 500 notes
-
-**Description**: Information about the cover (such as type of leather or fabric), its ornamentation (such as gilt or blind, tooled or stamped), fastenings (such as clasps or ties), and damage or repairs to the cover.
-
-### Watermarks
-
-Optional, Repeatable
-
-**MARC Location**: 500 notes
-
-**Description**: For manuscripts written on paper, descriptions of the watermarks in the manuscript, possibly with citations to reference sources such as Briquet and Piccard.
-
-### Catchwords
-
-Optional
-
-**MARC Location**: 500 notes, often with collation notes
-
-**Description**: Information about the number and location of catchwords.
-
-**Instructions**: If catchwords are present, where are they found, and what is the orientation on the page (at the bottom, along the side margin, etc.), e.g.: On versos, bottom right corner. If they are not consistent (for instance, where the pages are cropped and some are missing), indicate that as well.
-
-### Signatures
-
-Optional
-
-**MARC Location**: 500 notes, often with collation notes
-
-**Description**: Information about the numbers or letters used to ensure correct order of gatherings in the binding process, often found on the first recto or last verso of a gathering.
-
-**Instructions**: If they are using a system in which quires are marked progressively, rather than using catchwords, you can explain that here. Same rules apply as for catchwords.
-
-### Support material
-
-Required
-
-**MARC Location**: 300 subfield b
-
-**Description**: Material on which the manuscript is written: *parchment*, *paper*, or *mixed* if both parchment and paper. Any other material, identify by name.
-
-### Page dimensions
-
-Optional, Repeatable
-
-**MARC Location**: 300 subfield c
-
-**Description**: Maximum height and width of manuscript leaves in millimeters, in the following form: 280 x 210 mm (no period after mm).
-If originally separate manuscripts of markedly different dimensions have been bound together in a volume, repeat for the different page sizes. 
-
-For bifolia, give the dimensions of a single leaf (height and width), just as in a codex.
-
-For cuttings and binding fragments, give the longest height and width dimensions.
-
-For folded documents with a single block of writing (e.g., personal letters), give the dimensions of the full unfolded sheet.
-If the sheet has been folded folio, with writing disposed into two or more pages, treat the document as a bifolium (see above).
-In either case, explain the measurement in a comment or in the field "Short Description."
-
-### Written area
-
-Optional, Repeatable
-
-**MARC Location**: ???
-
-**Description**: Height and width of the written space in millimeters.
-If pages are ruled and writing is confined to the ruled space, measure that.
-Otherwise measure height from the top of minims on the first line to the bottom of minims on the last line.
-Repeat as necessary if a codex consists of booklets of markedly different layouts.
-Width may be omitted for unruled verse or where the right edge of writing is ragged.
-
-### Line height
-
-Optional
-
-**MARC Location**: ???
-
-**Description**: The height in millimeters of a line of writing. 
-Measure the height of ten lines, baseline to baseline, and divide by ten.
-Supply this data point for fragments. 
-For codices report **written area** instead.
-
-### Bound dimensions
-
-Optional
-
-**MARC Location**: Possibly 300 subfield c
-
-**Description**: Maximum height, width, and depth of bound volume in millimeters, in the following form: 290 x 220 x 30 mm (no period after mm).
-
-### Notes
-
-Optional, Repeatable
-
-**MARC Location**: 500
-
-**Description**: Possible entry for notes not explicitly covered by the spreadsheet, such as condition notes.
-
-**Instructions**: Additional information about the manuscript that does not fit into other fields can be added as a note. Acknowledgements of e.g., cataloging work should not be included in Notes. Each note should be placed in a different cell.
 
 ## Bibliography
 
