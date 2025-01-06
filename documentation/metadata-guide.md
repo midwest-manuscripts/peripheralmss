@@ -17,6 +17,26 @@ The original Bibliotheca Philadelphiensis documentation may be viewed [here](htt
 
 For instructions in style and usage see the [Style Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/style-guide.md).
 
+## Contents:
+
+I. Project Taxonomy
+- A. Locations & objects > Manuscripts in context
+- B. Project Taxonomy > Classification > Collection
+- C. Project Taxonomy > Classification > Object
+  - i. Object > Feature > Identification
+  - ii. Object > Feature > Analytic description
+  - iii. Object > Feature > Agents
+  - iv. Object > Feature > Contents
+  - v. Object > Feature > Keywords
+  - vi. Object > Association item
+- D. Project Taxonomy > Event
+
+II. Appendices
+- A. Project Taxonomy
+- B. Keywords
+- C. Image Names
+- D. OCHRE Predefinitions
+
 ## I. OCHRE Project Taxonomy
 
 The fields given in the guide below correspond to the organization within the project database in OCHRE (Online Cultural and Historical Research Environment) and are reproduced in that schema for the ease of data mapping for this project between OCHRE and the project’s public-facing image and description repository. When possible, corresponding MARC fields are given for partners mapping to other environments in the appendix.
@@ -469,7 +489,395 @@ Events also record internal progress of item description, indicating when initia
 
 ## III. Appendices
 
+### A. Project Taxonomy
 
+Classification
+- Collection
+- Object
+  - Excluded from PMSS
+  - Candidate for MSI
+  - Has child items
+  - Physical type
+      - Codex
+      - Document
+      - Fragment
+        - Fragment type
+          - In situ
+            - Classification:
+              - Pastedown
+              - Flyleaf
+              - Cover
+              - Wrapper
+              - Guard
+              - Spine Lining
+              - Insert
+              - Stacked boards
+              - Offset
+          - Detached
+            - Classification:
+              - Leaf (trimmed)
+              - Leaf (untrimmed)
+              - Bifolium (trimmed)
+              - Bifolium (untrimmed)
+              - Quire
+              - Cutting
+              - Strip
+      - Roll
+      - Host volume
+      - Booklet
+  - Content Type
+    - Service or liturgical book
+      - Classification:
+        - Antiphonal
+        - Breviary
+        - Collectar
+        - Gospel lectionary
+        - Gradual
+        - Kyriale
+        - Missal
+        - Processional
+        - Psalter
+    - Devotional Book
+      - Classification:
+        - Book of Hours
+        - Psalter
+        - Prayer book
+    - Bible
+    - Sermons
+    - Treatise
+      - Classification:
+        - Legal
+        - Theological
+        - Scientific
+    - Document
+      - Classification
+        - Land deed
+        - Letter
+        - Papal bull
+        - Will or testament
+    - Narative, epic, and lyric texts
+    - Other
+  - Feature
+    - Identification:
+      - Tombstone title
+      - Descriptive date
+      - Place of origin
+      - Belongs to collection
+      - Call number
+      - Digitization ID
+      - Alternate ID
+      - Alternate ID type
+      - Holding Institution
+      - Record URL
+      - Title
+      - Author
+      - Publisher
+      - Place of publication
+      - Date
+    - Analytic description
+      - Support material:
+        - Parchment
+        - Paper (material)
+        - Mixed
+      - Foliation-pagination
+      - Extent
+      - Collation
+      - Layout
+      - Number of columns
+      - Number of lines
+      - Script:
+        - Pre-caroline
+          - Script type:
+            - Uncial
+            - Half-uncial
+            - Insular minuscule
+        - Caroline minuscule
+        - Romanesque
+        - Beneventan
+        - Gothic
+          - Script type:
+            - Anglicana
+            - Bastarda
+            - Cursiva
+            - Praecissa
+            - Quadrata
+            - Rotunda
+            - Textualis
+        - Humanistic
+          - Script type:
+            - Humanistic cursive
+            - Humanistic minuscule
+            - Mercantesca
+        - Documentary
+        - Early Modern Cursive
+      - Decoration
+      - Musical notation
+      - Binding
+      - Watermarks
+      - Catchwords
+      - Signatures
+      - Bound dimensions (in mm)
+      - Page dimensions (in mm)
+      - Written area (in mm)
+      - Line height (in mm)
+    - Agents
+      - Author
+      - Translator
+      - Artist
+      - Scribe
+      - Donor
+      - Conservator or restorer
+      - Bookbinder
+      - Former owner
+      - Fragmentator
+      - Librarian
+      - Seller
+      - Describer
+      - Addressee
+      - Chancellor or secretary
+      - Signatory
+      - Notary
+    - Contents
+      - Language:
+        - Dutch, Middle, ca. 1050-1350 [dum]
+        - English after approx. 1500 [eng]
+        - English, Middle, to approx. 1500 [enm]
+        - English, Old, ca. 450-1100 [ang]
+        - Flemish
+        - French, after approx. 1600 [fre]
+        - French, Middle, approx. 1400-1600 [frm]
+        - French, Old, before approx. 1400 [fro]
+        - Gaelic [gla]
+        - German, after approx. 1500 [ger]
+        - German, Middle High, approx. 1050-1500 [gmh]
+        - German, Old High, approc. 750-1050 [goh]
+        - Italian [ita]
+        - Latin [lat]
+        - Portuguese [por]
+        - Spanish: Castilian [spa]
+      - Scribal title
+      - Modern title
+      - Protocol
+      - Incipit
+      - Explicit
+      - Colophon
+      - Cantus IDs
+      - Folio range
+      - Image range start
+      - Image range end
+      - Author
+      - Scribe
+      - Translator
+    - Keywords [see table below for all keywords in the following categories]
+      - Book type
+      - Century
+      - Culture
+      - Descriptive term
+      - Geography
+      - Subject
+  - Associated Item
+Event
+- Acquired
+- Conserved
+- Digitized
+- Finalized
+- Gifted
+- Listed for sale
+- Origin
+- Owned by
+- Donated by
+- Rebound
+- Restored
+- Sold
+- Initial pass: started
+- Initial pass: completed
+- Second pass: started
+- Second pass: completed
+- Third pass: started
+- Third pass: completed
+- Reopened for Discussion
+
+### B. Keywords
+
+| **Book type**           | **Century**  | **Culture** | **Descriptive term** | **
+| :---------------------- | :------------|
+| Accounts                | 9th century  |
+| Antiphonal              | 10th century |
+| Armorial                | 11th century |
+| Bible                   | 12th century |
+| Biography               | 13th century |
+| Book of Hours           | 14th century |
+| Breviary                | 15th century |
+| Chroncicle              | 16th century |
+| Collectar               | 17th century |
+| Collection of letters   | 18th century |
+| Collection of sermons   | 19th century |
+| Commentary              | 20th century |
+| Dictionary              |
+| Document                |
+| Dogale                  |
+| Friendship Book         |
+| Genealogy               |
+| Glossary                |
+| Gospel lectionary       |
+| Gospels                 |
+| Gradual                 |
+| Haggadah                |
+| Halakhah                |
+| Homiliary               |
+| Horologion              |
+| Hymnal                  |
+| Lectionary              |
+| Letter                  |
+| Mass book               |
+| Miscellany              |
+| Missal                  |
+| Passional               |
+| Pontifical              |
+| Portolan chart          |
+| Prayer book             |
+| Private devotional text |
+| Processional            |
+| Protective scroll       |
+| Psalter                 |
+| Psalter-Hours           |
+| Qur'an / Koran          |
+| Recipe book             |
+| Saint's life            |
+| Scribal manual          |
+| Scroll                  |
+| Song book               |
+| Sequentiary             |
+| Torah                   |
+| Treatise                |
+
+
+### C. Image Names
+    
+Anything to be photographed needs a name-value. Values must not repeat within a single manuscript. The value will usually be a page number (e.g., 1) or a folio number (e.g., 2r). See **Foliation/Pagination.**
+
+For covers and flyleaves, identify the location or number as relevant (e.g., Inside Front Cover, Flyleaf 1 recto). If pages are labeled using something other than Arabic numerals (e.g., Roman numerals or letters) use whatever is on the page. Front and back flyleaves should be noted as such.
+
+The subsections below supply additional instructions for data entry in this column.
+
+**External Structure**
+- Spine
+- Fore edge
+- Top edge
+- Bottom edge
+
+**Covers and Flyleaves**
+
+Front matter:
+- Front cover
+- Inside front cover
+- [Flyleaf 1 recto]
+- [Flyleaf 1 verso]
+
+Back matter:
+- [Flyleaf 1 recto]
+- [Flyleaf 1 verso]
+- Inside back cover
+- Back cover
+
+When flyleaves are numbered, identify the leaf as a flyleaf and add the folio number after, separated by a colon:
+- [Flyleaf 1 recto: fol.239]
+
+**Text block (constituent leaves not including the flyleaves)**
+
+Leaves foliated or paginated and attached:
+- 1r
+- 1v
+- IIIr
+- IIIv
+- IVr
+- IVv
+- Ar
+- Av
+- Br
+- Bv
+
+If pages are labeled using something other than Arabic numerals (e.g., Roman numerals or letters) use whatever is on the page. If leaves are foliated in Arabic numerals, use (these template values.)[https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/folio-values.csv]
+
+Leaves attached but not foliated/paginated:
+- [1r]
+- [1v]
+- [2r]
+- [2v]
+
+Leaves foliated/paginated but detached:
+- 1r (unattached)
+- 1v (unattached)
+
+Foliation skips a folio (i.e., 7, unnumbered, 8, not 7, unnumbered, 9):
+- Unnumbered recto
+- Unnumbered verso
+
+(When more than one in a row, add 'i' etc. after 'Unnumbered')
+
+Stubs included in foliation:
+- 15r (Stub)
+- 15v (Stub)
+
+Stubs not included in foliation:
+- Stub recto
+- Stub verso
+
+(When more than one in a row, add ‘i’ etc. after ‘Stub’)
+
+Foldouts, unfoliated/unpaginated:
+- Foldout recto (folded)
+- Foldout verso (folded)
+- Foldout recto (unfolded)
+- Foldout verso (unfolded)
+
+(When more than one in a row, add ‘i’ etc. after ‘Foldout’)
+
+Foldouts, foliated/paginated:
+- 1r (Foldout, folded)
+- 1v (Foldout, folded)
+- 1r (Foldout, unfolded)
+- 1v (Foldout, unfolded)
+
+Insert, not included in foliation/pagination, attached:
+- Insert recto
+- Insert verso
+
+(When more than one in a row, add ‘i’ etc. after ‘Insert’)
+
+Insert, not included in foliation/pagination, not attached:
+- Loose leaf recto
+- Loose leaf verso
+
+(When more than one in a row, add ‘i’ etc. after ‘Loose leaf’)
+
+Fragments or cuttings:
+- Loose leaf recto
+- Loose leaf verso
+
+Multiple fragments or cuttings:
+- Loose leaf 1 recto
+- Loose leaf 1 verso
+- Loose leaf 2 recto
+- Loose leaf 2 verso
+
+Fragments or cuttings when you can’t determine recto and verso:
+- Loose leaf Side 1
+- Loose leaf Side 2
+
+Multiple fragments or cuttings without identifiable recto/verso:
+- Loose leaf 1 Side 1
+- Loose leaf 1 Side 2
+- Loose leaf 2 Side 1
+- Loose leaf 2 Side 2
+
+### D. OCHRE Predefinitions
+
+Within OCHRE (Online Cultural and Historical Research Environment), each physical item type has its own Predefinition consisting of the fields that are generally expected to apply to that item type. Additional potentially relevant fields are included in **bold**, but must be manually added to pertinent item records. A list of physical item types and corresponding Predefinition fields is supplied below. The entry <unassigned> represents a picklist within OCHRE among which the cataloger must make a selection for that item type in that field.
+
+All predefinitions additionally include notes for item provenance and for discussion internal to the project team.
+
+### Codex
 
 
 
