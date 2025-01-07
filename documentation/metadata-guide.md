@@ -310,7 +310,7 @@ For manuscripts containing musical notation, describe at minimum the number of s
 
 ### Binding
 
-Information about the cover (such as type of leather or fabric), its ornamentation (such as gilt or blind, tooled or stamped), fastenings (such as clasps or ties) and other hardware (bosses, cornerpieces, chain remnants), and damage or repairs to the cover. Preferred terminology comes from the Ligatus Language of Bindings (LoB) Thesaurus [https://www.ligatus.org.uk/lob](https://www.ligatus.org.uk/lob). 
+Information about the cover (such as type of leather or fabric), its ornamentation (such as gilt or blind, tooled or stamped), fastenings (such as clasps or ties) and other hardware (bosses, cornerpieces, chain remnants), and damage or repairs to the cover. Preferred terminology comes from the [Ligatus Language of Bindings (LoB) Thesaurus](https://www.ligatus.org.uk/lob). 
 
 ### Watermarks
 
@@ -435,7 +435,7 @@ For works with no standard modern edition, and lacking a scribal title in the co
 
 ### Cantus IDs
 
-For notated manuscripts, when possible, identified chants are listed in order of appearance by Cantus ID numbers, as established by the Cantus Index: [https://cantusindex.org/](https://cantusindex.org/)
+For notated manuscripts, when possible, identified chants are listed in order of appearance by Cantus ID numbers, as established by the [Cantus Index](https://cantusindex.org/)
 
 ### Folio range
 
@@ -797,7 +797,7 @@ Leaves foliated or paginated and attached:
 - Br
 - Bv
 
-If pages are labeled using something other than Arabic numerals (e.g., Roman numerals or letters) use whatever is on the page. If leaves are foliated in Arabic numerals, use (these template values.)[https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/folio-values.csv]
+If pages are labeled using something other than Arabic numerals (e.g., Roman numerals or letters) use whatever is on the page. If leaves are foliated in Arabic numerals, use [these template values.](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/folio-values.csv)
 
 Leaves attached but not foliated/paginated:
 - [1r]
@@ -879,292 +879,203 @@ All predefinitions additionally include notes for item provenance and for discus
 
 ### Codex
 
+Classification > Object
+- **Excluded from PMSS**
+- Physical Type: Codex
+- Content Type: <unassigned>
+  - [subtypes added as appropriate]
+- Feature > Identification
+  - Tombstone title
+  - Descriptive date
+  - Place of origin
+  - **Belongs to collection**
+  - Call number
+  - Digitization ID
+  - Alternate ID [repeatable]
+  - Alternate ID type [repeatable]
+- Feature > Analytic description
+  - Support material
+  - Foliation-Pagination
+  - Extent
+  - Collation
+  - Layout
+  - Number of columns
+  - Number of lines
+  - Colophon
+  - Script: <unassigned> [subtype added where appropriate]
+  - Decoration
+  - Musical notation
+  - Binding
+  - **Watermarks**
+  - Catchwords
+  - Signatures
+  - Bound dimensions (in mm)
+  - Page dimensions (in mm)
+  - Written area (in mm)
+- Feature > Agents
+  - [subtypes added as appropriate]
+- Feature > Contents
+  - Language: <unassigned>
+  - Scribal title
+  - Incipit
+  - Explicit
+  - Cantus IDs
+  - Modern title
+  - Folio range
+  - Image range start
+  - Image range end
+- Feature > Keywords
+  - [keywords in various categories added as appropriate]
+- Associated Item [repeatable]
+
+### Document
+
+Classification: Object
+- **Excluded from PMSS**
+- Physical Type: Document
+- Content Type: Document
+  - Classification: <unassigned>
+- Feature > Identification
+  - Tombstone title
+  - Descriptive date
+  - Place of origin
+  - **Belongs to collection**
+  - Call number
+  - Digitization ID
+  - Alternate ID [repeatable]
+  - Alternate ID type [repeatable]
+- Feature > Analytic description
+  - Support material
+  - Extent
+  - Layout
+  - Script: <unassigned> [subtype added where appropriate]
+  - Decoration
+  - Page dimensions (in mm)
+  - Written area (in mm)
+- Feature > Agents
+  - [subtypes added as appropriate]
+- Feature > Contents
+  - Language: <unassigned>
+  - Protocol
+  - Incipit
+  - Explicit
+  - Folio range
+  - Image range start
+  - Image range end
+- Feature > Keywords
+  - [keywords in various categories added as appropriate]
+- Associated Item [repeatable]
+
+### Fragment (detached) - may include Host Volume record (see below)
+Classification: Object
+- **Excluded from PMSS**
+- Physical Type: Fragment
+  - Fragment type: Detached
+    - Classification: <unassigned>
+  - Content Type: <unassigned>
+  - Feature > Identification
+    - Tombstone title
+    - Descriptive date
+    - Place of origin
+    - **Belongs to collection**
+    - Call number
+    - Digitization ID
+    - Alternate ID [repeatable]
+    - Alternate ID type [repeatable]
+  - Feature > Analytic description
+    - Support material
+    - Foliation-Pagination
+    - Extent
+    - Layout
+    - Number of columns
+    - Number of lines
+    - Script: <unassigned> [subtype added where appropriate]
+    - Decoration
+    - Musical notation
+    - **Catchwords**
+    - **Signatures**
+    - Page dimensions (in mm)
+    - Written area (in mm)
+    - Line height (in mm)
+  - Feature > Agents
+    - [subtypes added as appropriate]
+  - Feature > Contents
+    - Language: <unassigned>
+    - **Scribal title**
+    - Incipit
+    - Explicit
+    - Cantus IDs
+    - Modern title
+    - Folio range
+    - Image range start
+    - Image range end
+  - Feature > Keywords
+    - [keywords in various categories added as appropriate]
+  - Associated Item [repeatable]
+ 
+  ### Fragment (in situ) - must include Host Volume record (see below)
+
+  Classification: Object
+  - Physical Type: Fragment
+    - Fragment type: In situ
+      - Classification: <unassigned>
+  - Content Type: <unassigned>
+  - Feature > Identification
+    - Tombstone title
+    - Descriptive date
+    - Place of origin
+    - Call number
+    - Digitization ID
+    - Alternate ID [repeatable]
+    - Alternate ID type [repeatable]
+  - Feature > Analytic description
+    - Support material
+    - Foliation-Pagination
+    - Layout
+    - Script: <unassigned> [subtype added where appropriate]
+    - Decoration
+    - Musical notation
+    - **Catchwords**
+    - **Signatures**
+    - Page dimensions (in mm)
+    - Written area (in mm)
+    - Line height (in mm)
+  - Feature > Agents
+    - [subtypes added as appropriate]
+  - Feature > Contents
+    - Language: <unassigned>
+    - **Scribal title**
+    - Incipit
+    - Explicit
+    - Cantus IDs
+    - Modern title
+    - Image range start
+    - Image range end
+  - Feature > Keywords
+    - [keywords in various categries added as appropriate]
+  - Associated Item [repeatable]
+ 
+### Host Volume (for imprints; for manuscript host volumes, use Codex predefinition)
+
+Classification: Object
+- Physical Type: Host volume
+- Feature > Identification
+  - Tombstone title
+  - Title
+  - Author
+  - Publisher
+  - Place of publication
+  - Date
+  - Call number
+  - Digitization ID
+  - Alternate ID [repeatable]
+  - Alternate ID type [repeatable]
+- Feature > Agents
+  - [subtypes added as appropriate]
+- Feature > Contents
+  - Image range start
+  - Image range end
+- Feature > Keywords
+  - [keywords in various categories added as appropriate]
+- Associated Item [repeatable]
 
-
-## Bibliography
-
-### Related resource
-
-Optional, Repeatable
-
-**MARC Location**: Possibly 773 subfield t, 856 subfield z
-
-**Description**: Related resources may include the name of a larger collection to which this manuscript belongs; a digital facsimile of the manuscript; or a finding aid or catalog record for the manuscript.
-Also includes citations to other bibliographic resources, such as essays or articles about a manuscript.
-Citations are supplied in Chicago Style, imported from Zotero.
-
-### Related resource URL
-
-Optional, Repeatable
-
-**MARC Location**: 856 subfield u
-
-**Description**: URL for the related resource given in the previous row.
-
-## Subjects and keywords
-
-### Subject: names
-
-Optional, Repeatable
-
-**MARC Location**: 600
-
-**Description**: When a manuscript has an individual or group as its subject, use the LCNAF or VIAF authority heading or record an unauthorized name in authority form; unlikely to appear in this form in dealer or narrative library descriptions, may be supplied from LC/OCLC.
-
-### Subject: names URI
-
-Optional, Repeatable
-
-**Description**: For subjects in the LCNAF, give the URI from <http://id.loc.gov/authorities/names.html>; for creators in VIAF give the permalink from <http://viaf.org/>; unlikely to appear in dealer or narrative library descriptions, may be supplied.
-
-### Subject: topical
-
-Optional, Repeatable
-
-**MARC Location**: 650
-
-**Description**: Topical subject as found in LCSH; unlikely to appear in this form in dealer or narrative library descriptions, may be supplied from LC/OCLC.
-
-### Subject: topical URI
-
-Optional, Repeatable
-
-**Description**: For subjects in LCSH, give the URI from <http://id.loc.gov/authorities/subjects.html>; unlikely to appear in this form in dealer or narrative library descriptions, may be supplied.
-
-### Subject: geographic
-
-Optional, Repeatable
-
-**MARC Location**: 651
-
-**Description**: Geographic subject as found in LCSH; unlikely to appear in this form in dealer or narrative library descriptions, may be supplied from LC/OCLC.
-
-### Subject: geographic URI
-
-Optional, Repeatable
-
-**Description**: For subjects in LCSH, give the URI from <http://id.loc.gov/authorities/subjects.html>; unlikely to appear in this form in dealer or narrative library descriptions, may be supplied.
-
-### Subject: genre/form
-
-Optional, Repeatable
-
-**MARC Location**: 655
-
-**Description**: Genre/form term as found in LCSH or Getty Art & Architecture Thesaurus <http://www.getty.edu/research/tools/vocabularies/aat/>; unlikely to appear in this form in dealer or narrative library descriptions, may be supplied.
-
-### Subject: genre/form URI
-
-Optional, Repeatable
-
-**Description**: For genre/form terms in LCSH, give the URI from <http://id.loc.gov/authorities/subjects.html> or <http://id.loc.gov/authorities/genreForms.html>; for genre/form terms in AAT, give the URI in the form <http://vocab.getty.edu/aat/> {AAT ID\#} (more information available at <http://vocab.getty.edu/>); unlikely to appear in this form in dealer or narrative library descriptions, may be supplied.
-
-### Keywords
-
-Required, Repeatable
-
-**MARC Location**: ???
-
-**Instructions**: Keywords are listed [here](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/keywords.md).  There are seven groups: Book Type, Century, Culture, Descriptive term, Geography, Subject, and Other.
-
-Add one keyword per column. You should be able to add at least one from Book Type, Century, Culture, and Geography. Add Descriptive Terms, Subjects, and Others as relevant. Copy and paste terms to avoid misspellings.
-
-Keywords are to help users find the books. So consider what terms a user might select to try to find this book or a book like it, in addition to considering which terms apply to this book.
-
-# Appendices
-
-## Image names
-<!-- PMSS is not supplying this -->
-
-Anything to be photographed needs a name-value. Values must must not repeat within a single manuscript.
-The value will usually be a page number (e.g., 1) or a folio number (e.g., 2r). See [Foliation/Pagination].
-
-For covers and flyleaves, identify the location or number as relevant (e.g., Inside Front Cover, Flyleaf 1 recto). If pages are labeled using something other than Arabic numerals (e.g., Roman numerals or letters) use whatever is on the page. Front and back flyleaves should be noted as such.
-
-The subsections below supply additional instructions for data entry in this column.
-
-### External Structure
-
-  - Spine
-  - Fore edge
-  - Top edge
-  - Bottom edge
-
-### Covers and Flyleaves
-
-Front matter:
-
-  - Front cover
-  - Inside front cover
-  - \[Flyleaf 1 recto\]
-  - \[Flyleaf 1 verso\]
-
-Back matter:
-
-  - \[Flyleaf 1 recto\]
-  - \[Flyleaf 1 verso\]
-  - Inside back cover
-  - Back cover
-
-When flyleaves are numbered, identify the leaf as a flyleaf and add the folio number after, separated by a semicolon:
-
-  - \[Flyleaf 1 recto; fol. 239\]
-
-### Text block (constituent leaves not including the flyleaves)
-
-Leaves foliated or paginated and attached:
-
-  - 1r
-  - 1v
-  - IIIr
-  - IIIv
-  - IVr
-  - IVv
-  - Ar
-  - Av
-  - Br
-  - Bv
-
-If pages are labeled using something other than Arabic numerals (e.g., Roman numerals or letters) use whatever is on the page. If leaves are foliated in Arabic numerals, use [these template values](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/folio-values.csv).
-
-Leaves attached but not foliated/paginated:
-
-  - \[1r\]
-  - \[1v\]
-  - \[2r\]
-  - \[2v\]
-
-Leaves foliated/paginated but detached:
-
-  - 1r (unattached)
-  - 1v (unattached)
-
-Foliation skips a folio (i.e., 7, unnumbered, 8, not 7, unnumbered, 9):
-
-  - Unnumbered recto
-  - Unnumbered verso
-
-(When more than one in a row, add ‘i’ etc. after ‘Unnumbered’)
-
-Stubs included in foliation:
-
-  - 15r (Stub)
-  - 15v (Stub)
-
-Stubs not included in foliation:
-
-  - Stub recto
-  - Stub verso
-
-(When more than one in a row, add ‘i’ etc. after ‘Stub’)
-
-Foldouts, unfoliated/unpaginated:
-
-  - Foldout recto (folded)
-  - Foldout verso (folded)
-  - Foldout recto (unfolded)
-  - Foldout verso (unfolded)
-
-(When more than one in a row, add ‘i’ etc. after ‘Foldout’)
-
-Foldouts, foliated/paginated:
-
-  - 1r (Foldout, folded)
-  - 1v (Foldout, folded)
-  - 1r (Foldout, unfolded)
-  - 1v (Foldout, unfolded)
-
-Insert, not included in foliation/pagination, attached:
-
-  - Insert recto
-  - Insert verso
-
-(When more than one in a row, add ‘i’ etc. after ‘Insert’)
-
-Insert, not included in foliation/pagination, not attached:
-
-  - Loose leaf recto
-  - Loose leaf verso
-
-(When more than one in a row, add ‘i’ etc. after ‘Loose leaf’)
-
-Fragments or cuttings:
-
-  - Loose leaf recto
-  - Loose leaf verso
-
-Multiple fragments or cuttings:
-
-  - Loose leaf 1 recto
-  - Loose leaf 1 verso
-  - Loose leaf 2 recto
-  - Loose leaf 2 verso
-
-Fragments or cuttings when you can’t determine recto and verso:
-
-  - Loose leaf Side 1
-  - Loose leaf Side 2
-
-Multiple fragments or cuttings without identifiable recto/verso:
-
-  - Loose leaf 1 Side 1
-  - Loose leaf 1 Side 2
-  - Loose leaf 2 Side 1
-  - Loose leaf 2 Side 2
-
-## Special instructions for Books of Hours
-
-Examples of section descriptions (for descriptions and page-level metadata):
-
-### TOC elements
-
-  - Calendar
-  - Calendar, in French
-      - i.e. only include the language if it is not Latin
-      - in general any vernacular prayers or rubrics should be pointed out
-  - Gospel Lessons
-  - Passion according to John
-  - Hours of the Virgin, Use of Rome
-  - Hours of the Virgin, Use of Rome, intercalated with the Hours of the Cross and Hours of the Holy Spirit
-      - We have decided **not** to list the individual hours within the office. Even if they begin with miniatures
-  - Penitential Psalms, Litany, and Prayers
-  - Prayer, Obsecro te
-  - Prayer, O intemerata
-  - Prayer, Salva sancta facies
-  - Prayers, beginning with Salva sancta facies
-  - Office of the Dead
-  - Suffrages
-      - individual suffrages **not** listed as TOC element
-
-### DECO elements
-
-  - Inhabited initial Q, a monk
-      - inhabited = figures that are decorative only, with no precise subject, i.e. a saint
-  - Historiated initial D, Annunciation
-      - historiated = identifiable figure, i.e. Saint Peter, or a scene, i.e. Martyrdom of Saint Paul
-  - Small miniature, Annunciation
-  - Large miniature, Annunciation
-  - Full-page miniature, Annunciation
-      - the distinction is that a full-page miniature has no lines of text on the page
-
-Sometimes miniatures are divided into subsections, for example a full-page miniature that depicts four different stages of a character’s story within the same frame. In this case identify the size of the miniature, then each section individually separated by semicolons. Each group of sections (e.g., top row, bottom row) should be preceded by a directional cue describing which direction the images are to be read.  The following example is from a Hebrew manuscript, so images are to be read upper to lower, right to left:
-
-  - Full-page miniature, upper right to left, Moses with Jethro’s flock (Exodus 3:1); Moses and the Burning Bush (Exodus 3:5); lower right to left, Moses answers the Lord, holding up his rod – a shepherd’s staff (Exodus 4:2); his rod turns into a serpent (Exodus 4:4); Moses holds the serpent (Exodus 4:4)
-
-Names of standard iconographies:
-
-  - Annunciation
-  - Visitation
-  - Nativity
-  - Annunciation to the Shepherds
-  - Adoration of the Magi
-  - Presentation in the Temple
-  - Flight into Egypt
-  - Massacre of the Innocents
-  - Coronation of the Virgin
-  - Agony in the Garden
-  - Crucifixion
-  - Pentecost
-  - Saint John the Baptist
-  - Saint Catherine
-      - we have decided to include Saint before proper names of saints
