@@ -699,60 +699,113 @@ Event
 
 ### B. Keywords
 
-| **Book type**           | **Century**  | **Culture** | **Descriptive term** | **
-| :---------------------- | :------------|
-| Accounts                | 9th century  |
-| Antiphonal              | 10th century |
-| Armorial                | 11th century |
-| Bible                   | 12th century |
-| Biography               | 13th century |
-| Book of Hours           | 14th century |
-| Breviary                | 15th century |
-| Chroncicle              | 16th century |
-| Collectar               | 17th century |
-| Collection of letters   | 18th century |
-| Collection of sermons   | 19th century |
-| Commentary              | 20th century |
-| Dictionary              |
-| Document                |
-| Dogale                  |
-| Friendship Book         |
-| Genealogy               |
-| Glossary                |
-| Gospel lectionary       |
-| Gospels                 |
-| Gradual                 |
-| Haggadah                |
-| Halakhah                |
-| Homiliary               |
-| Horologion              |
-| Hymnal                  |
-| Lectionary              |
-| Letter                  |
-| Mass book               |
-| Miscellany              |
-| Missal                  |
-| Passional               |
-| Pontifical              |
-| Portolan chart          |
-| Prayer book             |
-| Private devotional text |
-| Processional            |
-| Protective scroll       |
-| Psalter                 |
-| Psalter-Hours           |
-| Qur'an / Koran          |
-| Recipe book             |
-| Saint's life            |
-| Scribal manual          |
-| Scroll                  |
-| Song book               |
-| Sequentiary             |
-| Torah                   |
-| Treatise                |
+| **Book type**           | **Century**  | **Culture**     |
+| :---------------------- | :----------- | :-------------- |
+| Accounts                | 9th century  | Arabic          |
+| Antiphonal              | 10th century | Carolingian     |
+| Armorial                | 11th century | Christian       |
+| Bible                   | 12th century | Flemish         |
+| Biography               | 13th century | Greek antiquity |
+| Book of Hours           | 14th century | Humanistic      |
+| Breviary                | 15th century | Islamic         |
+| Chronicle               | 16th century | Jewish          |
+| Collectar               | 17th century | Jesuit          |
+| Collection of letters   | 18th century | Monastic        |
+| Collection of sermons   | 19th century | Ottonian        |
+| Commentary              | 20th century | Papal           |
+| Dictionary              |              | Roman antiquity |
+| Document                |              |                 |
+| Dogale                  |              |                 |
+| Friendship Book         |              |                 |
+| Genealogy               |              |                 |
+| Glossary                |              |                 |
+| Gospel lectionary       |              |                 |
+| Gospels                 |              |                 |
+| Gradual                 |              |                 |
+| Haggadah                |              |                 |
+| Halakhah                |              |                 |
+| Homiliary               |              |                 |
+| Horologion              |              |                 |
+| Hymnal                  |              |                 |
+| Lectionary              |              |                 |
+| Letter                  |              |                 |
+| Mass book               |              |                 |
+| Miscellany              |              |                 |
+| Missal                  |              |                 |
+| Passional               |              |                 |
+| Pontifical              |              |                 |
+| Portolan chart          |              |                 |
+| Prayer book             |              |                 |
+| Private devotional text |              |                 |
+| Processional            |              |                 |
+| Protective scroll       |              |                 |
+| Psalter                 |              |                 |
+| Psalter-Hours           |              |                 |
+| Qur'an / Koran          |              |                 |
+| Recipe book             |              |                 |
+| Saint's life            |              |                 |
+| Scribal manual          |              |                 |
+| Scroll                  |              |                 |
+| Song book               |              |                 |
+| Sequentiary             |              |                 |
+| Torah                   |              |                 |
+| Treatise                |              |                 |
 
+| **Descriptive term**   | **Geography**  | **Subject**       |
+| :--------------------- | :--------------| :---------------- |
+| Accordion book         | Austria        | Alchemy           |
+| Album                  | Belgium        | Allegory          |
+| Annotated              | Czech Republic | Astrology         |
+| Binding                | England        | Astronomy         |
+| Binding fragment       | Flanders       | Biblical          |
+| Border                 | France         | Cartography       |
+| Cadelle                | Germany        | Church Fathers    |
+| Chart                  | Greece         | Cosmology         |
+| Charter                | Italy          | Devotion          |
+| Colophon               | Mexico         | Financial records |
+| Damage                 | Netherlands    | Fortune-telling   |
+| Decorated initial      | Poland         | Friendship        |
+| Diagrams               | Portugal       | Games             |
+| Drawing                | Romania        | Geography         |
+| Forgery                | Spain          | Geomancy          |
+| Fragment               | Switzerland    | Grammar           |
+| Gloss                  | Wales          | History           |
+| Grisaille              |                | Legal             |
+| Grotesques             |                | Literature-poetry |
+| Headpiece              |                | Literature-prose  |
+| Heraldry               |                | Liturgy           |
+| Historiated initial    |                | Logic             |
+| Illumination           |                | Magic             |
+| Illustration           |                | Maritime          |
+| Inhabited initial      |                | Mathematics       |
+| Manicules              |                | Mineralogy        |
+| Marginalia             |                | Philosophy        |
+| Medallion              |                | Responsa          |
+| Micrography            |                | Science           |
+| Miniature              |                | Science-medicine  |
+| Missing leaves         |                | Scripture         |
+| Movable device         |                | Theology          |
+| Musical notation       |                |                   |
+| Notable binding        |                |                   |
+| Original binding       |                |                   |
+| Ornament               |                |                   |
+| Painting               |                |                   |
+| Palimpsest             |                |                   |
+| Paper                  |                |                   |
+| Pen-flourished initial |                |                   |
+| Penwork initial        |                |                   |
+| Puzzle initial         |                |                   |
+| Rinceau                |                |                   |
+| Scrapbook              |                |                   |
+| Scroll                 |                |                   |
+| Scroll-work initial    |                |                   |
+| Seals                  |                |                   |
+| Tables                 |                |                   |
+| Watermark              |                |                   |
+| White-vine lettering   |                |                   |
+| Woodcuts               |                |                   |
 
-### C. Image Names
+### C. Image Names               
     
 Anything to be photographed needs a name-value. Values must not repeat within a single manuscript. The value will usually be a page number (e.g., 1) or a folio number (e.g., 2r). See **Foliation/Pagination.**
 
