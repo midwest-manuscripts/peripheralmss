@@ -133,7 +133,7 @@ Title representing the manuscript volume as a whole in the format: Author name, 
 
 ### Descriptive date
 
-Part of a century, a century, or a range of years larger than a century, or single approximate year for a manuscript described as “Circa” with a single year; if the item has parts with disparate creation dates, multiple dates may be described narratively together here (e.g., “12th century and 15th century”). Complete descriptions will include both a **Descriptive date** and an **Origin** in Events.
+Part of a century, a century, or a range of years larger than a century, or single approximate year for a manuscript described as “Circa” with a single year; if the item has parts with disparate creation dates, multiple dates may be described narratively together here (e.g., “12th century and 15th century”). Complete descriptions will include both a **Descriptive date** and an **Origin** in Events. For documents with a specific date, the date should be recorded day-month-year, eg. "20 May 1499."
 
 ### Place of Origin
 
