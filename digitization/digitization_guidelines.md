@@ -1,5 +1,4 @@
-# Digitization Processing and Quality Control Procedures
-## IUB & Partner Digitization Processing by Item Type for the Peripheral Manuscripts Project
+# Digitization and Quality Control Procedures for the Peripheral Medieval Manuscripts Project
 
 ## Overview 
 
@@ -12,7 +11,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 * Scale and color bar included if at all feasible. 
 * Scan to individual page edges including small (¼ inch) borders. Exceptions will be noted such as items too large to accommodate both the item and any sundries. 
 * Scan all pages, including blank pages
-* If a bifolium, submit multiple images: 1) whole spread and 2) leaf-specific page images following cropping consideration outlined in the “Visual Quality Confirmation Checks” section of this document.  
+ 
 
 ### Book Bindings Only 
 
@@ -50,7 +49,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 * &lt; 12” x 17”
     * On flatbed scanner, backed by black matte paper
     * If gilded, may have to digitize using overhead scanner or Camera to eliminate shine and glare.
-    * Depending on detail of item, if any require higher than 600 DPI, will have to be done on flatbed scanner or with Camera; unless overhead scanner captures above 600 DPI.
+    * Depending on detail of item, if any require higher than 600 DPI, will have to be done on flatbed scanner or with Camera; unless overhead scanner captures above 600 DPI optical resolution.
     * All items taken out of plastic or mylar sleeves if at all possible.
     * Sundries used: Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds. extended backing sheets, museum glass
 * Oversize (for most flatbed scanners)
@@ -101,11 +100,11 @@ An initial visual quality confirmation check is conducted for every capture. The
         * that all edges are included in the scan 
         * that the DPI and file type are correct
         * Also checked to make sure the color bar and scale are represented correctly.
-* Once complete items pass QC, the Digitization Team will upload the TIFF images to a Google Folder or IU server (depending on the partner institution) for automatic QC and Project PIs to access for another round of quality review. 
+* Once complete items pass visual QC, the Digitization Team will upload the TIFF images via SFTP to an IU server for automatic QC and Project PIs to access for another round of quality review. 
 
 ## Automated Quality Confirmation Checks 
 
-Once files complete visual QC by the Digitization Team, the TIFFs are uploaded to an IUB server set up for each institution for secure transfer or via Google Folder, depending on the Partner and quantity of items being delivered, for automatic quality checks.
+Once files complete visual QC by the Digitization Team, the TIFFs are uploaded via SFTP to an IU server set up for secure transfer for automatic quality checks. _Details will be provided to digitization partners in a separate document_. 
 
 As items are pushed to the IU Scholarly Data Archive (SDA) for long term storage and preservation, the files go through automated computer checks to ensure files are conformant and things are as expected.
 
@@ -129,7 +128,7 @@ The exact parameters are (with Goshen as the example here):
 
 This automated check ensures that all the files are well-formed TIFFs with the expected naming, resolution, compression, color embedding, and uniqueness so there is no accidental overwriting. Humans make errors, having automated checks in place help reduce errors before they are shuffled to long-term storage. This is especially useful for naming conventions and well formed files that are the most easily missed in visual checks.
 
-A report is generated should files fail auto QC. The IUB team will share this report with the partnering teams to address the issues.  Corrected and updated files would be re-deposited to IUB for another round of auto QC until all conform before PIs commence with their visual QC. 
+A report is generated should files fail auto QC. The IUB team will share this report with the partnering teams to address the issues.  Corrected and updated files would be re-uploaded to IU for another round of auto QC. As files pass QC they will be staged for Project PI review.
 
 ### Visual QC by Project PIs  
 
@@ -137,21 +136,18 @@ The Project PIs are subject experts and are leading the manuscript description p
 
 * Once items pass auto QC, the IU Digitization Team will make the high resolution files available to the Project PIs for their visual QC
 * PIs will review images as they are uploaded with a 1 week timeframe for final review.
-* Should PIs flag issues, the Digitization Team has 5 days to review and rescan if necessary.   
-* Rescans will need to be re-uploaded to the IU server or Google Folder for a final round of automatic quality checks before IU stores files in their Scholarly Data Archive. 
+* Should PIs flag issues (tracked in a separate document), the Digitization Team has 5 days to review and rescan if necessary. 
+* Rescans will need to be re-uploaded to the IU server for a final round of automatic quality checks before IU stores files in their Scholarly Data Archive digital preservation environment. 
 
-## Deliver Files to IUB (for External Digitization) 
+## Deliver Files to IU
 
-### Partner Uploads Files to IU  
-
-1. Server/Google Drive and access will be set at time of need. 
-    1. Location path for upload per institution.
+1. Server access will be set with each digitizing partner; details will be shared separately. 
 2. After items are digitized and visually checked by the scanning institution (section above) correctly named and foldered files are uploaded to the designated server address.
     2. The pattern for file naming is as follows: 
 
                 **[institution code]_[item number]_[series number]-[image number]**
 
-    3. [Look for your three letter institution code](https://docs.google.com/spreadsheets/d/1_McjMl3VEekWd6_m50fCdN3uZBWsYUXI/edit?usp=sharing&ouid=105375117015818951709&rtpof=true&sd=true) (restricted access)
+    3. [Look for your three letter institution code](https://docs.google.com/spreadsheets/d/1_McjMl3VEekWd6_m50fCdN3uZBWsYUXI/edit?usp=sharing&ouid=103792042951858873735&rtpof=true&sd=true) (restricted access)
     4. Item number is indicated by the order manuscripts are listed in your inventory, and is represented by 3 sequential digits starting with 001: 001, 002, 003, etc.
     5. We need a series number even if you only have one item. If so, use, 001. If you have more than more than one ‘part’ to your ‘item’, and is represented by 3 sequential digits starting with 001, 002, 003, etc. 
         3. If you don’t have a series, make sure to use 001. 
@@ -161,7 +157,7 @@ The Project PIs are subject experts and are leading the manuscript description p
     7. The complete naming scheme, then, would be something like: goc_001_001-00001.tif, goc_002_001-00001.tif, goc_002_001-00002.tif, etc.
 3.  Along with the images, an excel manifest spreadsheet that tracks the technical metadata re: digitization should also be uploaded. 
     8. Server access and explicit instructions will be provided when needed. There will be a round to test items to smooth any workflow issues with particular institutions and technological needs.
-4. When all images in an item or batch of items are complete and uploaded, email IU team to run automatic quality control checks. This will confirm all files are named and formed according to consistent requirements and all pages/images are present for each item.
+4. When all images in an item or batch of items are complete and uploaded, email the IU team (instructions in separate document provided to digitization partners) to run automatic quality control checks.
     9. Errors will be communicated to the institution for correction and re-uploading. 
     10. Successful items will continue on to SDA and the partner server area for research and metadata creation.
 5. Any issues from the PI investigations will go directly to the digitizing institution for correction/evaluation/re-upload and the process will repeat until all items are complete.
@@ -189,6 +185,7 @@ IU Hardware: All hardware meets or exceeds Best Practice capabilities of capture
 * **Hasselblad H1/P45**: use concern clarification: p52 “the results are compelling and the cultural heritage community has embraced professional digital cameras. Given the complexity of these imaging systems, it is essential to test the entire imaging system for performance.”
 * **Dracast LED500 Bi-color lighting:** selected to remove any temperature impact on the items when photographing in concert with the Hasselblad. P24 under Not Recommended “Lighting systems that raise the surface temperature of the original more than 4 degrees F (2 degrees C) in the total imaging process”
 * **Bookeye 4a**: use concern clarification: p52 “Planetary scanners…. take time to capture an image and are only efficient for original materials that can be held flat during the long exposure cycle’ p24”• Single exposure total area capture scanning systems are considered the most appropriate technologies when imaging special collections materials. However, FADGI permits the use of other technologies that may be appropriate as long as none of the stated restrictions are compromised by the use of that technology.”
+* **Scanmaster 0:** Tested for FADGI compliance with Golden Thread [Wells Production Lab] 
 * **Nikon D850 DSLR Camera** [Lilly Production Lab]
 * **Nikon AF-S NIKKOR 24-120mm f/4G ED VR Lens** [Lilly Production Lab]
 * **ikan Lyra Half x 1 Bi-Color 2-Point Soft Panel LED Lights** [Lilly Production Lab]
