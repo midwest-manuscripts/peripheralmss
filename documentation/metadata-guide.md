@@ -420,7 +420,7 @@ Record a single complete clause of prose or two lines of verse when possible. Do
 Transcription follows the the following policies:
 - Abbreviations are silently expanded.
 - We preserve the distinction between **u** and **v** and between **i** and **j** in the sources. For example, long **i** is transcribed as **j** where the scribe has used this form in final position, e.g., in roman numeral *xiij*.
-- Words inserted by the scribe are recorded within double slashes, e.g. \\habet//.
+- Words inserted by the scribe are recorded within double slashes, e.g. \\\habet//.
 - Letters supplied where the writing is illegible or uncertain due to damage are enclosed in < >.
 - Use ( ) around words or letters deleted by the scribe.
 - Punctuation is represented by modern equivalents, determined by context.
