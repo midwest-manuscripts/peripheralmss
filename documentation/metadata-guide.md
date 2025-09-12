@@ -226,7 +226,7 @@ How the leaves or pages of the manuscript are numbered (in foliation, each leaf 
 
 Formula showing the numbers of flyleaves and leaves, in the format [modern front flyleaves in roman numerals]+[medieval front flyleaves in arabic numerals] + [textblock leaves in arabic numerals]+[medieval back flyleaves in arabic numerals]+[back flyleaves in roman numerals]: 
 
-ii+113+iii > for a volume wiht only modern endleaves
+ii+113+iii > for a volume with only modern endleaves
 
 ii+1+116+1+ii > for a volume with single medieval endleaves and pairs of modern endleaves to either side of the text block
 
