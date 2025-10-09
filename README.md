@@ -1,9 +1,8 @@
 # Digitizing Medieval Manuscripts in the Midwest
 
-The Peripheral Manuscripts Project maintains a public-facing website over at <https://peripheralmss.org/>.
-Navigate to that site for a description of our project, contact information, project news, and other information.
+This project works to digitize and create item-level metadata for pre-1600 manuscripts held at institutions of all types across the American Midwest. Hosted at Indiana University Bloomington, our efforts have been generously supported by a 2020 Council on Library and Information Resources Hidden Collections grant and a 2025 Humanities Collections and Reference Resources grant from the National Endowment for the Humanities. Resulting item descriptions and high-resolution, IIIF-compliant images are being made freely available through a [digital consortial repository](https://go.iu.edu/peripheralmss) hosted by Indiana University Libraries.
 
-[The Peripheral Manuscripts Project Digital Collection](https://digitalcollections.iu.edu/collections/5d86qm86k?locale=en) is currently in-progress. Collections will be added over the next few months. 
+For more information about the project, including information about out partners, visit: <https://peripheralmss.org/>.
 
 This GitHub repository hosts some project files for which we want to maintain a clear record of file history.
 For now, this is mostly limited to our project documentation. 
