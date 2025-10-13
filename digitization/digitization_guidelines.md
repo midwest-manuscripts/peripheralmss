@@ -10,8 +10,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 
 * Scale and color bar included if at all feasible. 
 * Scan to individual page edges including small (¼ inch) borders. Exceptions will be noted such as items too large to accommodate both the item and any sundries. 
-* Scan all pages, including blank pages
- 
+* Scan all pages (recto and verso) including blank pages.
 
 ### Book Bindings Only 
 
@@ -27,11 +26,13 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * Must be done on overhead scanner in  V-mode. Cannot be done easily with camera.
     * Scale and colorbar need to be made level with the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus.
     * Held open using finger, spatula, clips, etc. Nothing can be obscuring the text on the page when holding the item open.
+    * Scan both recto and verso of all items, even if blank.
     * Sundries used: Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds extended backing sheets, museum style non-glare glass plate
 * Loosely Bound
     * Small & Regular Sized Items
         * Must be done on overhead scanner if small enough to fit. Can use either V-mode or Flat Book mode if appropriate. 
         * Held open using finger, spatula, etc. Nothing can be obscuring the text on the page when holding the item open.
+        * Scan both recto and verso of all items, even if blank.
         * Scale and colorbar need to be made level with the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus.
         * Scan to individual page edges including small borders.
     * Oversized items
@@ -39,24 +40,27 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
         * Requires two people, so the process does not become cumbersome or take too long. One person runs camera and processing controls while the other handles materials. 
         * Team lift and moving of materials and repacking.
         * Held open using finger, spatula, etc. Nothing can be obscuring the text on the page when holding the item open.
+        * Scan both recto and verso of all items, even if blank.
         * No glass plates or weights over item
         * Scale and colorbar need to be made level with the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus and control shadows
     * Sundries used: Ladder. Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds extended backing sheets, sponge wedges, acid free boards for item support, glass plate, gentle clips
 * Orientation for bound volumes: when scanning, orient bound volumes as one would flip through the book, i.e. do not rotate for legibility.
 
-### Leaves 
+### Leaves and Documents 
 
 * &lt; 12” x 17”
     * On flatbed scanner, backed by black matte paper
     * If gilded, may have to digitize using overhead scanner or Camera to eliminate shine and glare.
     * Depending on detail of item, if any require higher than 600 DPI, will have to be done on flatbed scanner or with Camera; unless overhead scanner captures above 600 DPI optical resolution.
     * All items taken out of plastic or mylar sleeves if at all possible.
+    * Scan both recto and verso of all items, even if blank.
     * Sundries used: Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds. extended backing sheets, museum glass
 * Oversize (for most flatbed scanners)
     * On copystand with Camera. Each item requires recalibration and repositioning of lights to eliminate shadow, glare, adjusting light intensity, color temperature, and diffusion. Exposure measured TTL, color temperature set in software matching LED light output, AdobeRGB1998 color profile embedded upon TIFF export of resolution at measured physical size of the item. 
     * On-lens circular polarizer filters for glare reduction where needed, esp. Framed items under glass.
     * Item size will define lens focal length selected for least lens aberration.
     * Item physical measurements required for proper image scale output.
+    * Scan both recto and verso of all items, even if blank.
     * Sundries used: Ladder. Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds, extended backing sheets, carrying boards to support the items, gentle clips.
     * May require multiple people for moving items, adjustments, capture, etc.
 * Orientation for leaves: when scanning, orient items as one would handle them, i.e. do not flip for legibility, but flip right to left.
