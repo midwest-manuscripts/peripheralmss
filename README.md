@@ -7,6 +7,9 @@ For more information about the project, including information about out partners
 This GitHub repository hosts some project files for which we want to maintain a clear record of file history.
 For now, this is mostly limited to our project documentation. 
 
+## Code of Conduct
+- [Community Agreement and Code of Conduct](https://github.com/midwest-manuscripts/peripheralmss/blob/master/code-of-conduct.md).
+
 ## Metadata
 Our metadata documentation is based on the metadata practices of the [Bibliotheca Philadelphiensis Project](http://bibliophilly.pacscl.org/).
 There are three principal files (in development): 
@@ -21,10 +24,10 @@ We have digitization guidelines and template Memoranda of Understanding and Care
 - [MOU and Care Agreement for Digitization led by Indiana University Libraries](https://github.com/midwest-manuscripts/peripheralmss/blob/master/digitization/iub_libraries_mou_midwest_medieval_mss_template_iu_digitizes.pdf)
 - [MOU for Digitiztion led by Partners](https://github.com/midwest-manuscripts/peripheralmss/blob/master/digitization/iub_libraries_mou_midwest_medieval_mss_template_partner_digitizes.pdf)
 
----
+## Grants
+Included are selected grant materials for Council on Library and Information Resources Hidden Collections grant and Humanities Collections and Reference Resources grant from the National Endowment for the Humanities:
 
-The directory [`archive`](https://github.com/midwest-manuscripts/peripheralmss/tree/master/archive) contains our CLIR grant application (the main application document and relevant appendices).
+- [NEH 2025-2028](https://github.com/midwest-manuscripts/peripheralmss/tree/master/archive/NEH%202025-2028)
+- [CLIR 2020-2024](https://github.com/midwest-manuscripts/peripheralmss/tree/master/archive/CLIR%202020-2024)
 
-This repository also contains our [Community Agreement and Code of Conduct](https://github.com/midwest-manuscripts/peripheralmss/blob/master/code-of-conduct.md).
 
-New to GitHub? Check out [GitHub Guides](https://guides.github.com/).
