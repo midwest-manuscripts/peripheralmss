@@ -16,7 +16,7 @@ There are three principal files (in development):
 
 - [Style Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/style-guide.md). General guidelines for style, usage, and terminology
 - [Metadata Guide](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/metadata-guide.md). Line-item instructions for entry of collection- and item-level metadata.
-- [Metadata Sharing Guide for Partners]([documentation/peripheralmss_metadata-sharing-partners.pdf](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/peripheralmss_metadata-sharing-partners.pdf). Metadata mapping between OCHRE (canonical database), Digital Collections repository and MARC.
+- [Metadata Sharing Guide for Partners](https://github.com/midwest-manuscripts/peripheralmss/blob/master/documentation/peripheralmss_metadata-sharing-partners.pdf). Metadata mapping between OCHRE (canonical database), Digital Collections repository and MARC.
 
 ## Digitization
 We have digitization guidelines and template Memoranda of Understanding and Care Agreements for the project:
