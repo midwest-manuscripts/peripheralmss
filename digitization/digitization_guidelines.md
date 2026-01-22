@@ -4,13 +4,15 @@
 
 Running documentation of materials and processes used for digitization based on the evaluated condition of each of the items received. Properties of the items will define hardware used to ensure no item damage and a quality image with minimal handling.
 
-All digital items are captured at a minimum specification of 600dpi to ensure 4000px (or 400dpi at item natural size from the camera to avoid interpolation resolution by the nature of the item size), uncompressed TIFF, embedded color profile of AdobeRGB1998. If items with smaller detail are discovered, resolution will be increased to capture all detail present and meet the 4000pixel length on long side standard.  All captures will be adhering to the minimum [FADGI](http://www.digitizationguidelines.gov/guidelines/FADGI%20Federal%20%20Agencies%20Digital%20Guidelines%20Initiative-2016%20Final_rev1.pdf) 3 star guidelines to maintain standards. 
+All digital items are captured at a minimum specification of 600dpi to ensure 4000px (or 400dpi at item natural size from the camera to avoid interpolation resolution by the nature of the item size), uncompressed TIFF, embedded color profile of AdobeRGB1998, and 8-bit color.. If items with smaller detail are discovered, resolution will be increased to capture all detail present and meet the 4000pixel length on long side standard.  All captures will be adhering to the minimum [FADGI](http://www.digitizationguidelines.gov/guidelines/FADGI%20Federal%20%20Agencies%20Digital%20Guidelines%20Initiative-2016%20Final_rev1.pdf) 3 star guidelines to maintain standards. 
 
 ## Capture Guidelines by Item Type 
 
-* Scale and color bar included if at all feasible. 
+* Scale and color bar included if at all feasible. Place the ruler within 1/4" or 1/2" of the manuscript page. Top of ruler should line up with top of item. If necessary, bottom of ruler can be cropped out of image. Scale or color bar needs to be at the same focal depth as the item for best focus; this may require you to build up the color bar beside something like a book. 
 * Scan to individual page edges including small (¼ inch) borders. Exceptions will be noted such as items too large to accommodate both the item and any sundries. 
 * Scan all pages (recto and verso) including blank pages.
+* Standardize background for each item if at all possible - i.e. one item should have all black or all white background.
+* **PLEASE NOTE:** make extra careful checks for DPI, compression, etc - some scanners or scanning softwares will mess with DPI or compression without telling you. Make sure to check ALL of your settings when you start digitization.
 
 ### Book Bindings Only 
 
