@@ -41,9 +41,9 @@ II. Appendices
 
 The fields given in the guide below correspond to the organization within the project database in OCHRE (Online Cultural and Historical Research Environment) and are reproduced in that schema for the ease of data mapping for this project between OCHRE and the project’s public-facing image and description repository. When possible, corresponding MARC fields are given for partners mapping to other environments in the appendix.
 
-In general practice, the project team strives for efficient description by exploiting the hierarchical structure of item records within OCHRE, and the inheritance of descriptive metadata from parent items to child items within that structure. Codices are described as parent items with properties giving general comments about layout and decoration throughout the volume and a description field that provides a narrative list of contents. Subitems of a codex are its codicological units, and each subitem should contain the Feature>Identification and Feature>Analytic Description fields in which the subitem differs from the parent item, and at minimum, the following Feature>Contents properties: Language, Scribal title **or** Modern title **or** Supplied title, Incipit, Explicit, Folio range, Image Range start, and Image Range end. Subitems with multiple texts will have repeated instances of the Feature>Contents section, one for each content item. For in situ binding fragments, subitems are created for each fragment only in the case that they come from different original manuscripts. For materially distinct binding fragment from the same original source (for example, front and back pastedowns), these are described as one subitem with iterated Feature>Contents sections, and aggregated information under Feature>Analytic Description, for example:
+In general practice, the project team strives for efficient description by exploiting the hierarchical structure of item records within OCHRE, and the inheritance of descriptive metadata from parent items to child items within that structure. Codices are described as parent items with properties giving general comments about layout and decoration throughout the volume and a description field that provides a narrative list of contents. Subitems of a codex are its codicological units, and each subitem should contain the Feature\>Identification and Feature\>Analytic Description fields in which the subitem differs from the parent item, and at minimum, the following Feature\>Contents properties: Language, Scribal title **or** Modern title **or** Supplied title, Incipit, Explicit, Folio range, Image Range start, and Image Range end. Subitems with multiple texts will have repeated instances of the Feature\>Contents section, one for each content item. For in situ binding fragments, subitems are created for each fragment only in the case that they come from different original manuscripts. For materially distinct binding fragment from the same original source (for example, front and back pastedowns), these are described as one subitem with iterated Feature\>Contents sections, and aggregated information under Feature\>Analytic Description, for example:
 
-  Page dimensions (in mm): 313 x 200 (front pastedown); 307 x 198 (back pastedown)
+> Page dimensions (in mm): 313 x 200 (front pastedown); 307 x 198 (back pastedown)
 
 A complete project taxonomy is given in the appendix.
 
@@ -74,29 +74,29 @@ Name of a named collection within the repository. Appears within OCHRE > Locatio
 ## Location or object (default OCHRE fields)
 ### Name
 
-Identify the institution in the name field and a one/two word descriptor of contents, eg.: SMC MS 2, Miscellany
+Identify the institution in the name field and a one/two word descriptor of contents, e.g.: SMC MS 2, Miscellany
 
 ### Description
 
-One-paragraph abstract or summary summarizing the form and then content of the manuscript as a whole; for miscellanies, a narrative list of contents should be provided. Describes the salient features of a book’s textual, material and artistic contents, emphasizing the most important qualities that the reader will need to know about the manuscript. Qualitative judgments and subjective adjectives should be used sparingly. Important information to include, when known, are the date of the manuscript, its origin, if it is illuminated, and if it is complete or fragmentary. The note can also include the names of authors, scribes, artists, and named parties mentioned in documents, as well as notable features of decoration and musical notation where applicable and possible. 
+One-paragraph abstract, summarizing the form and then content of the manuscript as a whole; for miscellanies, a narrative list of contents should be provided. Describes the salient features of a book’s textual, material and artistic contents, emphasizing the most important qualities that the reader will need to know about the manuscript. Qualitative judgments and subjective adjectives should be used sparingly. Important information to include, when known, are the date of the manuscript, its origin, if it is illuminated, and if it is complete or fragmentary. The note can also include the names of authors, scribes, artists, and named parties mentioned in documents, as well as notable features of decoration and musical notation where applicable and possible. 
 
 ## B. Project Taxonomy > Classification > Collection
 
-This property, and only this property, is applied to collections created under *Concepts > Collections*. Those collections may represent collections of items within repositories (eg. the Knox College Moses donation) or to theoretical collections of related items (e.g. Otto Ege leaves and portfolios). Once collections are created within *Concepts*, they can then be linked within individual items in the field **Belongs to collection**.
+This property, and only this property, is applied to collections created under *Concepts > Collections*. Those collections may represent collections of items within repositories (e.g. the Knox College Moses donation) or to theoretical collections of related items (e.g. Otto Ege leaves and portfolios). Once collections are created within *Concepts*, they can then be linked within individual items in the field **Belongs to collection**.
 
 ## C. Project Taxonomy > Classification > Object
 
 ### Excluded from PMSS
 
-**Description:** Boolean field, default to “TRUE” as this field is only added to items that fit the chronological scope of the project, but are excluded for other reasons, eg. item condition prevents transport for digitization, or text is recorded in non-Latin alphabet.
+**Description:** Boolean field, default to “TRUE” as this field is only added to items that fit the chronological scope of the project, but are excluded for other reasons, e.g. item condition prevents transport for digitization, or text is recorded in non-Latin alphabet.<!--remove the non-Latin condition?-->
 
 ### Candidate for MSI
 
-**Description:** Boolean field, default to “TRUE” as this field is only added to items that exhibit features suggesting that it would be an apt candidate for multispectral imaging at a later time, eg. damaged and discolored paint or ink, unusual ink or paint colors, offsets, evidence of erasures, etc.
+**Description:** Boolean field, default to “TRUE” as this field is only added to items that exhibit features suggesting that it would be an apt candidate for multispectral imaging at a later time, e.g. damaged and discolored paint or ink, unusual ink or paint colors, offsets, evidence of erasures, etc.
 
 ### Has child items
 
-**Description:** Boolean field, default to “TRUE” as this field is only added to items that have complex hierarchical descriptions within OCHRE, such as host volumes with binding fragments, or fascicular and composite codices. This field is currently used to flag items for review by the project team as they develop a model from crosswalking data from OCHRE into the project repository.
+**Description:** Boolean field, default to “TRUE” as this field is only added to items that have complex hierarchical descriptions within OCHRE, such as host volumes with binding fragments, or fascicular and composite codices. This field is currently used to flag items for review by the project team as they develop a model from crosswalking data from OCHRE into the project repository.<!--still true?-->
 
 ### Physical type
 
@@ -133,7 +133,7 @@ Title representing the manuscript volume as a whole in the format: Author name, 
 
 ### Descriptive date
 
-Part of a century, a century, or a range of years larger than a century, or single approximate year for a manuscript described as “Circa” with a single year; if the item has parts with disparate creation dates, multiple dates may be described narratively together here (e.g., “12th century and 15th century”). Complete descriptions will include both a **Descriptive date** and an **Origin** in Events. For documents with a specific date, the date should be recorded day-month-year, eg. "20 May 1499."
+Part of a century, a century, or a range of years larger than a century, or single approximate year for a manuscript described as “Circa” with a single year; if the item has parts with disparate creation dates, multiple dates may be described narratively together here (e.g., “12th century and 15th century”). Complete descriptions will include both a **Descriptive date** and an **Origin** in Events. For documents with a specific date, the date should be recorded day-month-year, e.g. "20 May 1499."
 
 ### Place of Origin
 
@@ -170,7 +170,7 @@ If a manuscript's location of origin cannot be determined within Europe (as is t
 
 ### Belongs to Collection
 
-Use this field to identify multiple items related through shared provenance. These might be collections within institutional repositories (eg. the Moses donation at Knox College) or collections that have been dispersed across many repositories (eg. Otto Ege leaves and portfolios). Collections linked in this field must first be entered in *Concepts > Collections*. For the theoretical reconstruction of an individual item dispersed across multiple repositories, use **Associated item** instead.
+Use this field to identify multiple items related through shared provenance. These might be collections within institutional repositories (e.g. the Moses donation at Knox College) or collections that have been dispersed across many repositories (e.g. Otto Ege leaves and portfolios). Collections linked in this field must first be entered in *Concepts > Collections*. For the theoretical reconstruction of an individual item dispersed across multiple repositories, use **Associated item** instead.
 
 ### Call Number
 
@@ -178,7 +178,7 @@ Format varies by library. Use only current call number or other item ID number p
 
 ### Digitization ID
 
-Number assigned by project digitization team. Format consists of a three-letter institutional abbreviation, followed by a three-number item identifier, then a three-number sub-item identifier, eg.: smc_004_001.
+Number assigned by project digitization team. Format consists of a three-letter institutional abbreviation, followed by a three-number item identifier, then a three-number sub-item identifier, e.g.: `smc_004_001`.
 
 ### Record URL
 
@@ -194,7 +194,7 @@ Accession numbers, former shelfmarks, other holding institution identifiers or f
 
 ### Title (only for "Host volume" items)
 
-Title of the imprint as given in the imprint itself. Additional information about titles, when possible, go into the **Description**, including short titles and ISTC numbers from the Incunabula Short Title Catalogue (ISTC), or other reference works for early print volumes.
+Title of the imprint as given in the imprint itself. Additional information about titles, when possible, goes into the **Description**, including short titles and ISTC numbers from the Incunabula Short Title Catalogue (ISTC), or other reference works for early print volumes.
 
 ### Author (only for "Host volume" items)
 
@@ -257,7 +257,7 @@ Record the number of columns. This property may be repeated for codicological un
 
 ### Number of lines
 
-Record the number of lines if the entire written area is present. Do not record for trimmed leaves or binding fragments, as the number of extant visible lines will be recorded under **Layout** instead. This property may be repreated for codicological units within a codex when these differ among parts of the manuscript.
+Record the number of lines if the entire written area is present. Do not record for trimmed leaves or binding fragments, as the number of extant visible lines will be recorded under **Layout** instead. This property may be repeated for codicological units within a codex when these differ among parts of the manuscript.
 
 ### Colophon
 
@@ -302,11 +302,11 @@ Summary of information about formal visual elements of the item, including illum
 - Three-line pen-flourished initials, alternating red and blue
 - A four-line initial “A” includes penwork that extends down the left margin
 - Half-page illuminated miniatures at the opening of the Hours of the Virgin, the Hours of the Cross, and the Office of the Dead
-- Two full page miniatures. Extensive decorative borders and one-line illuminated initials throughout. rubrics in red
+- Two full page miniatures. Extensive decorative borders and one-line illuminated initials throughout. Rubrics in red
 
 ### Musical notation
 
-For manuscripts containing musical notation, describe at minimum the number of staff lines and their color, and notation style. Notation is classified in the broadest terms: square notation describes any notation with square noteheads on a staff, and “neumatic,” any neumes that do not have square noteheads. For these latter, specify heightened or unheightened when possible. Additional optional details may include the presence of barlines, clef lines, accidentals, and custos. Number of staves per page, or the general arrangement of text and music, is recorded in **Layout**. When possible, chants should be identified by Cantus ID numbers, and those numbers should be listed in the **Cantus ID** field (Feature>Contents).
+For manuscripts containing musical notation, describe at minimum the number of staff lines and their color, and notation style. Notation is classified in the broadest terms: square notation describes any notation with square noteheads on a staff, and “neumatic,” any neumes that do not have square noteheads. For these latter, specify heightened or unheightened when possible. Additional optional details may include the presence of barlines, clef lines, accidentals, and custos. Number of staves per page, or the general arrangement of text and music, is recorded in **Layout**. When possible, chants should be identified by Cantus ID numbers, and those numbers should be listed in the **Cantus ID** field (Feature\>Contents).
 
 ### Binding
 
@@ -324,11 +324,11 @@ Information about the number and location of catchwords. If catchwords are prese
 
 Information about the numbers or letters used to ensure correct order of gatherings in the binding process, often found on the first recto or last verso of a gathering. If they are using a system in which quires are marked progressively, rather than using catchwords, you can explain that here. Describe location on the page and within the volume as for catchwords.
 
-### *NB: for the measurement fields below, measurements were taken on site visits and, whenever possible, confirmed by a second set of measurements taken by the PI on site during capture.*
-
 ### Bound dimensions (in mm)
 
 Maximum height, width, and depth of bound volume in millimeters, in the following format: 290 x 220 x 30
+
+*NB: measurements were taken on site visits and, whenever possible, confirmed by a second set of measurements taken by the PI on site during capture. This applies also to the following measurement fields.*
 
 ### Page dimensions (in mm)
 
@@ -336,7 +336,7 @@ Maximum height and width of manuscript leaves in millimeters, in the following f
 
 If originally separate manuscripts of different dimensions have been bound together in a volume, repeat the field for the different page sizes.
 
-For *in situ* binding fragments from the same original item being described together, give page dimensions for each, separated by a comma, eg. 120 x 50 (front flyleaf), 110 x 70 (back flyleaf).
+For *in situ* binding fragments from the same original item being described together, give page dimensions for each, separated by a comma, e.g. 120 x 50 (front flyleaf), 110 x 70 (back flyleaf).
 
 For bifolia, give the dimensions of a single leaf (height and width), as in a codex. 
 
@@ -346,7 +346,7 @@ For folded documents with a single block of writing (e.g., personal letters), gi
 
 ### Written area (in mm)
 
-Height and width of the written space in millimeters. If pages are ruled and writing is confined to the ruled space, measure that. Otherwise measure height from the top of minims on the first line to the bottom of minims on the last line. Repeat as necessary if a codex consists of booklets of markedly different layouts. Width may be omitted for unruled verse or where the right edge of writing is ragged. For text disposed in two columns, include a measurement of column width as well, eg. 80 x 60, column width 25mm 
+Height and width of the written space in millimeters. If pages are ruled and writing is confined to the ruled space, measure that. Otherwise measure height from the top of minims on the first line to the bottom of minims on the last line. Repeat as necessary if a codex consists of booklets of markedly different layouts. Width may be omitted for unruled verse or where the right edge of writing is ragged. For text disposed in two columns, include a measurement of column width as well, e.g. 80 x 60, column width 25mm 
 
 ### Line height (required; fragments only)
 
@@ -368,7 +368,7 @@ For all agents identified within or associated with project items, agent records
 - Modernize given names, but keep particles and toponyms as recorded, modernizing toponyms only for persisting place names
 - Add an alias to the agent record with the name as it is recorded in each item where it figures
 
-Agents in the following categories can be linked from *Persons & organizations* within item records: Author, translator, artist, chancellor or secretary, notary, scribe, signatory, addressee. For a miscellany, Feature>Agents>Author should be repeated to include all authors whose works are represented in the volume.
+Agents in the following categories can be linked from *Persons & organizations* within item records: Author, translator, artist, chancellor or secretary, notary, scribe, signatory, addressee. For a miscellany, Feature\>Agents\>Author should be repeated to include all authors whose works are represented in the volume.
 
 Agents related to item provenance (donor, conservator or restorer, bookbinder, former owner, fragmentator, librarian, seller, describer) can be linked from *Persons & organizations* within Events.
 
@@ -400,7 +400,7 @@ The following languages are currently in the OCHRE picklist. The corresponding I
 
 ### Scribal title
 
-Title as given by scribe or contemporary hand at the beginning of a text item. Do not record rubrics appearing in liturgical books.
+Title as given by a scribe or contemporary hand at the beginning of a text item. Do not record rubrics appearing in liturgical books.
 
 ### Protocol
 
@@ -439,7 +439,7 @@ For notated manuscripts, when possible, identified chants are listed in order of
 
 ### Folio range
 
-For each work within a manuscript, record the range of leaves that transmit the text, eg. 1r-4v or [1]r-v. Only provide a unit abbreviation if the item is paginated, eg. pp. 3-7. Do not record for documents.
+For each work within a manuscript, record the range of leaves that transmit the text, e.g. 1r-4v or [1]r-v. Only provide a unit abbreviation if the item is paginated, e.g. pp. 3-7. Do not record for documents.
 
 ### Image range and end
 
@@ -447,7 +447,7 @@ For each content item, list the beginning and end images of that item. For host 
 
 ### Author
 
-This author field is only for codicological units containing works by multiple authors, and it is used in order to associated specific works with specific authors under repeated Feature>Contents sections. All authors should still be identified under Feature>Agents.
+This author field is only for codicological units containing works by multiple authors, and it is used in order to associate specific works with specific authors under repeated Feature\>Contents sections. All authors should still be identified under Feature\>Agents.
 
 ## v. Object > Feature > Keywords
 
@@ -862,7 +862,7 @@ Leaves foliated/paginated but detached:
 - 1r (unattached)
 - 1v (unattached)
 
-Foliation skips a folio (i.e., 7, unnumbered, 8, not 7, unnumbered, 9):
+Foliation skips a folio (e.g., 7, unnumbered, 8, not 7, unnumbered, 9):
 - Unnumbered recto
 - Unnumbered verso
 
@@ -926,7 +926,7 @@ Multiple fragments or cuttings without identifiable recto/verso:
 
 ### D. OCHRE Predefinitions
 
-Within OCHRE (Online Cultural and Historical Research Environment), each physical item type has its own Predefinition consisting of the fields that are generally expected to apply to that item type. Additional potentially relevant fields are included in **bold**, but must be manually added to pertinent item records. A list of physical item types and corresponding Predefinition fields is supplied below. The entry <unassigned> represents a picklist within OCHRE among which the cataloger must make a selection for that item type in that field.
+Within OCHRE (Online Cultural and Historical Research Environment), each physical item type has its own Predefinition consisting of the fields that are generally expected to apply to that item type. Additional potentially relevant fields are included in **bold**, but must be manually added to pertinent item records. A list of physical item types and corresponding Predefinition fields is supplied below. The entry \<unassigned\> represents a picklist within OCHRE among which the cataloger must make a selection for that item type in that field.
 
 All predefinitions additionally include notes for item provenance and for discussion internal to the project team.
 
@@ -935,7 +935,7 @@ All predefinitions additionally include notes for item provenance and for discus
 Classification > Object
 - **Excluded from PMSS**
 - Physical Type: Codex
-- Content Type: <unassigned>
+- Content Type: \<unassigned\>
   - [subtypes added as appropriate]
 - Feature > Identification
   - Tombstone title
@@ -955,7 +955,7 @@ Classification > Object
   - Number of columns
   - Number of lines
   - Colophon
-  - Script: <unassigned> [subtype added where appropriate]
+  - Script: \<unassigned\> [subtype added where appropriate]
   - Decoration
   - Musical notation
   - Binding
@@ -968,7 +968,7 @@ Classification > Object
 - Feature > Agents
   - [subtypes added as appropriate]
 - Feature > Contents
-  - Language: <unassigned>
+  - Language: \<unassigned\>
   - Scribal title
   - Incipit
   - Explicit
@@ -987,7 +987,7 @@ Classification: Object
 - **Excluded from PMSS**
 - Physical Type: Document
 - Content Type: Document
-  - Classification: <unassigned>
+  - Classification: \<unassigned\>
 - Feature > Identification
   - Tombstone title
   - Descriptive date
@@ -1001,14 +1001,14 @@ Classification: Object
   - Support material
   - Extent
   - Layout
-  - Script: <unassigned> [subtype added where appropriate]
+  - Script: \<unassigned\> [subtype added where appropriate]
   - Decoration
   - Page dimensions (in mm)
   - Written area (in mm)
 - Feature > Agents
   - [subtypes added as appropriate]
 - Feature > Contents
-  - Language: <unassigned>
+  - Language: \<unassigned\>
   - Protocol
   - Incipit
   - Explicit
@@ -1024,8 +1024,8 @@ Classification: Object
 - **Excluded from PMSS**
 - Physical Type: Fragment
   - Fragment type: Detached
-    - Classification: <unassigned>
-  - Content Type: <unassigned>
+    - Classification: \<unassigned\>
+  - Content Type: \<unassigned\>
   - Feature > Identification
     - Tombstone title
     - Descriptive date
@@ -1042,7 +1042,7 @@ Classification: Object
     - Layout
     - Number of columns
     - Number of lines
-    - Script: <unassigned> [subtype added where appropriate]
+    - Script: \<unassigned\> [subtype added where appropriate]
     - Decoration
     - Musical notation
     - **Catchwords**
@@ -1053,7 +1053,7 @@ Classification: Object
   - Feature > Agents
     - [subtypes added as appropriate]
   - Feature > Contents
-    - Language: <unassigned>
+    - Language: \<unassigned\>
     - **Scribal title**
     - Incipit
     - Explicit
@@ -1071,8 +1071,8 @@ Classification: Object
   Classification: Object
   - Physical Type: Fragment
     - Fragment type: In situ
-      - Classification: <unassigned>
-  - Content Type: <unassigned>
+      - Classification: \<unassigned\>
+  - Content Type: \<unassigned\>
   - Feature > Identification
     - Tombstone title
     - Descriptive date
@@ -1085,7 +1085,7 @@ Classification: Object
     - Support material
     - Foliation-Pagination
     - Layout
-    - Script: <unassigned> [subtype added where appropriate]
+    - Script: \<unassigned\> [subtype added where appropriate]
     - Decoration
     - Musical notation
     - **Catchwords**
@@ -1096,7 +1096,7 @@ Classification: Object
   - Feature > Agents
     - [subtypes added as appropriate]
   - Feature > Contents
-    - Language: <unassigned>
+    - Language: \<unassigned\>
     - **Scribal title**
     - Incipit
     - Explicit
@@ -1131,4 +1131,3 @@ Classification: Object
 - Feature > Keywords
   - [keywords in various categories added as appropriate]
 - Associated Item [repeatable]
-
