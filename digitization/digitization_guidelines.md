@@ -161,6 +161,15 @@ The Project PIs are subject experts and are leading the manuscript description p
     6. Image number starts at 1, and is 5 digits: 00001, 00002, etc. This includes covers, edges, blank pages - everything is numbered sequentially. 
         5. Front cover will be the first image, then all inside pages, then back cover, spine, top edge, side edge, bottom edge.
     7. The complete naming scheme, then, would be something like: goc_001_001-00001.tif, goc_002_001-00001.tif, goc_002_001-00002.tif, etc.
+* In simpler terms:
+	* Items are named in accordance to the Institution Codes above.
+	* Each ITEM gets its own ID number and PART number (no duplication allowed!) and a five-digit page number
+		* IE: iub_001_001 is one item. This is what the folder will be named.
+		* iub_001_001-00001 is one page of that item
+	* If an ITEM has multiple distinct PARTS (two letters to the same person, say) and you want them associated with the same record, the PART number changes
+		* IE: iub_001_001, iub_001_002 belong to the same ITEM but are two different PARTS
+	* Please note the use of lowercase and underscores in the naming! This will matter for processing.
+
 3.  Along with the images, an excel manifest spreadsheet that tracks the technical metadata re: digitization should also be uploaded. 
     8. Server access and explicit instructions will be provided when needed. There will be a round to test items to smooth any workflow issues with particular institutions and technological needs.
 4. When all images in an item or batch of items are complete and uploaded, email the IU team (instructions in separate document provided to digitization partners) to run automatic quality control checks.
