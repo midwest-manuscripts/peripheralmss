@@ -153,7 +153,7 @@ The Project PIs are subject experts and are leading the manuscript description p
 
                 **[institution code]_[item number]_[series number]-[image number]**
 
-    3. [Look for your three letter institution code]([https://docs.google.com/spreadsheets/d/1_McjMl3VEekWd6_m50fCdN3uZBWsYUXI/edit?usp=sharing&ouid=103792042951858873735&rtpof=true&sd=true]([https://docs.google.com/spreadsheets/d/1_m0FTUuKM2KnLViVtq_OpBXvFHMk5IWKanl8Jw89vDo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1_m0FTUuKM2KnLViVtq_OpBXvFHMk5IWKanl8Jw89vDo/edit?usp=sharing)) (restricted access)
+    3. [Look for your three letter institution code]([https://docs.google.com/spreadsheets/d/1_McjMl3VEekWd6_m50fCdN3uZBWsYUXI/edit?usp=sharing&ouid=103792042951858873735&rtpof=true&sd=true]([https://docs.google.com/spreadsheets/d/1_m0FTUuKM2KnLViVtq_OpBXvFHMk5IWKanl8Jw89vDo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1_m0FTUuKM2KnLViVtq_OpBXvFHMk5IWKanl8Jw89vDo/edit?usp=sharing) (restricted access)
     4. Item number is indicated by the order manuscripts are listed in your inventory, and is represented by 3 sequential digits starting with 001: 001, 002, 003, etc.
     5. We need a series number even if you only have one item. If so, use, 001. If you have more than more than one ‘part’ to your ‘item’, and is represented by 3 sequential digits starting with 001, 002, 003, etc. 
         3. If you don’t have a series, make sure to use 001. 
