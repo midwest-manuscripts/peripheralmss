@@ -11,7 +11,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 * Scale and color bar included if at all feasible. Place the ruler within 1/4" or 1/2" of the manuscript page. Top of ruler should line up with top of item. If necessary, bottom of ruler can be cropped out of image. Scale or color bar needs to be at the same focal depth as the item for best focus; this may require you to build up the color bar beside something like a book. 
 * Scan to individual page edges including small (¼ inch) borders. Exceptions will be noted such as items too large to accommodate both the item and any sundries. 
 * Scan all pages (recto and verso) including blank pages.
-* Standardize background for each item if at all possible - i.e. one item should have all black or all white background.
+* Standardize background for each item if at all possible - i.e. one item should have all black background.
 * **PLEASE NOTE:** make extra careful checks for DPI, compression, etc - some scanners or scanning softwares will mess with DPI or compression without telling you. Make sure to check ALL of your settings when you start digitization.
 
 ### Book Bindings Only 
@@ -26,7 +26,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 
 * Tightly Bound 
     * Must be done on overhead scanner in  V-mode. Cannot be done easily with camera.
-    * Scale and colorbar need to be made level with the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus.
+    * Scale and colorbar need to be made level with the top or bottom corner of the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus.
     * Held open using finger, spatula, clips, etc. Nothing can be obscuring the text on the page when holding the item open.
     * Scan both recto and verso of all items, even if blank.
     * Sundries used: Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds extended backing sheets, museum style non-glare glass plate
@@ -35,7 +35,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
         * Must be done on overhead scanner if small enough to fit. Can use either V-mode or Flat Book mode if appropriate. 
         * Held open using finger, spatula, etc. Nothing can be obscuring the text on the page when holding the item open.
         * Scan both recto and verso of all items, even if blank.
-        * Scale and colorbar need to be made level with the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus.
+        * Scale and colorbar need to be made level with the top or bottom corner of the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus.
         * Scan to individual page edges including small borders.
     * Oversized items
         * Must be done with Camera. 
@@ -44,7 +44,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
         * Held open using finger, spatula, etc. Nothing can be obscuring the text on the page when holding the item open.
         * Scan both recto and verso of all items, even if blank.
         * No glass plates or weights over item
-        * Scale and colorbar need to be made level with the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus and control shadows
+        * Scale and colorbar need to be made level with the top or bottom corner of the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus and control shadows
     * Sundries used: Ladder. Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds extended backing sheets, sponge wedges, acid free boards for item support, glass plate, gentle clips
 * Orientation for bound volumes: when scanning, orient bound volumes as one would flip through the book, i.e. do not rotate for legibility.
 
@@ -56,6 +56,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * Depending on detail of item, if any require higher than 600 DPI, will have to be done on flatbed scanner or with Camera; unless overhead scanner captures above 600 DPI optical resolution.
     * All items taken out of plastic or mylar sleeves if at all possible.
     * Scan both recto and verso of all items, even if blank.
+    * Scale and colorbar need to be made level with the top or bottom corner of the page being scanned, to ensure both the book and the scale are in focus.
     * Sundries used: Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds. extended backing sheets, museum glass
 * Oversize (for most flatbed scanners)
     * On copystand with Camera. Each item requires recalibration and repositioning of lights to eliminate shadow, glare, adjusting light intensity, color temperature, and diffusion. Exposure measured TTL, color temperature set in software matching LED light output, AdobeRGB1998 color profile embedded upon TIFF export of resolution at measured physical size of the item. 
@@ -63,6 +64,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * Item size will define lens focal length selected for least lens aberration.
     * Item physical measurements required for proper image scale output.
     * Scan both recto and verso of all items, even if blank.
+    * Scale and colorbar need to be made level with the top or bottom corner of the page being scanned, to ensure both the book and the scale are in focus. This may require using sundries to make color bar level with item.
     * Sundries used: Ladder. Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds, extended backing sheets, carrying boards to support the items, gentle clips.
     * May require multiple people for moving items, adjustments, capture, etc.
 * Orientation for leaves: when scanning, orient items as one would handle them, i.e. do not flip for legibility, but flip right to left.
