@@ -11,6 +11,7 @@ Keywords should be copied from these lists.
 - Breviary
 - Canon Law
 - Chronicle
+- Collection of Letters
 - Collection of Sermons
 - Commentary
 - Dictionary
@@ -23,14 +24,18 @@ Keywords should be copied from these lists.
 - Gospel Lectionary
 - Gospels
 - Gradual
+- Haggadah
+- Halakhah
+- Herbal
 - Homilary
 - Horologion
 - Hymnal
 - Lectionary
+- Letter
 - Mass book
 - Miscellany
 - Missal
-- Penitential Manual
+- Passional
 - Pontifical
 - Portolan chart
 - Prayer book
@@ -39,10 +44,14 @@ Keywords should be copied from these lists.
 - Protective scroll
 - Psalter
 - Psalter-Hours
+- Qu'ran / Koran
 - Recipe book
 - Saint's Life
 - Scribal manual
+- Scroll
+- Sequentiary
 - Song book
+- Torah
 - Treatise
 
 # Century
@@ -62,24 +71,20 @@ Keywords should be copied from these lists.
 
 # Culture
 
-- Austrian
+- Arabic
 - Carolingian
-- Catalan
 - Christian
-- Dutch
-- English
 - Flemish
-- French
-- German
+- Greek Antiquity
+- Humanistic
 - Islamic
-- Italian
+- Jesuit
 - Jewish
-- Mexican
+- Monastic
 - Ottonian
-- Portuguese
-- Spanish
-- Swiss
-
+- Papal
+- Roman antiquity
+  
 # Descriptive term
 
 - Accordion book
@@ -87,24 +92,25 @@ Keywords should be copied from these lists.
 - Annotated
 - Binding
 - Border
-- Caroline minuscule
+- Cadelle
 - Chart
 - Charter
 - Colophon
+- Composite manuscript
 - Damage
+- Decorated initial
 - Diagrams
 - Drawing
+- Fascicular codex
 - Forgery
 - Fragment
 - Gloss
 - Gothic
-- Gothic book hand
 - Grisaille
 - Grotesques
 - Headpiece
 - Heraldry
 - Historiated initial
-- Humanistic
 - Illumination
 - Illustration
 - Inhabited initial
@@ -114,6 +120,7 @@ Keywords should be copied from these lists.
 - Micrography
 - Miniature
 - Missing leaves
+- Moveable device
 - Musical notation
 - Notable binding
 - Original binding
@@ -124,14 +131,13 @@ Keywords should be copied from these lists.
 - Pen-flourished initial
 - Penwork initial
 - Puzzle initial
-- Rinceaux
+- Rinceau
 - Romanesque
 - Scrapbook
 - Scroll
 - Scroll-work initial
 - Seals
 - Tables
-- Textura
 - Watermark
 - White-vine lettering
 - Woodcuts
@@ -140,6 +146,7 @@ Keywords should be copied from these lists.
 
 - Austria
 - Belgium
+- Czech Republic
 - England
 - Flanders
 - France
@@ -151,6 +158,7 @@ Keywords should be copied from these lists.
 - Poland
 - Portugal
 - Romania
+- Scotland
 - Spain
 - Switzerland
 - Wales
@@ -162,7 +170,6 @@ Keywords should be copied from these lists.
 - Astrology
 - Astronomy
 - Biblical
-- Binding waste
 - Cartography
 - Church Fathers
 - Cosmology
