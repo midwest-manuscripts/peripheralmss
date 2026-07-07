@@ -270,7 +270,7 @@ Information about the type of lettering used in the manuscript (for example, Car
 **Pre-Caroline**
 - Uncial
 - Half-uncial
-- -Insular minuscule
+- Insular minuscule
 
 **Caroline minuscule**
 
