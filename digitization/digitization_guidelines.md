@@ -14,9 +14,9 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 * Standardize background for each item if at all possible - i.e. one item should have all black background.
 * **PLEASE NOTE:** make extra careful checks for DPI, compression, etc - some scanners or scanning softwares will mess with DPI or compression without telling you. Make sure to check ALL of your settings when you start digitization.
 
-### Book Bindings Only 
+### Book Binding Fragments Only 
 
-* Included capture of covering, internal attachment pages, edges, spine
+* Include capture of cover, title page, internal attachment pages, edges, spine
     * If no handling concerns such as broken spines, detached areas, or item shedding, done on flatbed scanner. Used without lid, propped up so edge is flat to glass and is not weighed down by anything. Propped upright. See example below of capture process and resulting images. 
     * If there are handling concerns, must be done on overhead scanner or with a Camera, whichever will achieve best results given depth of the item and possible focus issues. Will be propped upright - may require additional materials to make scans look acceptable. Keep the color bar and ruler in the image, with the ruler remaining as stable as possible in relation to the item being imaged.
     * Sundries used: Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds, extended backing sheets, gentle clips for holding pages, foam wedges
