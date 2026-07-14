@@ -69,6 +69,16 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * May require multiple people for moving items, adjustments, capture, etc.
 * Orientation for leaves: when scanning, orient items as one would handle them, i.e. do not flip for legibility, but flip right to left.
 
+#### Rolled Objects/Scrolls
+
+* Rolled object – Photograph the object in its rolled state from a single angle, while it is on its side.
+* Complete recto - Full stitched image of the recto (text side)
+* Complete verso – Full stitched image of the verso (reverse side), if present.
+* Individual membrane images – Capture images of each membrane, both recto and verso, in reading order. Should go: membrane 1r, membrane 1v, membrane 2r, membrane 2v, etc.
+* Rollers and structural components – Capture detail images of the rollers, rods, dowels, finials, handles, or other significant structural features. These images should follow the membrane images, as these components are fully visible only after the scroll has been completely unrolled.
+* Container (if applicable) – Photograph the container or housing after all images of the scroll have been captured.
+* This image sequence is intended to represent both the physical structure of the object and the user's experience of viewing it.
+
 #### Housing for Items 
 
 * If possible, take items out of their housing to scan.
