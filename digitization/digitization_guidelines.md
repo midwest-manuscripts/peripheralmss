@@ -47,6 +47,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
         * Scale and colorbar need to be made level with the top or bottom corner of the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus and control shadows
     * Sundries used: Ladder. Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds extended backing sheets, sponge wedges, acid free boards for item support, glass plate, gentle clips
 * Orientation for bound volumes: when scanning, orient bound volumes as one would flip through the book, i.e. do not rotate for legibility.
+* Scan bound items as they would be read, i.e. left to right for Latin texts and right to left for Hebrew texts.
 
 ### Leaves and Documents 
 
