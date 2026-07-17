@@ -45,7 +45,7 @@ For capitalization, spacing, and punctuation in transcriptions of medieval docum
 
 References to modern publications are formated in Chicago style.
 
-Book types, e.g., Psalter; Lectionary; Book of Hours; Book of Hours; Use of Rome; Missal etc. should always be capitalized in titles. This also applies to terms like Chronicle if it is used in the sense of it being that type of book, and not just a word in the title, e.g., Grandes Chroniques.
+Book types, e.g., Psalter; Lectionary; Book of Hours; Use of Rome; Missal etc. should always be capitalized in titles. This also applies to terms like Chronicle if it is used in the sense of it being that type of book, and not just a word in the title, e.g., Grandes Chroniques.
 
 ## Transcription conventions
 
@@ -99,15 +99,15 @@ Subject adjectives and qualitative judgements (famous, well-known, great, elegan
 
 **Cadelle,** calligraphic embellishment, often extending into the margin, of ascenders and descenders with broad-edged pen flourishing.
 
-**Capital,** the majuscule intial letter of a sentence-like unit in running text. Reserve "initial" for oversize initial letters of larger text divisions.
+**Capital,** the majuscule initial letter of a sentence-like unit in running text. Reserve "initial" for oversize initial letters of larger text divisions.
 
 **Colophon,** the final (scribal) note in a manuscript, often indicating information about its production, such as a date, place of copy, or name of scribe.
 
 **Decoration,** painting or penwork. May be specified as illuminated, inhabited, historiated. See decoration elements below.
 
-**Folio,** synonymous with leaf, heaving two sides or pages (recto and verso). Plural folios; abbreviated fol. (pl. fols).
+**Folio,** synonymous with leaf, having two sides or pages (recto and verso). Plural folios; abbreviated fol. (pl. fols).
 
-**Former,** not olim, eg. for previous item identifiers.
+**Former,** not olim, e.g. for previous item identifiers.
 
 **Gradual,** not graduale.
 
@@ -115,7 +115,7 @@ Subject adjectives and qualitative judgements (famous, well-known, great, elegan
 
 **Historiated,** containing an identifiable figural (i.e. Saint Peter) or scenic (i.e. Martyrdom of Saint Agnes) representation.
 
-**Inhabited,** figural representation that has no precise subject, i.e. a monk.
+**Inhabited,** figural representation that has no precise subject, e.g. a monk.
 
 **Illumination,** decoration involving gold leaf.
 
@@ -135,7 +135,7 @@ Subject adjectives and qualitative judgements (famous, well-known, great, elegan
 
 **Temporal,** not temporale/proper of time.
 
-**Saint,** always include "Saint" beofre the proper names of saints.
+**Saint,** always include "Saint" before the proper names of saints.
 
 **Sanctoral,** not sanctorale/common of saints/proper of saints.
 
@@ -177,7 +177,8 @@ The space/s outside the written area: **margin/s**.  Margins may be specified as
 
 ## Decoration Elements
 Sometimes miniatures are divided into subsections, for example a full-page miniature that depicts four different stages of a character's story within the same frame. In this case identify the size of the miniature, then each section individually separated by semicolons. The spelling and format of saints' names are taken from the *Oxford Dictionary of Saints*. Each group of sections (e.g., top row, bottom row) should be preceded by a directional cue describing which direction the images are to be read. The following example is from a Hebrew manuscript, so images are to be read upper to lower, right to left:
-- Full-page miniature, upper right to left, Moses with Jethro's flock (Exodus 3:1); Moses and the Burning Bush (Exodus 3:5); lower right to left, Moses answers the Lord, holding up his rod - a shepherd's staff (Exodus 4:2); his rod turns into a serpent (Exodus 4:4); Moses hold the serpent (Exodus 4:4)
+
+> Full-page miniature, upper right to left, Moses with Jethro's flock (Exodus 3:1); Moses and the Burning Bush (Exodus 3:5); lower right to left, Moses answers the Lord, holding up his rod - a shepherd's staff (Exodus 4:2); his rod turns into a serpent (Exodus 4:4); Moses hold the serpent (Exodus 4:4)
 
 Names of standard iconographies:
 - Annunciation
@@ -194,5 +195,3 @@ Names of standard iconographies:
 - Pentecost
 - Saint John the Baptist
 - Saint Catherine
-
-
