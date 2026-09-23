@@ -16,7 +16,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 
 ### Book Binding Fragments Only 
 
-* Include capture of cover, title page, internal attachment pages, edges, spine
+* Include, in this order: capture of front cover, inside front cover, title page, relevant binding fragments, inside back cover, back cover, spine, and edges.
     * If no handling concerns such as broken spines, detached areas, or item shedding, done on flatbed scanner. Used without lid, propped up so edge is flat to glass and is not weighed down by anything. Propped upright. See example below of capture process and resulting images. 
     * If there are handling concerns, must be done on overhead scanner or with a Camera, whichever will achieve best results given depth of the item and possible focus issues. Will be propped upright - may require additional materials to make scans look acceptable. Keep the color bar and ruler in the image, with the ruler remaining as stable as possible in relation to the item being imaged.
     * Sundries used: Foam blocks wrapped in acid free paper, brick wrapped in acid free paper, weights for support, paper masking for item surrounds, extended backing sheets, gentle clips for holding pages, foam wedges
@@ -24,6 +24,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 
 ### Bound Volumes  
 
+*Include, in this order: capture of front cover, inside front cover, all inside pages even if blank, inside back cover, back cover, spine, and edges.
 * Tightly Bound 
     * Must be done on overhead scanner in  V-mode. Cannot be done easily with camera.
     * Scale and colorbar need to be made level with the top or bottom corner of the page being scanned, to ensure both the book and the scale are in focus. Held up on foam blocks if possible; does require experimentation to make sure both book and scale are in focus.
