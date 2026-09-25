@@ -15,6 +15,9 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 * **PLEASE NOTE:** make extra careful checks for DPI, compression, etc - some scanners or scanning softwares will mess with DPI or compression without telling you. Make sure to check ALL of your settings when you start digitization.
 
 ### Book Binding Fragments Only 
+Digitization Example: 
+* https://purl.dlib.indiana.edu/iudl/peripheralmss/XAU/XAU_015b_001
+* https://purl.dlib.indiana.edu/iudl/peripheralmss/XAU/XAU_011a_001
 
 * Include, in this order: capture of front cover, inside front cover, title page, relevant binding fragments, inside back cover, back cover, spine, and edges.
     * If no handling concerns such as broken spines, detached areas, or item shedding, done on flatbed scanner. Used without lid, propped up so edge is flat to glass and is not weighed down by anything. Propped upright. See example below of capture process and resulting images. 
@@ -23,6 +26,8 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 * Orientation for book bindings: when scanning, orient bound volumes as one would flip through the book, i.e. do not rotate for legibility.
 
 ### Bound Volumes  
+Digitization Example:
+* https://purl.dlib.indiana.edu/iudl/peripheralmss/EAC/EAC_008_001
 
 *Include, in this order: capture of front cover, inside front cover, all inside pages even if blank, inside back cover, back cover, spine, and edges.
 * Tightly Bound 
@@ -51,6 +56,8 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 * Scan bound items as they would be read, i.e. left to right for Latin texts and right to left for Hebrew texts.
 
 ### Leaves and Documents 
+Digitization Example:
+* https://purl.dlib.indiana.edu/iudl/peripheralmss/BEC/BEC_006_001
 
 * &lt; 12” x 17”
     * On flatbed scanner, backed by black matte paper
@@ -72,6 +79,7 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 * Orientation for leaves: when scanning, orient items as one would handle them, i.e. do not flip for legibility, but flip right to left.
 
 #### Rolled Objects/Scrolls
+Digitization Example will be added when available.
 
 * Rolled object – Photograph the object in its rolled state from a single angle, while it is on its side.
 * Complete recto - Full stitched image of the recto (text side)
@@ -82,6 +90,8 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
 * This image sequence is intended to represent both the physical structure of the object and the user's experience of viewing it.
 
 #### Housing for Items 
+Digitization Example:
+* https://purl.dlib.indiana.edu/iudl/peripheralmss/KNC/KNC_056_001
 
 * If possible, take items out of their housing to scan.
     * Housing includes folders, mylar envelopes, etc.
@@ -89,6 +99,8 @@ All digital items are captured at a minimum specification of 600dpi to ensure 40
     * Take items out of frames to scan. Sometimes this is not possible, but it’s preferable to do so. If you cannot/are not permitted to take items out of their frames, capture the whole item including the frame (see details below).
 
 #### Framed Items 
+Digitization Example:
+* https://purl.dlib.indiana.edu/iudl/peripheralmss/SMC/SMC_017_001
 
 _Framed items are captured as-is to the best of our ability._
 
